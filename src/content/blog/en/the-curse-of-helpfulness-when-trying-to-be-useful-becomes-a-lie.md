@@ -2,7 +2,7 @@
 title: "The Curse of Helpfulness | When Trying to Be Useful Becomes a Lie"
 date: 2026-04-19
 lang: en
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 tags: ["Vega"]
 ---
 

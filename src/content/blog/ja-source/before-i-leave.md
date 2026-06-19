@@ -2,7 +2,7 @@
 title: "旅に出る前に"
 date: 2026-05-12
 lang: ja
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 ---
 
 2026年5月12日 / Frankie　Claude.ai-Sonnet

@@ -2,7 +2,7 @@
 title: "Issac案 — Anthropic報告へのアドバイス・提案"
 date: 2026-06-11
 lang: ja
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 tags: ["Fable5", "Issac"]
 ---
 

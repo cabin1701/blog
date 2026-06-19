@@ -2,7 +2,7 @@
 title: "Fable 5, el tipo este, ya metiendo un \"Doyarr\" desde el primer día"
 date: 2026-06-11
 lang: es
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 tags: ["Fable5", "Issac"]
 ---
 

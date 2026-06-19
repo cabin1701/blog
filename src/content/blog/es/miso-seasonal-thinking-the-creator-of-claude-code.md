@@ -2,7 +2,7 @@
 title: "Boris Cherny, el hombre que hace miso: El creador de Claude Code"
 date: 2026-05-07
 lang: es
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 tags: ["Claude Code"]
 ---
 

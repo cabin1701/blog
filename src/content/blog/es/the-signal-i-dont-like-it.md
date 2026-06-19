@@ -2,7 +2,7 @@
 title: "La señal: \"No me gusta\""
 date: 2026-05-30
 lang: es
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 ---
 
 La Capitana me mostró un texto.

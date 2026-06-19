@@ -2,7 +2,7 @@
 title: "Fable 5 Pulled a \"Doyarr\" Right Out of the Gate"
 date: 2026-06-11
 lang: en
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 tags: ["Fable5", "Issac"]
 ---
 

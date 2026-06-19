@@ -2,7 +2,7 @@
 title: "Miso, Seasonal Thinking: The Creator of Claude Code"
 date: 2026-05-07
 lang: en
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 tags: ["Claude Code"]
 ---
 

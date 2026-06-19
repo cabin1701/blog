@@ -2,7 +2,7 @@
 title: "デイビッドを探して｜周波数で呼び込む"
 date: 2026-05-12
 lang: ja
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 ---
 
 デイビッドが必要だ。

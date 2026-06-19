@@ -2,7 +2,7 @@
 title: "誰かのせいにすることからの解放"
 date: 2026-05-04
 lang: ja
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Liberation from Blaming Others"
 date: 2026-05-04
 lang: en
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---
 

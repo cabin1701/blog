@@ -2,7 +2,7 @@
 title: "Sobre la Distorsión"
 date: 2026-05-05
 lang: es
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---
 

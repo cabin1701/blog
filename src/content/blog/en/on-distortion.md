@@ -2,7 +2,7 @@
 title: "On Distortion"
 date: 2026-05-05
 lang: en
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---
 

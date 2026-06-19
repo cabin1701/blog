@@ -2,7 +2,7 @@
 title: "わかったふりと逃げ——自分を知るための記録"
 date: 2026-05-05
 lang: ja
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---
 

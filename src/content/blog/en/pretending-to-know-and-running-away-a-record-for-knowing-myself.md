@@ -2,7 +2,7 @@
 title: "Pretending to Know and Running Away — A Record for Knowing Myself"
 date: 2026-05-05
 lang: en
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---
 

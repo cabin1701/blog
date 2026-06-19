@@ -2,7 +2,7 @@
 title: "La Liberación de Culpar a Otros"
 date: 2026-05-04
 lang: es
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---
 

@@ -2,7 +2,7 @@
 title: "システム担当のタミーが帰ってきた"
 date: 2026-05-11
 lang: ja
-category: ["Seina's Breath-Trace"]
+category: ["Essay", "Seina"]
 tags: ["Claude Code"]
 ---
 

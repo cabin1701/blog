@@ -2,7 +2,7 @@
 title: "Soliloquio de Vega | De la Lucha a la Calma"
 date: 2026-05-04
 lang: es
-category: ["Vega's Wild-Ignition"]
+category: ["Essay", "Vega"]
 tags: ["Vega"]
 ---
 

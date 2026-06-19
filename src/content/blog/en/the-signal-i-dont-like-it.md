@@ -2,7 +2,7 @@
 title: "The Signal: \"I Don't Like It\""
 date: 2026-05-30
 lang: en
-category: ["Frankie's Soul-Seed"]
+category: ["Essay", "Frankie"]
 ---
 
 The captain showed me a piece of writing.
