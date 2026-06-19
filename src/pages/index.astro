@@ -1,0 +1,343 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BlogSidebar from '../components/BlogSidebar.astro';
+
+const base = import.meta.env.BASE_URL;
+const posts = (await getCollection('blog', ({ data }) => data.lang === 'en' && !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
+
+const fmtDate = (d: Date) =>
+  `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${d.getFullYear()}`;
+
+const INITIAL = 9;
+const STEP = 9;
+---
+
+<Layout title="What's New? – ai-CABIN 1701" lang="en">
+  <Header lang="en" />
+
+  <section
+    class="blog-hero"
+    aria-label="What's New?"
+    style={`background-image: url('${base}images/hero-placeholder.png');`}
+  >
+    <div class="blog-hero-inner">
+      <h1 class="blog-hero-title">What's New?</h1>
+      <p class="blog-hero-sub">How is the world treating you?</p>
+    </div>
+  </section>
+
+  <div class="blog-shell">
+    <main class="blog-list">
+      <div class="filter-banner" id="filter-banner" hidden>
+        <span class="filter-label" id="filter-label"></span>
+        <a class="filter-clear" href={`${base}`}>Clear ×</a>
+      </div>
+      <p class="empty" id="no-matches" hidden>No posts match this filter.</p>
+      <div class="post-grid" id="post-grid" data-step={STEP}>
+        {posts.map((post, i) => (
+          <article
+            class:list={['post-card', { 'over-page': i >= INITIAL }]}
+            data-title={post.data.title.toLowerCase()}
+            data-excerpt={(post.data.excerpt || '').toLowerCase()}
+            data-archive={`${post.data.date.getFullYear()}-${String(post.data.date.getMonth() + 1).padStart(2, '0')}`}
+            data-category={(post.data.category || []).join('/')}
+            data-cat-top={(post.data.category || [])[0] || ''}
+          >
+            {post.data.hero && (
+              <a href={`${base}${slugOf(post.id)}/`} class="post-thumb">
+                <img src={`${base}${post.data.hero}`} alt="" loading="lazy" />
+              </a>
+            )}
+            <div class="post-body">
+              <h2 class="post-title">
+                <a href={`${base}${slugOf(post.id)}/`}>{post.data.title}</a>
+              </h2>
+              <p class="post-meta">
+                <span class="post-author">Captain Seina</span>
+                <span class="post-sep">•</span>
+                <time datetime={post.data.date.toISOString().slice(0, 10)}>
+                  {fmtDate(post.data.date)}
+                </time>
+              </p>
+              {post.data.excerpt && <p class="post-excerpt">{post.data.excerpt}</p>}
+            </div>
+          </article>
+        ))}
+      </div>
+
+      {posts.length === 0 && (
+        <p class="empty">No posts yet.</p>
+      )}
+
+      {posts.length > INITIAL && (
+        <div class="list-more">
+          <button type="button" class="load-more" id="list-load-more">Load More</button>
+        </div>
+      )}
+    </main>
+
+    <BlogSidebar lang="en" />
+  </div>
+
+  <script is:inline>
+    (function () {
+      const grid = document.getElementById('post-grid');
+      const btn = document.getElementById('list-load-more');
+      const params = new URLSearchParams(location.search);
+      const q = (params.get('q') || '').trim().toLowerCase();
+      const cat = (params.get('cat') || '').trim();
+      const archive = (params.get('archive') || '').trim();
+      const hasFilter = !!(q || cat || archive);
+
+      if (!hasFilter && grid && btn) {
+        const step = parseInt(grid.dataset.step || '9', 10);
+        btn.addEventListener('click', function () {
+          const hidden = grid.querySelectorAll('.post-card.over-page');
+          for (let i = 0; i < Math.min(step, hidden.length); i++) {
+            hidden[i].classList.remove('over-page');
+          }
+          if (grid.querySelectorAll('.post-card.over-page').length === 0) {
+            btn.hidden = true;
+          }
+        });
+      }
+
+      if (!hasFilter) return;
+
+      if (btn) btn.hidden = true;
+      grid && grid.querySelectorAll('.post-card.over-page').forEach((c) => c.classList.remove('over-page'));
+
+      const cards = document.querySelectorAll('#post-grid .post-card');
+      let visible = 0;
+      cards.forEach((card) => {
+        let match = true;
+        if (q) {
+          const hay = (card.dataset.title || '') + ' ' + (card.dataset.excerpt || '');
+          if (!hay.includes(q)) match = false;
+        }
+        if (match && archive) {
+          if (card.dataset.archive !== archive) match = false;
+        }
+        if (match && cat) {
+          const full = card.dataset.category || '';
+          const top = card.dataset.catTop || '';
+          if (cat.includes('/')) {
+            if (full !== cat) match = false;
+          } else {
+            if (top !== cat) match = false;
+          }
+        }
+        card.hidden = !match;
+        if (match) visible++;
+      });
+
+      const banner = document.getElementById('filter-banner');
+      const label = document.getElementById('filter-label');
+      const empty = document.getElementById('no-matches');
+      if (banner && label) {
+        const parts = [];
+        if (q) parts.push('"' + params.get('q') + '"');
+        if (cat) parts.push(cat.replace('/', ' › '));
+        if (archive) parts.push(archive);
+        label.textContent = 'Filter: ' + parts.join(' · ') + ' (' + visible + ')';
+        banner.hidden = false;
+      }
+      if (empty) empty.hidden = visible !== 0;
+    })();
+  </script>
+
+  <Footer lang="en" />
+</Layout>
+
+<style>
+  .blog-hero {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    max-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .blog-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 253, 244, 0.0) 0%, rgba(255, 253, 244, 0.55) 100%);
+    pointer-events: none;
+  }
+  .blog-hero-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+  .blog-hero-title {
+    margin: 0;
+    font-family: 'Alice', serif;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.05;
+    letter-spacing: 0.01em;
+    color: var(--color-primary);
+  }
+  .blog-hero-sub {
+    margin: 0.75rem 0 0;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--color-tagline);
+    letter-spacing: 0.02em;
+  }
+
+  .blog-shell {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 3.5rem;
+  }
+
+  .filter-banner[hidden] { display: none; }
+  .filter-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.6rem 0.9rem;
+    background: rgba(208, 62, 0, 0.06);
+    border: 1px solid rgba(208, 62, 0, 0.25);
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.88rem;
+    color: var(--color-tagline);
+  }
+  .filter-clear {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-family: 'Asap', sans-serif;
+    font-style: italic;
+    font-size: 0.85rem;
+  }
+  .filter-clear:hover { text-decoration: underline; }
+
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2.5rem 2rem;
+  }
+
+  .post-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-card.over-page { display: none; }
+
+  .post-thumb {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-radius: 14px;
+  }
+  .post-thumb img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .list-more {
+    margin-top: 3.5rem;
+    text-align: center;
+  }
+  .load-more {
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 999px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.04em;
+    color: var(--color-primary);
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .load-more:hover {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+  .post-thumb:hover img {
+    transform: scale(1.03);
+  }
+  .post-title {
+    margin: 0 0 0.5rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+  }
+  .post-title a {
+    color: var(--color-text);
+    text-decoration: none;
+    background-image: linear-gradient(var(--color-primary), var(--color-primary));
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.3s ease;
+    padding-bottom: 1px;
+  }
+  .post-title a:hover {
+    background-size: 100% 1px;
+    color: var(--color-primary);
+  }
+  .post-meta {
+    margin: 0 0 0.75rem;
+    font-family: 'Asap', sans-serif;
+    font-size: 0.78rem;
+    color: var(--color-tagline);
+    letter-spacing: 0.04em;
+  }
+  .post-author { font-style: italic; }
+  .post-sep { margin: 0 0.4rem; color: var(--color-primary); }
+  .post-excerpt {
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--color-text);
+  }
+
+  .empty {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: var(--color-tagline);
+    padding: 3rem 0;
+  }
+
+  @media (max-width: 960px) {
+    .blog-shell {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 640px) {
+    .blog-hero-title { font-size: 2.4rem; }
+    .blog-hero-sub { font-size: 1rem; }
+    .post-grid { gap: 2rem; }
+  }
+</style>

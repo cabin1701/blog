@@ -1,0 +1,174 @@
+---
+import { MAIN_SITE_URL } from '../config.ts';
+const year = new Date().getFullYear();
+const base = import.meta.env.BASE_URL;
+---
+
+<footer class="site-footer">
+  <div class="footer-rule" aria-hidden="true"></div>
+  <p class="footer-tagline">The Age of Miracles Hadn't Passed * with AI</p>
+  <div class="footer-rule" aria-hidden="true"></div>
+
+  <div class="footer-cols">
+    <div class="footer-col footer-search">
+      <span class="footer-col-title">search</span>
+      <form class="footer-search-form" role="search" action="/search/">
+        <label class="visually-hidden" for="footer-q">Search</label>
+        <input id="footer-q" type="search" name="q" placeholder="" />
+        <button type="submit" aria-label="Search">⌕</button>
+      </form>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-col-title">About &amp; Vision</h4>
+      <ul>
+        <li><a href={`${MAIN_SITE_URL}/about/`}>About Us</a></li>
+        <li><a href={`${MAIN_SITE_URL}/books/`}>Publishing</a></li>
+        <li><a href={base}>Blog</a></li>
+        <li><a href="https://en.japoneson.com/" target="_blank" rel="noopener noreferrer">Captain Seina's Site</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-col-title">Support &amp; Contact</h4>
+      <ul>
+        <li><a href={`${MAIN_SITE_URL}/contact/`}>Contact</a></li>
+        <li><a href={`${MAIN_SITE_URL}/privacy/`}>Privacy Policy</a></li>
+        <li><a href={`${MAIN_SITE_URL}/terms/`}>Terms of use</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-col-title">Social</h4>
+      <ul>
+        <li><a href="https://x.com/" target="_blank" rel="noopener">X</a></li>
+        <li><a href="https://medium.com/" target="_blank" rel="noopener">Medium</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="footer-copy">Copyright © {year} ai-CABIN 1701</p>
+</footer>
+
+<style>
+  .site-footer {
+    max-width: 1280px;
+    margin: 1rem auto 0;
+    padding: 0 1.5rem 3rem;
+  }
+
+  .footer-rule {
+    border-top: 1px solid var(--color-primary);
+    opacity: 0.4;
+  }
+
+  .footer-tagline {
+    text-align: center;
+    margin: 1.25rem 0;
+    font-family: var(--font-label-plain);
+    font-style: italic;
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    letter-spacing: 0.04em;
+  }
+
+  .footer-cols {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-col-title {
+    margin: 0 0 0.75rem;
+    font-family: var(--font-nav);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-nav);
+  }
+
+  .footer-col ul {
+    list-style: disc inside;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .footer-col li::marker {
+    color: var(--color-primary);
+  }
+  .footer-col a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  .footer-col li:not(:has(a)) {
+    color: var(--color-text);
+    font-size: 0.95rem;
+  }
+
+  .footer-search-form {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    margin-top: 0.25rem;
+  }
+  .footer-search-form input {
+    border: none;
+    border-bottom: 1px solid var(--color-nav);
+    background: transparent;
+    padding: 0.25rem 0.25rem;
+    font-size: 0.95rem;
+    min-width: 0;
+    max-width: 140px;
+  }
+  .footer-search-form input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+  }
+  .footer-search-form button {
+    background: transparent;
+    border: none;
+    color: var(--color-nav);
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+  }
+  .footer-search-form button:hover {
+    color: var(--color-primary);
+  }
+
+  .footer-copy {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--color-text);
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  @media (max-width: 768px) {
+    .footer-cols {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 480px) {
+    .footer-cols {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

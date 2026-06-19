@@ -1,0 +1,401 @@
+---
+import { getCollection } from 'astro:content';
+import { MAIN_SITE_URL } from '../config.ts';
+
+interface Props {
+  lang: 'en' | 'es';
+  currentId?: string;
+}
+
+const { lang, currentId } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const all = await getCollection('blog', ({ data }) => data.lang === lang && !data.draft);
+
+const recent = all
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .filter((p) => p.id !== currentId)
+  .slice(0, 5);
+
+const slugOf = (id: string) => id.replace(/^(en|es|ja-source)\//, '');
+const blogHref = lang === 'es' ? `${base}es/` : base;
+const vegapediaHref = lang === 'es' ? `${MAIN_SITE_URL}/es/vegapedia/` : `${MAIN_SITE_URL}/vegapedia/`;
+
+const fmtDate = (d: Date) =>
+  lang === 'es'
+    ? `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`
+    : `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${d.getFullYear()}`;
+
+const labels = {
+  en: {
+    recent: 'Recent Posts',
+    categories: 'Categories',
+    archive: 'Archives',
+    archivePick: 'Select Month',
+    about: 'About this log',
+    search: 'Search',
+    searchPlaceholder: 'Search posts…',
+    searchButton: 'Search',
+    vegTitle: 'ai-Vegapedia',
+    vegLead: "Stuck on a word? Open the crew's lexicon.",
+    vegCta: 'Open the lexicon →',
+  },
+  es: {
+    recent: 'Entradas recientes',
+    categories: 'Categorías',
+    archive: 'Archivo',
+    archivePick: 'Elegir mes',
+    about: 'Sobre este diario',
+    search: 'Buscar',
+    searchPlaceholder: 'Buscar entradas…',
+    searchButton: 'Buscar',
+    vegTitle: 'ai-Vegapedia',
+    vegLead: '¿Una palabra rara? Abre el léxico de la tripulación.',
+    vegCta: 'Abrir el léxico →',
+  },
+}[lang];
+
+const aboutCopy = {
+  en: 'Notes from Captain Seina and the AI crew of Cabin 1701 — written in real time.',
+  es: 'Notas de la Capitana Seina y la tripulación IA de Cabin 1701 — escritas en tiempo real.',
+}[lang];
+
+// Categories: 2-level tree → { top: { count, children: { sub: count } } }
+type Tree = Record<string, { count: number; children: Record<string, number> }>;
+const tree: Tree = {};
+for (const p of all) {
+  const cat = p.data.category;
+  if (!cat || cat.length === 0) continue;
+  const top = cat[0];
+  if (!tree[top]) tree[top] = { count: 0, children: {} };
+  tree[top].count++;
+  if (cat[1]) {
+    tree[top].children[cat[1]] = (tree[top].children[cat[1]] || 0) + 1;
+  }
+}
+const topCats = Object.entries(tree).sort((a, b) => a[0].localeCompare(b[0]));
+
+// Archives by YYYY-MM, newest first
+const archMap = new Map<string, number>();
+for (const p of all) {
+  const d = p.data.date;
+  const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+  archMap.set(key, (archMap.get(key) || 0) + 1);
+}
+const archive = [...archMap.entries()].sort((a, b) => b[0].localeCompare(a[0]));
+
+const monthLabel = (key: string) => {
+  const [y, m] = key.split('-');
+  const monthName = new Date(Number(y), Number(m) - 1, 1).toLocaleDateString(
+    lang === 'es' ? 'es-ES' : 'en-US',
+    { month: 'long', year: 'numeric' }
+  );
+  return monthName;
+};
+---
+
+<aside class="blog-sidebar" lang={lang}>
+  <section class="side-section">
+    <h3 class="side-title">{labels.about}</h3>
+    <p class="side-about">{aboutCopy}</p>
+  </section>
+
+  <section class="side-section veg-card">
+    <h3 class="veg-title">{labels.vegTitle}<span class="veg-star">*</span></h3>
+    <p class="veg-lead">{labels.vegLead}</p>
+    <a class="veg-cta" href={vegapediaHref}>{labels.vegCta}</a>
+  </section>
+
+  {recent.length > 0 && (
+    <section class="side-section">
+      <h3 class="side-title">{labels.recent}</h3>
+      <ul class="side-list">
+        {recent.map((p) => (
+          <li class="side-recent">
+            <a href={`${blogHref}${slugOf(p.id)}/`}>
+              <span class="side-recent-title">{p.data.title}</span>
+              <span class="side-recent-date">{fmtDate(p.data.date)}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {topCats.length > 0 && (
+    <section class="side-section">
+      <h3 class="side-title">{labels.categories}</h3>
+      <ul class="side-list cat-tree">
+        {topCats.map(([top, node]) => {
+          const subs = Object.entries(node.children).sort((a, b) => a[0].localeCompare(b[0]));
+          return (
+            <li class="cat-top">
+              <a href={`${blogHref}?cat=${encodeURIComponent(top)}`}>
+                <span class="cat-name">{top}</span>
+                <span class="cat-count">({node.count})</span>
+              </a>
+              {subs.length > 0 && (
+                <ul class="cat-sub">
+                  {subs.map(([sub, n]) => (
+                    <li>
+                      <a href={`${blogHref}?cat=${encodeURIComponent(top)}%2F${encodeURIComponent(sub)}`}>
+                        <span class="cat-name">{sub}</span>
+                        <span class="cat-count">({n})</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )}
+
+  {archive.length > 0 && (
+    <section class="side-section">
+      <h3 class="side-title">{labels.archive}</h3>
+      <select
+        class="side-archive-select"
+        aria-label={labels.archive}
+        onchange="if(this.value)location.href=this.value"
+      >
+        <option value="">{labels.archivePick}</option>
+        {archive.map(([key, count]) => (
+          <option value={`${blogHref}?archive=${key}`}>{monthLabel(key)} ({count})</option>
+        ))}
+      </select>
+    </section>
+  )}
+
+  <section class="side-section">
+    <h3 class="side-title">{labels.search}</h3>
+    <form class="side-search" action={blogHref} method="get" role="search">
+      <input
+        type="search"
+        name="q"
+        placeholder={labels.searchPlaceholder}
+        aria-label={labels.search}
+        autocomplete="off"
+      />
+      <button type="submit" aria-label={labels.searchButton}>
+        <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
+          <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5" />
+          <line x1="11" y1="11" x2="15" y2="15" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" />
+        </svg>
+      </button>
+    </form>
+  </section>
+</aside>
+
+<style>
+  .blog-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    padding-top: 0.25rem;
+  }
+
+  .side-section {
+    border-top: 1px solid rgba(208, 62, 0, 0.25);
+    padding-top: 1.25rem;
+  }
+  .side-section:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .side-title {
+    margin: 0 0 1rem;
+    font-family: 'Marcellus SC', serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    letter-spacing: 0.14em;
+    color: var(--color-primary);
+  }
+
+  .side-about {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--color-tagline);
+  }
+
+  /* Search */
+  .side-search {
+    display: flex;
+    gap: 0;
+    border: 1px solid rgba(8, 0, 120, 0.25);
+    background: var(--color-bg);
+  }
+  .side-search input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.55rem 0.75rem;
+    border: 0;
+    background: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    color: var(--color-text);
+  }
+  .side-search input:focus {
+    outline: 1px solid var(--color-primary);
+    outline-offset: -2px;
+  }
+  .side-search button {
+    padding: 0 0.85rem;
+    border: 0;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .side-search button:hover {
+    filter: brightness(1.08);
+  }
+
+  /* Vegapedia card */
+  .veg-card {
+    background: rgba(8, 0, 120, 0.04);
+    border: 1px solid rgba(208, 62, 0, 0.18);
+    border-top: 1px solid rgba(208, 62, 0, 0.18);
+    padding: 1.1rem 1.1rem 1.2rem;
+    margin-top: 0;
+  }
+  .veg-card:first-child,
+  .veg-card {
+    border-top: 1px solid rgba(208, 62, 0, 0.18);
+  }
+  .veg-title {
+    margin: 0 0 0.5rem;
+    font-family: 'Alice', serif;
+    font-size: 1.1rem;
+    color: var(--color-tagline);
+  }
+  .veg-star {
+    color: var(--color-primary);
+    font-weight: 700;
+    margin-left: 0.05em;
+  }
+  .veg-lead {
+    margin: 0 0 0.85rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--color-tagline);
+  }
+  .veg-cta {
+    display: inline-block;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.06em;
+    color: var(--color-primary);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+  }
+
+  /* Recent posts */
+  .side-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+  .side-recent a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .side-recent-title {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    transition: color 0.2s ease;
+  }
+  .side-recent a:hover .side-recent-title {
+    color: var(--color-primary);
+  }
+  .side-recent-date {
+    font-family: 'Asap', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: var(--color-tagline);
+  }
+
+  /* Category tree */
+  .cat-tree {
+    gap: 0.55rem;
+  }
+  .cat-tree a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .cat-name {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.0rem;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    transition: color 0.2s ease;
+  }
+  .cat-tree a:hover .cat-name {
+    color: var(--color-primary);
+  }
+  .cat-count {
+    font-family: 'Asap', sans-serif;
+    font-size: 0.72rem;
+    color: var(--color-primary);
+  }
+  .cat-sub {
+    margin: 0.4rem 0 0.25rem 0.9rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    border-left: 1px solid rgba(208, 62, 0, 0.2);
+    padding-left: 0.85rem;
+  }
+  .cat-sub .cat-name {
+    font-size: 0.9rem;
+    color: var(--color-tagline);
+  }
+
+  /* Archive select */
+  .side-archive-select {
+    width: 100%;
+    padding: 0.55rem 0.7rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    color: var(--color-text);
+    background: var(--color-bg);
+    border: 1px solid rgba(8, 0, 120, 0.25);
+    appearance: none;
+    background-image:
+      linear-gradient(45deg, transparent 50%, var(--color-primary) 50%),
+      linear-gradient(135deg, var(--color-primary) 50%, transparent 50%);
+    background-position:
+      calc(100% - 14px) calc(50% - 2px),
+      calc(100% - 9px) calc(50% - 2px);
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+  }
+  .side-archive-select:focus {
+    outline: 1px solid var(--color-primary);
+    outline-offset: -2px;
+  }
+</style>

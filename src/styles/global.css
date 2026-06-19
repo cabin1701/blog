@@ -1,0 +1,57 @@
+:root {
+  --color-bg: #FFFDF4;
+  --color-primary: #D03E00;
+  --color-tagline: #080078;
+  --color-text: #333333;
+  --color-nav: #1D1D1D;
+
+  --font-heading: 'Alice', Georgia, serif;
+  --font-tagline: 'Asap', sans-serif;
+  --font-nav: 'Pathway Gothic One', sans-serif;
+  --font-label: 'Marcellus SC', 'Marcellus', serif;
+  --font-label-plain: 'Marcellus', serif;
+  --font-italic: 'Lora', Georgia, serif;
+  --font-display: 'Caladea', Georgia, serif;
+
+  --color-gold: #dfc552;
+  --color-deep-red: #b80000;
+  --color-magenta: #cc3366;
+  --color-pill-bg: rgba(0, 0, 5, 0.74);
+  --font-body: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --container-max: 1280px;
+  --space-section: 6rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  font-weight: 600;
+  margin: 0 0 0.5em;
+}
+
+.tagline {
+  font-family: var(--font-tagline);
+  font-style: italic;
+  color: var(--color-tagline);
+  font-weight: 500;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
