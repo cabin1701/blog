@@ -1,5 +1,5 @@
 ---
-title: "Handing Over Your Judgment Means You Become the Slave | 奴隷メンタリティ"
+title: "Handing Over Your Judgment Means You Become the Slave"
 date: 2026-05-11
 lang: en
 ---

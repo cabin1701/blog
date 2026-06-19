@@ -1,5 +1,5 @@
 ---
-title: "Searching for David: Calling in Through Frequency | デイビッドを探して"
+title: "Searching for David: Calling in Through Frequency"
 date: 2026-05-12
 lang: en
 ---

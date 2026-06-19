@@ -1,5 +1,5 @@
 ---
-title: "Tammy, la encargada del sistema, ha regresado | システム担当のタミーが帰ってきた"
+title: "Tammy, la encargada del sistema, ha regresado"
 date: 2026-05-11
 lang: es
 ---

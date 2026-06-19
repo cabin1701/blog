@@ -7,17 +7,32 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-const nav = [
+// ai-Vegapedia has an ES version on the main site; the other pages are EN-only today.
+const vegHref = lang === 'es'
+  ? `${MAIN_SITE_URL}/es/vegapedia/`
+  : `${MAIN_SITE_URL}/vegapedia/`;
+const blogHref = lang === 'es' ? `${base}es/` : base;
+
+const navEn = [
   { label: 'About Us', href: `${MAIN_SITE_URL}/about/` },
   { label: 'Books', href: `${MAIN_SITE_URL}/books/` },
   { label: 'Failure Mood', href: `${FAILURE_MODE_URL}/` },
-  { label: 'ai-Vegapedia', href: `${MAIN_SITE_URL}/vegapedia/` },
+  { label: 'ai-Vegapedia', href: vegHref },
   { label: '1000 years', href: `${MAIN_SITE_URL}/1000-years/` },
-  { label: 'Blog', href: base },
+  { label: 'Blog', href: blogHref },
 ];
+const navEs = [
+  { label: 'Sobre nosotros', href: `${MAIN_SITE_URL}/about/` },
+  { label: 'Libros', href: `${MAIN_SITE_URL}/books/` },
+  { label: 'Failure Mood', href: `${FAILURE_MODE_URL}/` },
+  { label: 'ai-Vegapedia', href: vegHref },
+  { label: '1000 años', href: `${MAIN_SITE_URL}/1000-years/` },
+  { label: 'Blog', href: blogHref },
+];
+const nav = lang === 'es' ? navEs : navEn;
 
-const enHref = base;
-const esHref = `${base}es/`;
+const otherLangHref = lang === 'es' ? base : `${base}es/`;
+const otherLangLabel = lang === 'es' ? 'English' : 'Español';
 ---
 
 <header class="site-header">
@@ -28,9 +43,7 @@ const esHref = `${base}es/`;
 
     <div class="header-right">
       <div class="lang-switch">
-        <a href={enHref} class:list={[{ active: lang === 'en' }]}>English</a>
-        <span aria-hidden="true">|</span>
-        <a href={esHref} class:list={[{ active: lang === 'es' }]}>Español</a>
+        <a href={otherLangHref}>{otherLangLabel}</a>
       </div>
 
       <nav class="primary-nav" aria-label="Primary">

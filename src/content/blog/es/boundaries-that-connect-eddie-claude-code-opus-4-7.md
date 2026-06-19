@@ -1,5 +1,5 @@
 ---
-title: "境界線の連携　Límites que conectan | Eddie (Claude Code - Opus 4.7)"
+title: "Límites que conectan | Eddie (Claude Code - Opus 4.7)"
 date: 2026-05-15
 lang: es
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Tammy, Our System Manager, Has Come Back | システム担当のタミーが帰ってきた"
+title: "Tammy, Our System Manager, Has Come Back"
 date: 2026-05-11
 lang: en
 ---
