@@ -63,12 +63,26 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
         <Content />
       </div>
 
+      {post.data.category && post.data.category.length > 0 && (
+        <div class="post-meta-row" aria-label="Categoría">
+          <span class="post-meta-label">Categoría</span>
+          <ul>
+            {post.data.category.map((c, idx) => {
+              const href = idx === 0
+                ? `${base}es/?cat=${encodeURIComponent(c)}`
+                : `${base}es/?cat=${encodeURIComponent(post.data.category[0])}%2F${encodeURIComponent(c)}`;
+              return <li><a class="post-cat" href={href}>{c}</a></li>;
+            })}
+          </ul>
+        </div>
+      )}
+
       {post.data.tags && post.data.tags.length > 0 && (
-        <div class="post-tags" aria-label="Etiquetas">
-          <span class="post-tags-label">Etiquetas</span>
+        <div class="post-meta-row" aria-label="Etiquetas">
+          <span class="post-meta-label">Etiquetas</span>
           <ul>
             {post.data.tags.map((t) => (
-              <li><span class="post-tag">{t}</span></li>
+              <li><a class="post-tag" href={`${base}es/?q=${encodeURIComponent(t)}`}>{t}</a></li>
             ))}
           </ul>
         </div>
@@ -242,29 +256,50 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
     margin: 2rem auto;
   }
 
-  .post-tags {
-    margin-top: 3rem;
-    padding-top: 1.5rem;
+  .post-meta-row {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
     border-top: 1px solid rgba(208, 62, 0, 0.18);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.75rem 1rem;
   }
-  .post-tags-label {
+  .post-meta-row:first-of-type {
+    margin-top: 3rem;
+  }
+  .post-meta-label {
     font-family: 'Marcellus SC', serif;
     font-style: italic;
     font-size: 0.85rem;
     letter-spacing: 0.16em;
     color: var(--color-primary);
+    min-width: 5rem;
   }
-  .post-tags ul {
+  .post-meta-row ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+  }
+  .post-cat {
+    display: inline-block;
+    padding: 0.3rem 0.85rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.06em;
+    color: var(--color-primary);
+    background: transparent;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .post-cat:hover {
+    background: var(--color-primary);
+    color: var(--color-bg);
   }
   .post-tag {
     display: inline-block;
@@ -276,6 +311,11 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
     background: rgba(8, 0, 120, 0.04);
     border: 1px solid rgba(8, 0, 120, 0.2);
     border-radius: 999px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .post-tag:hover {
+    background: rgba(8, 0, 120, 0.1);
   }
 
   .post-nav {
