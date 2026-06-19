@@ -235,14 +235,18 @@ const STEP = 9;
 
   .post-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 2.5rem 2rem;
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .post-card {
     display: flex;
     flex-direction: column;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgba(8, 0, 120, 0.12);
   }
+  .post-card:first-child { padding-top: 0.5rem; }
+  .post-card:last-child { border-bottom: none; }
   .post-card.over-page { display: none; }
   .post-card[hidden] { display: none; }
 

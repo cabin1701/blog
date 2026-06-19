@@ -47,14 +47,26 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
       </div>
     </section>
   ) : (
-    <header class="post-header-plain">
-      <h1 class="post-hero-title">{post.data.title}</h1>
-      <p class="post-meta-plain">
-        <span>{post.data.author ?? 'Captain Seina'}</span>
-        <span class="sep">•</span>
-        <time datetime={post.data.date.toISOString().slice(0, 10)}>{fmtDate(post.data.date)}</time>
-      </p>
-    </header>
+    <>
+      <section
+        class="blog-hero"
+        aria-label="¿Qué hay de nuevo?"
+        style={`background-image: url('${base}images/hero-placeholder.png');`}
+      >
+        <div class="blog-hero-inner">
+          <h1 class="blog-hero-title">¿Qué hay de nuevo?</h1>
+          <p class="blog-hero-sub">¿Cómo te trata el mundo?</p>
+        </div>
+      </section>
+      <header class="post-header-plain">
+        <h1 class="post-hero-title">{post.data.title}</h1>
+        <p class="post-meta-plain">
+          <span>{post.data.author ?? 'Captain Seina'}</span>
+          <span class="sep">•</span>
+          <time datetime={post.data.date.toISOString().slice(0, 10)}>{fmtDate(post.data.date)}</time>
+        </p>
+      </header>
+    </>
   )}
 
   <div class="post-shell">
@@ -164,9 +176,54 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
     font-style: normal;
   }
 
+  .blog-hero {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    max-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .blog-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 253, 244, 0.0) 0%, rgba(255, 253, 244, 0.55) 100%);
+    pointer-events: none;
+  }
+  .blog-hero-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+  .blog-hero-title {
+    margin: 0;
+    font-family: 'Alice', serif;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.05;
+    letter-spacing: 0.01em;
+    color: var(--color-primary);
+  }
+  .blog-hero-sub {
+    margin: 0.75rem 0 0;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--color-tagline);
+    letter-spacing: 0.02em;
+  }
+
   .post-header-plain {
     max-width: 760px;
-    margin: 3rem auto 0;
+    margin: 2rem auto 0;
     padding: 0 1.5rem;
     text-align: center;
   }
