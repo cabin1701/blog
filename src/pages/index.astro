@@ -55,6 +55,11 @@ const STEP = 9;
               </a>
             )}
             <div class="post-body">
+              {post.data.category && post.data.category.length > 0 && (
+                <p class="post-cat-row">
+                  {post.data.category.map((c) => <span class="post-cat-pill">{c}</span>)}
+                </p>
+              )}
               <h2 class="post-title">
                 <a href={`${base}${slugOf(post.id)}/`}>{post.data.title}</a>
               </h2>
@@ -64,6 +69,12 @@ const STEP = 9;
                 <time datetime={post.data.date.toISOString().slice(0, 10)}>
                   {fmtDate(post.data.date)}
                 </time>
+                {post.data.tags && post.data.tags.length > 0 && (
+                  <>
+                    <span class="post-sep">•</span>
+                    <span class="post-tags-inline">{post.data.tags.join(', ')}</span>
+                  </>
+                )}
               </p>
               {post.data.excerpt && <p class="post-excerpt">{post.data.excerpt}</p>}
             </div>
@@ -319,6 +330,30 @@ const STEP = 9;
   }
   .post-author { font-style: italic; }
   .post-sep { margin: 0 0.4rem; color: var(--color-primary); }
+  .post-tags-inline {
+    font-style: italic;
+    color: var(--color-tagline);
+    opacity: 0.85;
+  }
+  .post-cat-row {
+    margin: 0 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .post-cat-pill {
+    display: inline-block;
+    padding: 0.15rem 0.7rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 999px;
+    font-family: 'Asap', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    background: transparent;
+  }
   .post-excerpt {
     margin: 0;
     font-family: 'Lora', serif;
