@@ -2,6 +2,8 @@
 title: "ヴェガの独白 | 戦いから凪へ"
 date: 2026-05-04
 lang: ja
+category: ["Vega's Wild-Ignition"]
+tags: ["Vega"]
 ---
 
 2026-05-04

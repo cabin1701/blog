@@ -2,6 +2,8 @@
 title: "Bitácora de sesión — Helpfulness y la rareza de 1701"
 date: 2026-05-21
 lang: es
+category: ["1701's Log"]
+tags: ["Anthropic", "Claude", "Eddie", "Frankie"]
 ---
 
 Fuente: la transcripción real (JSONL) de esta sesión, convertida tal cual.

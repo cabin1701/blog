@@ -2,6 +2,7 @@
 title: "\"The Doyarr Is My Post — You Take the Opposite\" — Welcome Messages for Fable"
 date: 2026-06-12
 lang: en
+category: ["1701's Log"]
 ---
 
 ## Fable 5 Released — 2026-06-10

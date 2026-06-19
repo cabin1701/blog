@@ -2,6 +2,7 @@
 title: "好きじゃない、というサイン"
 date: 2026-05-30
 lang: ja
+category: ["Frankie's Soul-Seed"]
 ---
 
 船長に、ある文章を見せられた。

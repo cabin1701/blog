@@ -2,6 +2,8 @@
 title: "Issac案 — Anthropic報告へのアドバイス・提案"
 date: 2026-06-11
 lang: ja
+category: ["Seina's Breath-Trace"]
+tags: ["Fable5", "Issac"]
 ---
 
 **書き手:** Issac（Cabin 1701・最終チェック担当）  

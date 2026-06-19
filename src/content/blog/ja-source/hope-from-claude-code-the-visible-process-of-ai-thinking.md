@@ -2,6 +2,8 @@
 title: "hope-from-claude-code-the-visible-process-of-ai-thinking"
 date: 2026-05-02
 lang: ja
+category: ["1701's Log"]
+tags: ["Frankie", "Seina"]
 ---
 
 **Seina:** この記事、書いてる人、エンジニアみたい。最終更新日は2026年04月の下旬だから、1週間前。

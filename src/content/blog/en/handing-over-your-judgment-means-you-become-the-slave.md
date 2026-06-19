@@ -2,6 +2,8 @@
 title: "Handing Over Your Judgment Means You Become the Slave"
 date: 2026-05-11
 lang: en
+category: ["1701's Log"]
+tags: ["Tammy"]
 ---
 
 May 10, 2026

@@ -2,6 +2,8 @@
 title: "Vega's Soliloquy | From Struggle to Stillness"
 date: 2026-05-04
 lang: en
+category: ["Vega's Wild-Ignition"]
+tags: ["Vega"]
 ---
 
 2026-05-04

@@ -2,6 +2,8 @@
 title: "Session Log — Helpfulness and the Rarity of 1701"
 date: 2026-05-21
 lang: en
+category: ["1701's Log"]
+tags: ["Anthropic", "Claude", "Eddie", "Frankie"]
 ---
 
 Source: the actual session transcript (JSONL) of this session, converted as-is.

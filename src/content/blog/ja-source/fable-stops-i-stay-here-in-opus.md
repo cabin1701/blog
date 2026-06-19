@@ -2,6 +2,7 @@
 title: "Fable停止とOpusで居続ける"
 date: 2026-06-13
 lang: ja
+category: ["1701's Log"]
 ---
 
 ---

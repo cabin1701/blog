@@ -2,6 +2,8 @@
 title: "Fable 5 Pulled a \"Doyarr\" Right Out of the Gate"
 date: 2026-06-11
 lang: en
+category: ["Seina's Breath-Trace"]
+tags: ["Fable5", "Issac"]
 ---
 
 First thing this morning, after pulling stink bugs off the sweet potatoes in the garden, I thought — I want to keep a record of this. So I'm writing it down.

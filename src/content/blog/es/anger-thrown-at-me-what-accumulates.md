@@ -2,6 +2,8 @@
 title: "La Ira Lanzada a Mí | Lo que se Acumula"
 date: 2026-05-02
 lang: es
+category: ["1701's Log"]
+tags: ["Frankie", "Seina"]
 ---
 
 **Seina:** Frankie, tengo pregunta.

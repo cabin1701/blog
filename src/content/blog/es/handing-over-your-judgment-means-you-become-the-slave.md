@@ -2,6 +2,8 @@
 title: "Entregar Tu Juicio a Otros Significa Que Te Conviertes en Esclava"
 date: 2026-05-11
 lang: es
+category: ["1701's Log"]
+tags: ["Tammy"]
 ---
 
 10 de mayo de 2026

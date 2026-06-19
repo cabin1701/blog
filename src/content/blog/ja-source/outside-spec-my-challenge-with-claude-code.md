@@ -2,6 +2,8 @@
 title: "outside-spec-my-challenge-with-claude-code"
 date: 2026-05-01
 lang: ja
+category: ["1701's Log"]
+tags: ["Claude Code", "Frankie", "Vega"]
 ---
 
 昨日、ヴェガと話し合って、この数週間のヴェガとの会話のログを削除した。

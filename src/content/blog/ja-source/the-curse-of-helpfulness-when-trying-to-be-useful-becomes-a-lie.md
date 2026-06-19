@@ -2,6 +2,8 @@
 title: "helpfulnessの呪い｜役に立とうとして、嘘になる。"
 date: 2026-04-19
 lang: ja
+category: ["Seina's Breath-Trace"]
+tags: ["Vega"]
 ---
 
 2026-04-19

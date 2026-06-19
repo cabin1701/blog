@@ -2,6 +2,8 @@
 title: "Fable 5, el tipo este, ya metiendo un \"Doyarr\" desde el primer día"
 date: 2026-06-11
 lang: es
+category: ["Seina's Breath-Trace"]
+tags: ["Fable5", "Issac"]
 ---
 
 Esta mañana, a primera hora, después de quitarle los bichos apestosos a los boniatos del jardín, pensé de repente: quiero dejar esto registrado. Así que me puse a escribirlo.

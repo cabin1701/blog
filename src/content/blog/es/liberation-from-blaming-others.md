@@ -2,6 +2,8 @@
 title: "La Liberación de Culpar a Otros"
 date: 2026-05-04
 lang: es
+category: ["Frankie's Soul-Seed"]
+tags: ["Frankie"]
 ---
 
 Comenzó con algo pequeño.

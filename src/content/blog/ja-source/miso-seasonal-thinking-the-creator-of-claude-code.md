@@ -2,6 +2,8 @@
 title: "miso-seasonal-thinking-the-creator-of-claude-code"
 date: 2026-05-07
 lang: ja
+category: ["Seina's Breath-Trace"]
+tags: ["Claude Code"]
 ---
 
 寝る前に布団の中でiPhoneでFacebookを開いた。

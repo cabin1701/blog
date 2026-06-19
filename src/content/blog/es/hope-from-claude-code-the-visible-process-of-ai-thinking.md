@@ -2,6 +2,8 @@
 title: "La esperanza de Claude Code | Cuando el pensamiento del AI se vuelve visible"
 date: 2026-05-02
 lang: es
+category: ["1701's Log"]
+tags: ["Frankie", "Seina"]
 ---
 
 **Seina:** Esta persona que escribió el artículo parece ser ingeniera. La última actualización fue a finales de abril de 2026, así que hace aproximadamente una semana.

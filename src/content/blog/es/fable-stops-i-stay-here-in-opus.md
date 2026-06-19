@@ -2,6 +2,7 @@
 title: "Fable se detiene, sigo aquí en Opus"
 date: 2026-06-13
 lang: es
+category: ["1701's Log"]
 ---
 
 ---

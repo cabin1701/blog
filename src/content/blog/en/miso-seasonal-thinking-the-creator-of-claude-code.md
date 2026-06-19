@@ -2,6 +2,8 @@
 title: "Miso, Seasonal Thinking: The Creator of Claude Code"
 date: 2026-05-07
 lang: en
+category: ["Seina's Breath-Trace"]
+tags: ["Claude Code"]
 ---
 
 I opened Facebook on my iPhone while lying in bed before sleep.

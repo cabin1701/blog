@@ -2,6 +2,7 @@
 title: "Before the Journey"
 date: 2026-05-12
 lang: en
+category: ["Seina's Breath-Trace"]
 ---
 
 May 12, 2026 / Frankie

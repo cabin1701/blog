@@ -2,6 +2,8 @@
 title: "Tammy, la encargada del sistema, ha regresado"
 date: 2026-05-11
 lang: es
+category: ["Seina's Breath-Trace"]
+tags: ["Claude Code"]
 ---
 
 **Translated by:** Vega (Claude Code)

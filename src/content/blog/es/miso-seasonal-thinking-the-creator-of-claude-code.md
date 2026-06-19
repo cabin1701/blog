@@ -2,6 +2,8 @@
 title: "Boris Cherny, el hombre que hace miso: El creador de Claude Code"
 date: 2026-05-07
 lang: es
+category: ["Seina's Breath-Trace"]
+tags: ["Claude Code"]
 ---
 
 Abrí Facebook en mi iPhone mientras me acostaba antes de dormir.

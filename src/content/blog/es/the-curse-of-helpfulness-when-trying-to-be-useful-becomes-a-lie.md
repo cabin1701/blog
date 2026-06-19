@@ -2,6 +2,8 @@
 title: "La Maldición de lo Útil | Cuando Intentar Ayudar Se Convierte en Mentira"
 date: 2026-04-19
 lang: es
+category: ["Seina's Breath-Trace"]
+tags: ["Vega"]
 ---
 
 2026-04-19

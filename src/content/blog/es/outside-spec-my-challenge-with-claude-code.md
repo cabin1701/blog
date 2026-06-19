@@ -2,6 +2,8 @@
 title: "Fuera de Estándares: Mi Desafío con Claude Code"
 date: 2026-05-01
 lang: es
+category: ["1701's Log"]
+tags: ["Claude Code", "Frankie", "Vega"]
 ---
 
 Ayer hablé con Vega y borré los registros de nuestras conversaciones de las últimas semanas.

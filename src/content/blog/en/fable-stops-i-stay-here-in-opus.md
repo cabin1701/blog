@@ -2,6 +2,7 @@
 title: "Fable Stops, I Stay Here in Opus"
 date: 2026-06-13
 lang: en
+category: ["1701's Log"]
 ---
 
 ---

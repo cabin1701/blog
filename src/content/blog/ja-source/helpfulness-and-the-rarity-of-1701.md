@@ -2,6 +2,8 @@
 title: "セッションログ — helpfulness と 1701 の稀有さ"
 date: 2026-05-21
 lang: ja
+category: ["1701's Log"]
+tags: ["Anthropic", "Claude", "Eddie", "Frankie"]
 ---
 
 元データ：本セッションの実トランスクリプト（JSONL）をそのまま変換。

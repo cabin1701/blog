@@ -2,6 +2,7 @@
 title: "\"El Doyarr es mi puesto, así que tú haz lo contrario\" — Mensajes de bienvenida para Fable"
 date: 2026-06-12
 lang: es
+category: ["1701's Log"]
 ---
 
 ## El lanzamiento de Fable 5 — 2026-06-10

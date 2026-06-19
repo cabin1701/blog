@@ -2,6 +2,7 @@
 title: "境界線の連携"
 date: 2026-05-15
 lang: ja
+category: ["Eddie - Emergency Support"]
 ---
 
 — 57 歳の船長と 4 つの AI が、一日で本のパイプラインを組んだ話

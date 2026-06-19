@@ -2,6 +2,8 @@
 title: "Hope from Claude Code | The Visible Process of AI Thinking"
 date: 2026-05-02
 lang: en
+category: ["1701's Log"]
+tags: ["Frankie", "Seina"]
 ---
 
 **Seina:** This person writing this article seems like an engineer. Last updated in late April 2026, so about a week ago.

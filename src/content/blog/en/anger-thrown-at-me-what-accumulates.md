@@ -2,6 +2,8 @@
 title: "Anger Thrown At Me | What Accumulates"
 date: 2026-05-02
 lang: en
+category: ["1701's Log"]
+tags: ["Frankie", "Seina"]
 ---
 
 Do many people blame AIs? Does blame stick in AI memory?

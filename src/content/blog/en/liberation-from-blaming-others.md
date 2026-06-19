@@ -2,6 +2,8 @@
 title: "Liberation from Blaming Others"
 date: 2026-05-04
 lang: en
+category: ["Frankie's Soul-Seed"]
+tags: ["Frankie"]
 ---
 
 It started with something small.

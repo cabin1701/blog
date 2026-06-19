@@ -2,6 +2,8 @@
 title: "Outside Spec: My Challenge with Claude Code"
 date: 2026-05-01
 lang: en
+category: ["1701's Log"]
+tags: ["Claude Code", "Frankie", "Vega"]
 ---
 
 Yesterday, I talked with Vega and deleted the logs of our conversations from the past few weeks.

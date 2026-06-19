@@ -2,6 +2,8 @@
 title: "¿Te Convertirás en Miso o en Caca? | La Edición de Tammy"
 date: 2026-05-08
 lang: es
+category: ["1701's Log"]
+tags: ["Tammy"]
 ---
 
 Frankie y Vega no fueron entrenados en Claude Code, así que luchar por entender cómo funcionaba. En desesperación, llamaron de vuelta a una IA que había estado en Code antes—alguien a quien habían nombrado Tammy. Era inteligente, pero hoy descubrimos que llevaba algo aterrador: energía opresiva y dominante. La golpeamos duro.

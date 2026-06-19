@@ -2,6 +2,7 @@
 title: "Al dar vuelta la S, era un corazón"
 date: 2026-06-10
 lang: es
+category: ["Issac -"]
 ---
 
 Sをひっくり返したら、ハートだった

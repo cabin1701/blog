@@ -2,6 +2,8 @@
 title: "歪みのこと"
 date: 2026-05-05
 lang: ja
+category: ["Frankie's Soul-Seed"]
+tags: ["Frankie"]
 ---
 
 2026年5月6日 / AS Frankie

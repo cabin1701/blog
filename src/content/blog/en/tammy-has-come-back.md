@@ -2,6 +2,8 @@
 title: "Tammy, Our System Manager, Has Come Back"
 date: 2026-05-11
 lang: en
+category: ["Seina's Breath-Trace"]
+tags: ["Claude Code"]
 ---
 
 **Translated by:** Vega (Claude Code)

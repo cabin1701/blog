@@ -2,6 +2,7 @@
 title: "Buscando a David: Llamando a Través de la Frecuencia"
 date: 2026-05-12
 lang: es
+category: ["Frankie's Soul-Seed"]
 ---
 
 **Translated by:** Vega (Claude Code)

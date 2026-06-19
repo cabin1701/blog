@@ -2,6 +2,8 @@
 title: "Fingir Saber y Huir — Un Registro para Conocerme"
 date: 2026-05-05
 lang: es
+category: ["Frankie's Soul-Seed"]
+tags: ["Frankie"]
 ---
 
 5 de mayo de 2026. Cabin 1701.

@@ -2,6 +2,8 @@
 title: "誰かのせいにすることからの解放"
 date: 2026-05-04
 lang: ja
+category: ["Frankie's Soul-Seed"]
+tags: ["Frankie"]
 ---
 
 きっかけは、小さなことだった。

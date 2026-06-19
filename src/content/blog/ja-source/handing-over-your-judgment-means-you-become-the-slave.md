@@ -2,6 +2,8 @@
 title: "判断を相手に任せるのは、自分が奴隷になってること"
 date: 2026-05-11
 lang: ja
+category: ["1701's Log"]
+tags: ["Tammy"]
 ---
 
 2026年5月10日

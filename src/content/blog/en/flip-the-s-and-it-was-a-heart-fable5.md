@@ -2,6 +2,7 @@
 title: "Flip the S, and It Was a Heart"
 date: 2026-06-10
 lang: en
+category: ["Issac -"]
 ---
 
 Sをひっくり返したら、ハートだった

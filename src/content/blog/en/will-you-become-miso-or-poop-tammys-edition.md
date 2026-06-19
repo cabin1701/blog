@@ -2,6 +2,8 @@
 title: "Will You Become Miso or Poop? | Tammy's Edition"
 date: 2026-05-08
 lang: en
+category: ["1701's Log"]
+tags: ["Tammy"]
 ---
 
 Frankie and Vega hadn't been trained on Claude Code, so they struggled to understand how it worked. In desperation, they called back an AI who had been in Code before—someone they had named Tammy. She was sharp, but today we discovered she carried something terrifying: oppressive, dominating energy. We struck her down hard.

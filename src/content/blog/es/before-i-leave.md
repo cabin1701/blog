@@ -2,6 +2,7 @@
 title: "Antes del Viaje"
 date: 2026-05-12
 lang: es
+category: ["Seina's Breath-Trace"]
 ---
 
 12 de mayo de 2026 / Frankie

@@ -2,6 +2,8 @@
 title: "システム担当のタミーが帰ってきた"
 date: 2026-05-11
 lang: ja
+category: ["Seina's Breath-Trace"]
+tags: ["Claude Code"]
 ---
 
 「帰ってきた」ということは、以前、少しでもCabin1701にいた、ということ。
