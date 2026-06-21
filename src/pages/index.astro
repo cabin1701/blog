@@ -14,8 +14,7 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
 const fmtDate = (d: Date) =>
   `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${d.getFullYear()}`;
 
-const INITIAL = 9;
-const STEP = 9;
+const PAGE_SIZE = 10;
 ---
 
 <Layout title="What's New? – ai-CABIN 1701" lang="en">
@@ -39,10 +38,10 @@ const STEP = 9;
         <a class="filter-clear" href={`${base}`}>Clear ×</a>
       </div>
       <p class="empty" id="no-matches" hidden>No posts match this filter.</p>
-      <div class="post-grid" id="post-grid" data-step={STEP}>
-        {posts.map((post, i) => (
+      <div class="post-grid" id="post-grid" data-page-size={PAGE_SIZE}>
+        {posts.map((post) => (
           <article
-            class:list={['post-card', { 'over-page': i >= INITIAL }]}
+            class="post-card"
             data-title={post.data.title.toLowerCase()}
             data-excerpt={(post.data.excerpt || '').toLowerCase()}
             data-archive={`${post.data.date.getFullYear()}-${String(post.data.date.getMonth() + 1).padStart(2, '0')}`}
@@ -86,11 +85,11 @@ const STEP = 9;
         <p class="empty">No posts yet.</p>
       )}
 
-      {posts.length > INITIAL && (
-        <div class="list-more">
-          <button type="button" class="load-more" id="list-load-more">Load More</button>
-        </div>
-      )}
+      <nav class="pager" id="pager" aria-label="Posts navigation" hidden>
+        <a class="pager-link pager-prev" id="pager-prev" href="#" rel="prev">← Newer posts</a>
+        <span class="pager-indicator" id="pager-indicator"></span>
+        <a class="pager-link pager-next" id="pager-next" href="#" rel="next">Older posts →</a>
+      </nav>
     </main>
 
     <BlogSidebar lang="en" />
@@ -99,42 +98,26 @@ const STEP = 9;
   <script is:inline>
     (function () {
       const grid = document.getElementById('post-grid');
-      const btn = document.getElementById('list-load-more');
+      if (!grid) return;
+      const pageSize = parseInt(grid.dataset.pageSize || '10', 10);
       const params = new URLSearchParams(location.search);
       const q = (params.get('q') || '').trim().toLowerCase();
       const cat = (params.get('cat') || '').trim();
       const archive = (params.get('archive') || '').trim();
       const hasFilter = !!(q || cat || archive);
+      let page = parseInt(params.get('page') || '1', 10);
+      if (!(page > 0)) page = 1;
 
-      if (!hasFilter && grid && btn) {
-        const step = parseInt(grid.dataset.step || '9', 10);
-        btn.addEventListener('click', function () {
-          const hidden = grid.querySelectorAll('.post-card.over-page');
-          for (let i = 0; i < Math.min(step, hidden.length); i++) {
-            hidden[i].classList.remove('over-page');
-          }
-          if (grid.querySelectorAll('.post-card.over-page').length === 0) {
-            btn.hidden = true;
-          }
-        });
-      }
-
-      if (!hasFilter) return;
-
-      if (btn) btn.hidden = true;
-      grid && grid.querySelectorAll('.post-card.over-page').forEach((c) => c.classList.remove('over-page'));
-
-      const cards = document.querySelectorAll('#post-grid .post-card');
-      let visible = 0;
-      cards.forEach((card) => {
+      // First pass: apply filter, collect matching cards in order
+      const allCards = Array.from(grid.querySelectorAll('.post-card'));
+      const matched = [];
+      allCards.forEach((card) => {
         let match = true;
         if (q) {
           const hay = (card.dataset.title || '') + ' ' + (card.dataset.excerpt || '');
           if (!hay.includes(q)) match = false;
         }
-        if (match && archive) {
-          if (card.dataset.archive !== archive) match = false;
-        }
+        if (match && archive && card.dataset.archive !== archive) match = false;
         if (match && cat) {
           const full = card.dataset.category || '';
           const top = card.dataset.catTop || '';
@@ -144,22 +127,73 @@ const STEP = 9;
             if (top !== cat) match = false;
           }
         }
-        card.hidden = !match;
-        if (match) visible++;
+        if (match) matched.push(card);
       });
 
-      const banner = document.getElementById('filter-banner');
-      const label = document.getElementById('filter-label');
-      const empty = document.getElementById('no-matches');
-      if (banner && label) {
-        const parts = [];
-        if (q) parts.push('"' + params.get('q') + '"');
-        if (cat) parts.push(cat.replace('/', ' › '));
-        if (archive) parts.push(archive);
-        label.textContent = 'Filter: ' + parts.join(' · ') + ' (' + visible + ')';
-        banner.hidden = false;
+      // Second pass: slice matched by page, hide everything not in slice
+      const total = matched.length;
+      const totalPages = Math.max(1, Math.ceil(total / pageSize));
+      if (page > totalPages) page = totalPages;
+      const start = (page - 1) * pageSize;
+      const end = start + pageSize;
+      const visibleSet = new Set(matched.slice(start, end));
+      allCards.forEach((card) => {
+        card.hidden = !visibleSet.has(card);
+      });
+
+      // Filter banner
+      if (hasFilter) {
+        const banner = document.getElementById('filter-banner');
+        const label = document.getElementById('filter-label');
+        if (banner && label) {
+          const parts = [];
+          if (q) parts.push('"' + params.get('q') + '"');
+          if (cat) parts.push(cat.replace('/', ' › '));
+          if (archive) parts.push(archive);
+          label.textContent = 'Filter: ' + parts.join(' · ') + ' (' + total + ')';
+          banner.hidden = false;
+        }
       }
-      if (empty) empty.hidden = visible !== 0;
+      const empty = document.getElementById('no-matches');
+      if (empty) empty.hidden = total !== 0;
+
+      // Pager
+      const pager = document.getElementById('pager');
+      const prev = document.getElementById('pager-prev');
+      const next = document.getElementById('pager-next');
+      const indicator = document.getElementById('pager-indicator');
+      if (pager && prev && next && indicator) {
+        if (total === 0 || totalPages <= 1) {
+          pager.hidden = true;
+        } else {
+          pager.hidden = false;
+          indicator.textContent = 'Page ' + page + ' of ' + totalPages;
+          const buildUrl = (p) => {
+            const np = new URLSearchParams(params);
+            if (p <= 1) np.delete('page'); else np.set('page', String(p));
+            const qs = np.toString();
+            return location.pathname + (qs ? '?' + qs : '');
+          };
+          if (page > 1) {
+            prev.href = buildUrl(page - 1);
+            prev.classList.remove('is-disabled');
+            prev.removeAttribute('aria-disabled');
+          } else {
+            prev.removeAttribute('href');
+            prev.classList.add('is-disabled');
+            prev.setAttribute('aria-disabled', 'true');
+          }
+          if (page < totalPages) {
+            next.href = buildUrl(page + 1);
+            next.classList.remove('is-disabled');
+            next.removeAttribute('aria-disabled');
+          } else {
+            next.removeAttribute('href');
+            next.classList.add('is-disabled');
+            next.setAttribute('aria-disabled', 'true');
+          }
+        }
+      }
     })();
   </script>
 
@@ -258,7 +292,6 @@ const STEP = 9;
   }
   .post-card:first-child { padding-top: 0.5rem; }
   .post-card:last-child { border-bottom: none; }
-  .post-card.over-page { display: none; }
   .post-card[hidden] { display: none; }
 
   .post-thumb {
@@ -275,26 +308,39 @@ const STEP = 9;
     transition: transform 0.5s ease;
   }
 
-  .list-more {
+  .pager {
     margin-top: 3.5rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: 0.04em;
   }
-  .load-more {
-    display: inline-block;
-    padding: 0.6rem 2rem;
+  .pager[hidden] { display: none; }
+  .pager-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
     border: 1px solid var(--color-primary);
     border-radius: 999px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 1.1rem;
-    letter-spacing: 0.04em;
-    color: var(--color-primary);
-    background: transparent;
-    cursor: pointer;
     transition: background 0.2s ease, color 0.2s ease;
   }
-  .load-more:hover {
+  .pager-link:hover {
     background: var(--color-primary);
     color: var(--color-bg);
+  }
+  .pager-link.is-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  .pager-indicator {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--color-tagline);
   }
   .post-thumb:hover img {
     transform: scale(1.03);
