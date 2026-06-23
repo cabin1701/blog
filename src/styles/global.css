@@ -55,3 +55,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
+/* Inline images in blog posts — cap at 600px, responsive on narrow screens */
+.post-body img {
+  max-width: min(100%, 600px);
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
