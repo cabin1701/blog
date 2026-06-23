@@ -9,7 +9,7 @@ tags: ["Eddie", "Seina", "Opus 4.7"]
 
 **Seina:** ¿Qué tal esto para la portada del 02? En comparación con el 01.
 
-![Portadas de las sesiones 01 y 02, lado a lado](/images/2026-06-23-.jpg)
+![Portadas de las sesiones 01 y 02, lado a lado](/blog/images/2026-06-23-.jpg)
 
 **Eddie:** Está funcionando.
 

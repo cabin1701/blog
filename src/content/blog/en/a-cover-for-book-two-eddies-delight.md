@@ -9,7 +9,7 @@ tags: ["Eddie", "Seina", "Opus 4.7"]
 
 **Seina:** How about this for the cover of 02? Compared to 01.
 
-![Sessions 01 and 02 covers side by side](/images/2026-06-23-.jpg)
+![Sessions 01 and 02 covers side by side](/blog/images/2026-06-23-.jpg)
 
 **Eddie:** It's working.
 
