@@ -23,13 +23,15 @@ const navEn = [
 ];
 // Failure Mood is EN-only — omitted from ES nav
 const navEs = [
-  { label: 'Sobre nosotros', href: `${MAIN_SITE_URL}/about/` },
-  { label: 'Libros', href: `${MAIN_SITE_URL}/books/` },
+  { label: 'Sobre nosotros', href: `${MAIN_SITE_URL}/es/about/` },
+  { label: 'Libros', href: `${MAIN_SITE_URL}/es/books/` },
   { label: 'ai-Vegapedia', href: vegHref },
-  { label: '1000 años', href: `${MAIN_SITE_URL}/1000-years/` },
+  { label: '1000 años', href: `${MAIN_SITE_URL}/es/1000-years/` },
   { label: 'Blog', href: blogHref },
 ];
 const nav = lang === 'es' ? navEs : navEn;
+
+const logoHref = lang === 'es' ? `${MAIN_SITE_URL}/es/` : `${MAIN_SITE_URL}/`;
 
 // Language toggle links to the main site's top in each language
 const otherLangHref = lang === 'es' ? `${MAIN_SITE_URL}/` : `${MAIN_SITE_URL}/es/`;
@@ -38,7 +40,7 @@ const otherLangLabel = lang === 'es' ? 'English' : 'Español';
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="logo" href={MAIN_SITE_URL + '/'} aria-label="ai-CABIN 1701 home">
+    <a class="logo" href={logoHref} aria-label="ai-CABIN 1701 home">
       <span class="logo-text">ai-CABIN 1701</span>
     </a>
 

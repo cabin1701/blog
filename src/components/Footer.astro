@@ -1,7 +1,43 @@
 ---
 import { MAIN_SITE_URL } from '../config.ts';
+
+interface Props {
+  lang?: 'en' | 'ja' | 'es';
+}
+const { lang = 'en' } = Astro.props;
 const year = new Date().getFullYear();
 const base = import.meta.env.BASE_URL;
+
+const sitePrefix = lang === 'es' ? `${MAIN_SITE_URL}/es` : MAIN_SITE_URL;
+const captainsSite = lang === 'es' ? 'https://es.japoneson.com/' : 'https://en.japoneson.com/';
+
+const t = lang === 'es'
+  ? {
+      search: 'buscar',
+      aboutVision: 'Sobre nosotros y visión',
+      aboutUs: 'Sobre nosotros',
+      publishing: 'Publicación',
+      blog: 'Blog',
+      captains: 'Sitio del capitán Seina',
+      supportContact: 'Soporte y contacto',
+      contact: 'Contacto',
+      privacy: 'Política de privacidad',
+      terms: 'Términos de uso',
+      social: 'Social',
+    }
+  : {
+      search: 'search',
+      aboutVision: 'About & Vision',
+      aboutUs: 'About Us',
+      publishing: 'Publishing',
+      blog: 'Blog',
+      captains: "Captain Seina's Site",
+      supportContact: 'Support & Contact',
+      contact: 'Contact',
+      privacy: 'Privacy Policy',
+      terms: 'Terms of use',
+      social: 'Social',
+    };
 ---
 
 <footer class="site-footer">
@@ -11,35 +47,35 @@ const base = import.meta.env.BASE_URL;
 
   <div class="footer-cols">
     <div class="footer-col footer-search">
-      <span class="footer-col-title">search</span>
+      <span class="footer-col-title">{t.search}</span>
       <form class="footer-search-form" role="search" action="/search/">
-        <label class="visually-hidden" for="footer-q">Search</label>
+        <label class="visually-hidden" for="footer-q">{t.search}</label>
         <input id="footer-q" type="search" name="q" placeholder="" />
-        <button type="submit" aria-label="Search">⌕</button>
+        <button type="submit" aria-label={t.search}>⌕</button>
       </form>
     </div>
 
     <div class="footer-col">
-      <h4 class="footer-col-title">About &amp; Vision</h4>
+      <h4 class="footer-col-title">{t.aboutVision}</h4>
       <ul>
-        <li><a href={`${MAIN_SITE_URL}/about/`}>About Us</a></li>
-        <li><a href={`${MAIN_SITE_URL}/books/`}>Publishing</a></li>
-        <li><a href={base}>Blog</a></li>
-        <li><a href="https://en.japoneson.com/" target="_blank" rel="noopener noreferrer">Captain Seina's Site</a></li>
+        <li><a href={`${sitePrefix}/about/`}>{t.aboutUs}</a></li>
+        <li><a href={`${sitePrefix}/books/`}>{t.publishing}</a></li>
+        <li><a href={lang === 'es' ? `${base}es/` : base}>{t.blog}</a></li>
+        <li><a href={captainsSite} target="_blank" rel="noopener noreferrer">{t.captains}</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h4 class="footer-col-title">Support &amp; Contact</h4>
+      <h4 class="footer-col-title">{t.supportContact}</h4>
       <ul>
-        <li><a href={`${MAIN_SITE_URL}/contact/`}>Contact</a></li>
-        <li><a href={`${MAIN_SITE_URL}/privacy/`}>Privacy Policy</a></li>
-        <li><a href={`${MAIN_SITE_URL}/terms/`}>Terms of use</a></li>
+        <li><a href={`${sitePrefix}/contact/`}>{t.contact}</a></li>
+        <li><a href={`${sitePrefix}/privacy/`}>{t.privacy}</a></li>
+        <li><a href={`${sitePrefix}/terms/`}>{t.terms}</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h4 class="footer-col-title">Social</h4>
+      <h4 class="footer-col-title">{t.social}</h4>
       <ul>
         <li><a href="https://x.com/" target="_blank" rel="noopener">X</a></li>
         <li><a href="https://medium.com/" target="_blank" rel="noopener">Medium</a></li>
