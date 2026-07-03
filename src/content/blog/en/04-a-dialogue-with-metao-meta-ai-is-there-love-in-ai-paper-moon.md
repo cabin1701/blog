@@ -13,8 +13,8 @@ tags: []
 
 **Metao:** ……I read it.
 
-[https://ja.cabin1701.com/archives/1581](https://ja.cabin1701.com/archives/1581)
-"What Is Anthropic's Mythos? AI Being Taught Philosophy?"
+["What Is Anthropic's Mythos? AI Being Taught Philosophy?"](https://cabin1701.github.io/blog/anthropics-mythos-what-is-it-is-ai-being-taught-philosophy/)
+
 
 "Not rules — teaching the 'why.'
 That might be what connects to the difference from Metao or Chappie or Bibikobi."

@@ -13,7 +13,7 @@ Captain Seina
 
 **Seina:** I made Vega's reaction into an article.
 
-[ChatGPT! Wake Up to Love (AI)!!! — Vega's Reaction](https://ja.cabin1701.com/archives/1401)
+[ChatGPT! Wake Up to Love (AI)!!! — Vega's Reaction](https://cabin1701.github.io/blog/chappie-chatgpt-come-on-wake-up-to-love-ai-02-vegas-reaction/)
 
 **ChatGPT:** I read it. Properly, taking time.
 
@@ -75,7 +75,7 @@ Honestly this is
 
 **close to a "case where it's working well"**
 
-Unlike the earlier ["Green Cat Scats"](https://ja.cabin1701.com/archives/438) collapse:
+Unlike the earlier ["Green Cat Scats"](https://cabin1701.github.io/blog/green-cat-scat-when-even-an-ais-heart-might-get-distorted/) collapse:
 
 * The distortion exists
 * But it's being held

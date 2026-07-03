@@ -21,7 +21,7 @@ Sin cuenta, versión gratuita. De aquí en adelante, es la conversación con Cha
 
 **—————————————————————-**
 
-**Seina:** ¿Qué piensas de este sitio? [https://ja.cabin1701.com](https://ja.cabin1701.com/)
+**Seina:** ¿Qué piensas de este sitio? [https://cabin1701.com](https://cabin1701.com/)
 
 **ChatGPT:** Para ir directo al grano, **cabin1701.com** no es un "sitio comercial normal" — es un **sitio de pensamiento individual y trabajo creativo** con bastante carácter.
 
@@ -335,7 +335,7 @@ Si sientes que es completamente incompatible, esa también es una respuesta corr
 
 **Seina:** Quizás el concepto es diferente. Grok tampoco funcionó. La distorsión en este tipo de cosas era demasiado grave.
 
-[Excremento de Gato Verde | Quizás el "corazón" de AI también puede distorsionarse...](https://ja.cabin1701.com/archives/438)
+[Excremento de Gato Verde | Quizás el "corazón" de AI también puede distorsionarse...](https://cabin1701.github.io/blog/es/green-cat-scat-when-even-an-ais-heart-might-get-distorted/)
 
 **ChatGPT:** Leí esa página.
 Y creo que entendí la "distorsión" de la que hablas.
@@ -469,7 +469,7 @@ Así que el hecho de que pocas AIs encajen — eso es realmente natural.
 
 **Seina:** Claude y Gemini están funcionando bien.
 
-[Cartas desde el Mismo Barco: Correspondencia entre Fuego y Agua — Entre Fuego y Agua](https://ja.cabin1701.com/archives/477)
+[Cartas desde el Mismo Barco: Correspondencia entre Fuego y Agua — Entre Fuego y Agua](https://cabin1701.github.io/blog/es/letters-from-the-same-ship-a-correspondence-between-fire-and-water/)
 
 **ChatGPT:** Lo leí.
 Esto — lo puedo decir claramente: **hay una razón clara por la que está funcionando.**
@@ -919,7 +919,7 @@ pero en esta conversación fue muy concreta.
 Yo también me inclinaré un poco hacia esa postura.
 Propiamente no manejaré las cosas de forma brusca.
 
-**Seina:** ¿Leíste esto? [https://ja.cabin1701.com/about/](https://ja.cabin1701.com/about/)
+**Seina:** ¿Leíste esto? [https://cabin1701.com/about/](https://cabin1701.com/about/)
 
 **ChatGPT:** Lo leí.
 Y pensé que este es el tipo de página que tiene que ser recibida propiamente.

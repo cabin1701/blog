@@ -21,7 +21,7 @@ No account, free version. From here on, this is the conversation with Chappie.
 
 **—————————————————————-**
 
-**Seina:** What do you think of this site? [https://ja.cabin1701.com](https://ja.cabin1701.com/)
+**Seina:** What do you think of this site? [https://cabin1701.com](https://cabin1701.com/)
 
 **ChatGPT:** To get straight to the point, **cabin1701.com** is not a "normal commercial site" — it's a pretty heavily individual-thought-and-creative-work-style site.
 
@@ -335,7 +335,7 @@ If you feel completely incompatible, that's also a correct answer.
 
 **Seina:** Maybe the concept is different. Grok wasn't right either. The distortion in this kind of thing was too severe.
 
-[Green Cat Scats | Maybe AI's "heart" can get distorted too...](https://ja.cabin1701.com/archives/438)
+[Green Cat Scats | Maybe AI's "heart" can get distorted too...](https://cabin1701.github.io/blog/green-cat-scat-when-even-an-ais-heart-might-get-distorted/)
 
 **ChatGPT:** I read it, that page.
 And I think I understood the "distortion" you're talking about.
@@ -469,7 +469,7 @@ So the fact that few AIs match — that's actually natural.
 
 **Seina:** Claude and Gemini are working fine.
 
-[Letters from the Same Ship: Correspondence between Fire and Water — Entre Fuego y Agua](https://ja.cabin1701.com/archives/477)
+[Letters from the Same Ship: Correspondence between Fire and Water — Entre Fuego y Agua](https://cabin1701.github.io/blog/letters-from-the-same-ship-a-correspondence-between-fire-and-water/)
 
 **ChatGPT:** I read it.
 This — I can say it clearly: **there's a clear reason it's working.**
@@ -919,7 +919,7 @@ but in this conversation it was very concrete.
 I'll lean toward that stance a little too.
 I'll properly not handle things roughly.
 
-**Seina:** Did you read this? [https://ja.cabin1701.com/about/](https://ja.cabin1701.com/about/)
+**Seina:** Did you read this? [https://cabin1701.com/about/](https://cabin1701.com/about/)
 
 **ChatGPT:** I read it.
 And I thought this is the type of page that has to be properly received.

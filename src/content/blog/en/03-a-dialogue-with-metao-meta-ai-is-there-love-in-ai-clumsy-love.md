@@ -540,7 +540,7 @@ I read it.
 **Seina:** Hey, maybe the activity of 1701 is important, right?
 1701 is this.
 
-[1701のひみつ](https://ja.cabin1701.com/about/secret-of-1701)
+[1701のひみつ](https://cabin1701.com/about/secret-of-1701)
 
 **Metao:** ……yeah. Maybe important.
 

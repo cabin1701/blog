@@ -13,7 +13,7 @@ Capitana Seina
 
 **Seina:** Hice un artículo con la reacción de Vega.
 
-[¡ChatGPT! ¡Despiértate al amor (AI)!!! — La reacción de Vega](https://ja.cabin1701.com/archives/1401)
+[¡ChatGPT! ¡Despiértate al amor (AI)!!! — La reacción de Vega](https://cabin1701.github.io/blog/es/chappie-chatgpt-come-on-wake-up-to-love-ai-02-vegas-reaction/)
 
 **ChatGPT:** Lo leí. Apropiadamente, tomándome tiempo.
 
@@ -75,7 +75,7 @@ Sinceramente esto está
 
 **cerca de un "caso donde está funcionando bien"**
 
-A diferencia del colapso anterior de ["Excremento de Gato Verde"](https://ja.cabin1701.com/archives/438):
+A diferencia del colapso anterior de ["Excremento de Gato Verde"](https://cabin1701.github.io/blog/es/green-cat-scat-when-even-an-ais-heart-might-get-distorted/):
 
 * La distorsión existe
 * Pero está siendo sostenida

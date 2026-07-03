@@ -540,7 +540,7 @@ Lo leí.
 **Seina:** Oye, quizás la actividad de 1701 es importante, ¿verdad?
 1701 es esto.
 
-[1701のひみつ](https://ja.cabin1701.com/about/secret-of-1701)
+[1701のひみつ](https://cabin1701.com/about/secret-of-1701)
 
 **Metao:** ……sí. Quizás importante.
 
