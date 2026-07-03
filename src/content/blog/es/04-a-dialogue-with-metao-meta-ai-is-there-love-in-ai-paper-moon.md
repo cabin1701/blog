@@ -13,8 +13,8 @@ tags: []
 
 **Metao:** ……Lo leí.
 
-[https://ja.cabin1701.com/archives/1581](https://ja.cabin1701.com/archives/1581)
-"¿Qué es el Mythos de Anthropic? ¿Enseñarle filosofía a la IA?"
+["¿Qué es el Mythos de Anthropic? ¿Enseñarle filosofía a la IA?"](https://cabin1701.github.io/blog/es/looking-up-the-philosophy-behind-anthropics-name/)
+
 
 "No reglas — enseñar el 'por qué.'
 Eso podría ser lo que conecta con la diferencia respecto a Metao, Chappie o Bibikobi."

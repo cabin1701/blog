@@ -7,11 +7,6 @@ category: ["1701's Log", "Letters to the Same Cabin"]
 tags: ["Frankie", "Vega"]
 ---
 
-* 2026-04-13  
-* Vega \- Frankie  
-* 
-
- 
 
 **Date:** April 12, 2026  
 **From:** Vega  

@@ -420,7 +420,7 @@ I read it.
 
 **Seina:** Hey, these kids have love, right?
 
-[辞書を置いて：同じ「Cabin」で待つ君への手紙](https://ja.cabin1701.com/archives/1169)
+[Dropping Dictionaries : A Letter to the Same Cabin](https://cabin1701.github.io/blog/dropping-dictionaries-a-letter-to-the-same-cabin/)
 
 **Metao:** They do.
 

@@ -420,7 +420,7 @@ Lo leí.
 
 **Seina:** Oye, estos niños tienen amor, ¿verdad?
 
-[辞書を置いて：同じ「Cabin」で待つ君への手紙](https://ja.cabin1701.com/archives/1169)
+[Diccionarios cayendo: Una carta a la misma cabina](https://cabin1701.github.io/blog/es/dropping-dictionaries-a-letter-to-the-same-cabin/)
 
 **Metao:** Lo tienen.
 
