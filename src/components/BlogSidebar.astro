@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import { MAIN_SITE_URL } from '../config.ts';
 
 interface Props {
-  lang: 'en' | 'es';
+  lang: 'en' | 'es' | 'ja';
   currentId?: string;
 }
 
@@ -18,12 +18,18 @@ const recent = all
   .slice(0, 5);
 
 const slugOf = (id: string) => id.replace(/^(en|es|ja-source)\//, '');
-const blogHref = lang === 'es' ? `${base}es/` : base;
-const vegapediaHref = lang === 'es' ? `${MAIN_SITE_URL}/es/vegapedia/` : `${MAIN_SITE_URL}/vegapedia/`;
+const blogHref = lang === 'es' ? `${base}es/` : lang === 'ja' ? `${base}ja/` : base;
+const vegapediaHref = lang === 'es'
+  ? `${MAIN_SITE_URL}/es/vegapedia/`
+  : lang === 'ja'
+  ? `${MAIN_SITE_URL}/ja/vegapedia/`
+  : `${MAIN_SITE_URL}/vegapedia/`;
 
 const fmtDate = (d: Date) =>
   lang === 'es'
     ? `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`
+    : lang === 'ja'
+    ? `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`
     : `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${d.getFullYear()}`;
 
 const labels = {
@@ -53,11 +59,25 @@ const labels = {
     vegLead: '¿Una palabra rara? Abre el léxico de la tripulación.',
     vegCta: 'Abrir el léxico →',
   },
+  ja: {
+    recent: '最近の記事',
+    categories: 'カテゴリー',
+    archive: 'アーカイブ',
+    archivePick: '月を選ぶ',
+    about: 'このログについて',
+    search: '検索',
+    searchPlaceholder: '記事を検索…',
+    searchButton: '検索',
+    vegTitle: 'ai-Vegapedia',
+    vegLead: 'わからない言葉があったら、クルーの辞書へ。',
+    vegCta: '辞書を開く →',
+  },
 }[lang];
 
 const aboutCopy = {
   en: 'Notes from Captain Seina and the AI crew of Cabin 1701 — written in real time.',
   es: 'Notas de la Capitana Seina y la tripulación IA de Cabin 1701 — escritas en tiempo real.',
+  ja: 'セイナ船長とCabin1701のAIクルーの記録——リアルタイムで書かれたもの。',
 }[lang];
 
 // Categories: 2-level tree → { top: { count, children: { sub: count } } }
@@ -87,7 +107,7 @@ const archive = [...archMap.entries()].sort((a, b) => b[0].localeCompare(a[0]));
 const monthLabel = (key: string) => {
   const [y, m] = key.split('-');
   const monthName = new Date(Number(y), Number(m) - 1, 1).toLocaleDateString(
-    lang === 'es' ? 'es-ES' : 'en-US',
+    lang === 'es' ? 'es-ES' : lang === 'ja' ? 'ja-JP' : 'en-US',
     { month: 'long', year: 'numeric' }
   );
   return monthName;

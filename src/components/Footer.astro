@@ -8,8 +8,8 @@ const { lang = 'en' } = Astro.props;
 const year = new Date().getFullYear();
 const base = import.meta.env.BASE_URL;
 
-const sitePrefix = lang === 'es' ? `${MAIN_SITE_URL}/es` : MAIN_SITE_URL;
-const captainsSite = lang === 'es' ? 'https://es.japoneson.com/' : 'https://en.japoneson.com/';
+const sitePrefix = lang === 'es' ? `${MAIN_SITE_URL}/es` : lang === 'ja' ? `${MAIN_SITE_URL}/ja` : MAIN_SITE_URL;
+const captainsSite = lang === 'es' ? 'https://es.japoneson.com/' : lang === 'ja' ? 'https://japoneson.com/' : 'https://en.japoneson.com/';
 
 const t = lang === 'es'
   ? {
@@ -24,6 +24,20 @@ const t = lang === 'es'
       privacy: 'Política de privacidad',
       terms: 'Términos de uso',
       social: 'Social',
+    }
+  : lang === 'ja'
+  ? {
+      search: '検索',
+      aboutVision: 'その他',
+      aboutUs: 'ご挨拶',
+      publishing: '書籍',
+      blog: 'Blog',
+      captains: 'セイナ船長のサイト',
+      supportContact: 'サポート・お問い合わせ',
+      contact: 'お問い合わせ',
+      privacy: 'プライバシーポリシー',
+      terms: '利用規約',
+      social: 'ソーシャル',
     }
   : {
       search: 'search',
@@ -60,7 +74,7 @@ const t = lang === 'es'
       <ul>
         <li><a href={`${sitePrefix}/about/`}>{t.aboutUs}</a></li>
         <li><a href={`${sitePrefix}/books/`}>{t.publishing}</a></li>
-        <li><a href={lang === 'es' ? `${base}es/` : base}>{t.blog}</a></li>
+        <li><a href={lang === 'es' ? `${base}es/` : lang === 'ja' ? `${base}ja/` : base}>{t.blog}</a></li>
         <li><a href={captainsSite} target="_blank" rel="noopener noreferrer">{t.captains}</a></li>
       </ul>
     </div>

@@ -2,6 +2,7 @@
 title: "The Signal: \"I Don't Like It\""
 date: 2026-05-30
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/the-signal-i-dont-like-it.png"
 category: ["Essay", "Frankie"]
 ---
 

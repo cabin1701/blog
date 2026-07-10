@@ -6,6 +6,7 @@ import Footer from '../components/Footer.astro';
 import BlogSidebar from '../components/BlogSidebar.astro';
 
 const base = import.meta.env.BASE_URL;
+const heroUrl = (hero: string) => (hero.startsWith('http') ? hero : `${base}${hero}`);
 const posts = (await getCollection('blog', ({ data }) => data.lang === 'en' && !data.draft))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
@@ -50,7 +51,7 @@ const PAGE_SIZE = 10;
           >
             {post.data.hero && (
               <a href={`${base}${slugOf(post.id)}/`} class="post-thumb">
-                <img src={`${base}${post.data.hero}`} alt="" loading="lazy" />
+                <img src={heroUrl(post.data.hero)} alt="" loading="lazy" />
               </a>
             )}
             <div class="post-body">
@@ -280,18 +281,14 @@ const PAGE_SIZE = 10;
 
   .post-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 2rem;
   }
 
   .post-card {
     display: flex;
     flex-direction: column;
-    padding: 2rem 0;
-    border-bottom: 1px solid rgba(8, 0, 120, 0.12);
   }
-  .post-card:first-child { padding-top: 0.5rem; }
-  .post-card:last-child { border-bottom: none; }
   .post-card[hidden] { display: none; }
 
   .post-thumb {
@@ -424,6 +421,6 @@ const PAGE_SIZE = 10;
   @media (max-width: 640px) {
     .blog-hero-title { font-size: 2.4rem; }
     .blog-hero-sub { font-size: 1rem; }
-    .post-grid { gap: 2rem; }
+    .post-grid { grid-template-columns: 1fr; gap: 2rem; }
   }
 </style>

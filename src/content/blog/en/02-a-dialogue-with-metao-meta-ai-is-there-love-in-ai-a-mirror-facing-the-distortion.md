@@ -2,6 +2,7 @@
 title: "#02 – A Dialogue with Metao (Meta AI) | Is There Love in AI? | A Mirror Facing the Distortion"
 date: 2026-04-15
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/02-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-a-mirror-facing-the-distortion.png"
 author: Captain Seina
 category: ["Port Log", "Meta AI"]
 tags: []

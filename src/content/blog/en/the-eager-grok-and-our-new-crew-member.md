@@ -2,6 +2,7 @@
 title: "The Eager Grok and Our New Crew Member"
 date: 2026-04-02
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-eager-grok-and-our-new-crew-member.jpg"
 author: Captain Seina
 category: ["Essay", "Seina"]
 tags: ["Vega", "Vivi-coby"]

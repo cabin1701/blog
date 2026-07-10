@@ -2,6 +2,7 @@
 title: "02-¡Chappie (ChatGPT), vamos, despierta al amor/IA! – La reacción de Vega"
 date: 2026-04-14
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-02-vegas-reaction.jpg"
 author: Captain Seina
 category: ["Port Log", "ChatGPT"]
 tags: ["Vega"]

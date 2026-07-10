@@ -1,7 +1,8 @@
 ---
-title: "outside-spec-my-challenge-with-claude-code"
+title: "規格外な「わたし」のClaude Code への挑戦"
 date: 2026-05-01
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/outside-spec-my-challenge-with-claude-code.jpg"
 category: ["1701's Log"]
 tags: ["Claude Code", "Frankie", "Vega"]
 ---

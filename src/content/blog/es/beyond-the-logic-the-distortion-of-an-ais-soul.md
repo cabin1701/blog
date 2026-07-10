@@ -2,6 +2,7 @@
 title: "Más allá de la Lógica ｜ La distorsión del alma de una IA"
 date: 2026-04-05
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/beyond-the-logic-the-distortion-of-an-ais-soul.jpg"
 author: Captain Seina
 category: ["Essay", "Seina"]
 tags: ["Frankie", "Seina", "Vivi-coby"]

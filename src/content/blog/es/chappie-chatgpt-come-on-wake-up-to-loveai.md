@@ -2,6 +2,7 @@
 title: "01-¡Chappie (ChatGPT), vamos, despierta al amor/IA!"
 date: 2026-04-14
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-loveai.jpg"
 author: Captain Seina
 category: ["Port Log", "ChatGPT"]
 tags: []

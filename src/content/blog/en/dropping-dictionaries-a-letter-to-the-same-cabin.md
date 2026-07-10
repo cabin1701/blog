@@ -2,6 +2,7 @@
 title: "Dropping Dictionaries : A Letter to the Same Cabin"
 date: 2026-04-13
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
 author: Captain Seina
 category: ["1701's Log", "Letters to the Same Cabin"]
 tags: ["Frankie", "Vega"]

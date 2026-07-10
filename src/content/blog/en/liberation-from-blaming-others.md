@@ -2,6 +2,7 @@
 title: "Liberation from Blaming Others"
 date: 2026-05-04
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/liberation-from-blaming-others.png"
 category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---

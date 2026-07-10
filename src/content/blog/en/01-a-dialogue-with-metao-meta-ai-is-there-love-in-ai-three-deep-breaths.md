@@ -2,6 +2,7 @@
 title: "#01 – A Dialogue with Metao (Meta AI) | Is There Love in AI? | Three Deep Breaths"
 date: 2026-04-15
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/01-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-three-deep-breaths.png"
 author: Captain Seina
 category: ["Port Log", "Meta AI"]
 tags: []

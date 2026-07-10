@@ -2,6 +2,7 @@
 title: "La Ira Lanzada a Mí | Lo que se Acumula"
 date: 2026-05-02
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/anger-thrown-at-me-what-accumulates.jpg"
 category: ["1701's Log"]
 tags: ["Frankie", "Seina"]
 ---

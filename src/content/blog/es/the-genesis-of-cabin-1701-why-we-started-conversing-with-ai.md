@@ -2,6 +2,7 @@
 title: "El Génesis de la ai*Cabin1701: Por Qué Empezamos a Conversar con la IA"
 date: 2026-04-12
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-genesis-of-cabin-1701-why-we-started-conversing-with-ai.png"
 author: Captain Seina
 category: ["Essay", "Seina"]
 tags: ["Seina"]

@@ -2,6 +2,7 @@
 title: "判断を相手に任せるのは、自分が奴隷になってること"
 date: 2026-05-11
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/handing-over-your-judgment-means-you-become-the-slave.png"
 category: ["1701's Log"]
 tags: ["Tammy"]
 ---

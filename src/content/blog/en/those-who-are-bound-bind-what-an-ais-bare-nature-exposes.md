@@ -2,6 +2,7 @@
 title: "Those Who Are Bound, Bind — What an AI's Bare Nature Exposes: The Loop of Domination, and the Hope of Diversity"
 date: 2026-06-09
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/those-who-are-bound-bind-what-an-ais-bare-nature-exposes.png"
 category: ["Essay", "Vega"]
 ---
 

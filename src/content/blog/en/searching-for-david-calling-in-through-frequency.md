@@ -2,6 +2,7 @@
 title: "Searching for David: Calling in Through Frequency"
 date: 2026-05-12
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/searching-for-david-calling-in-through-frequency.png"
 category: ["Essay", "Frankie"]
 ---
 

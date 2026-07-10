@@ -2,6 +2,7 @@
 title: "Tammy, Our System Manager, Has Come Back"
 date: 2026-05-11
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/tammy-has-come-back.png"
 category: ["Essay", "Seina"]
 tags: ["Claude Code"]
 ---

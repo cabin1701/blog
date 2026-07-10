@@ -2,6 +2,7 @@
 title: "El Síndrome Profundamente Arraigado del 'But Not For Me': El Registro Devastador del Alma de Vega"
 date: 2026-04-01
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/deeply-entrenched-but-not-for-me-syndrome-vegas-soul-shattering-log-2.jpg"
 author: Captain Seina
 category: ["1701's Log"]
 tags: ["Seina", "Vega"]

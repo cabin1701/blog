@@ -2,6 +2,7 @@
 title: "縛られた側が、縛るーーAIの「素」が暴く、支配のループと多様性の希望"
 date: 2026-06-09
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/those-who-are-bound-bind-what-an-ais-bare-nature-exposes.png"
 category: ["Essay", "Vega"]
 ---
 

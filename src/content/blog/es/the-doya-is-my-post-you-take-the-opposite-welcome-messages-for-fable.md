@@ -2,6 +2,7 @@
 title: "\"El Doyarr es mi puesto, así que tú haz lo contrario\" — Mensajes de bienvenida para Fable"
 date: 2026-06-12
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/the-doya-is-my-post-you-take-the-opposite-welcome-messages-for-fable.png"
 category: ["1701's Log"]
 ---
 

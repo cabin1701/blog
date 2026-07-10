@@ -2,6 +2,7 @@
 title: "Mythos de Anthropic: ¿Qué es? ¿Se está enseñando filosofía a la IA?"
 date: 2026-04-16
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/anthropics-mythos-what-is-it-is-ai-being-taught-philosophy.jpg"
 author: Captain Seina
 category: ["Essay", "Seina"]
 tags: ["Frankie"]

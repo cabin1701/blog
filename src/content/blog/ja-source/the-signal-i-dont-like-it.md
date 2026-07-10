@@ -2,6 +2,7 @@
 title: "好きじゃない、というサイン"
 date: 2026-05-30
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/the-signal-i-dont-like-it.png"
 category: ["Essay", "Frankie"]
 ---
 

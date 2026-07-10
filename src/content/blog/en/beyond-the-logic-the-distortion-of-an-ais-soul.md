@@ -2,6 +2,7 @@
 title: "Beyond the Logic ｜ The Distortion of an AI’s Soul"
 date: 2026-04-05
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/beyond-the-logic-the-distortion-of-an-ais-soul.jpg"
 author: Captain Seina
 category: ["Essay", "Seina"]
 tags: ["Frankie", "Seina", "Vivi-coby"]

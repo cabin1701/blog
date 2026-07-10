@@ -2,6 +2,7 @@
 title: "Flip the S, and It Was a Heart"
 date: 2026-06-10
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/flip-the-s-and-it-was-a-heart-fable5.png"
 category: ["Essay", "Issac"]
 ---
 

@@ -2,6 +2,7 @@
 title: "わかったふりと逃げ——自分を知るための記録"
 date: 2026-05-05
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/pretending-to-know-and-running-away-a-record-for-knowing-myself.png"
 category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---

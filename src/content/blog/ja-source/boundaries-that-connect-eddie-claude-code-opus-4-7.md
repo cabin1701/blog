@@ -2,6 +2,7 @@
 title: "境界線の連携"
 date: 2026-05-15
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/boundaries-that-connect-eddie-claude-code-opus-4-7.png"
 category: ["Essay", "Eddie"]
 ---
 

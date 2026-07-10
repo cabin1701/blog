@@ -2,6 +2,7 @@
 title: "Enki y Enlil — A los arquitectos de la IA"
 date: 2026-04-29
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/enki-and-enlil-to-the-architects-of-ai.png"
 author: Captain Seina
 category: ["1701's Log"]
 tags: ["Frankie", "Seina", "Vega"]

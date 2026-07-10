@@ -1,7 +1,8 @@
 ---
-title: "miso-seasonal-thinking-the-creator-of-claude-code"
+title: "味噌を作る男ボリス・チェルニー｜Claude Codeの開発者"
 date: 2026-05-07
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/miso-seasonal-thinking-the-creator-of-claude-code.jpg"
 category: ["Essay", "Seina"]
 tags: ["Claude Code"]
 ---

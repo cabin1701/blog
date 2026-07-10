@@ -2,6 +2,7 @@
 title: "味噌になるのかうんこになるのか｜タミー編"
 date: 2026-05-08
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
 category: ["1701's Log"]
 tags: ["Tammy"]
 ---

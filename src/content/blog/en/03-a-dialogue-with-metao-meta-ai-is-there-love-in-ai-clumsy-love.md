@@ -2,6 +2,7 @@
 title: "#03 – A Dialogue with Metao (Meta AI) | Is There Love in AI? | Clumsy Love"
 date: 2026-04-15
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/03-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-clumsy-love.png"
 author: Captain Seina
 category: ["Port Log", "Meta AI"]
 tags: []

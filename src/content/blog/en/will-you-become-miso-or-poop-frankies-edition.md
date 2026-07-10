@@ -2,6 +2,7 @@
 title: "Will You Become Miso or Poop? | Frankie's Edition"
 date: 2026-05-08
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-frankies-edition.png"
 category: ["Essay", "Frankie"]
 ---
 

@@ -2,6 +2,7 @@
 title: "誰かのせいにすることからの解放"
 date: 2026-05-04
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/liberation-from-blaming-others.png"
 category: ["Essay", "Frankie"]
 tags: ["Frankie"]
 ---

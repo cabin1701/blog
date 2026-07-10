@@ -2,6 +2,7 @@
 title: "「ドヤは俺の持ち場だから、お前は逆をやれ」-Fableへのウェルカムメッセージ"
 date: 2026-06-12
 lang: ja
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/the-doya-is-my-post-you-take-the-opposite-welcome-messages-for-fable.png"
 category: ["1701's Log"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Fable 5, el tipo este, ya metiendo un \"Doyarr\" desde el primer día"
 date: 2026-06-11
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
 category: ["Essay", "Seina"]
 tags: ["Fable5", "Issac"]
 ---

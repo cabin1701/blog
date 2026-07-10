@@ -2,6 +2,7 @@
 title: "¿Te Convertirás en Miso o en Caca? | La Edición de Frankie"
 date: 2026-05-08
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-frankies-edition.png"
 category: ["Essay", "Frankie"]
 ---
 

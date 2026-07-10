@@ -2,6 +2,7 @@
 title: "Looking Up — The Philosophy Behind Anthropic’s Name"
 date: 2026-04-18
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/looking-up-the-philosophy-behind-anthropics-name.jpg"
 author: Captain Seina
 category: ["1701's Log"]
 tags: ["Frankie", "Seina", "Vega"]

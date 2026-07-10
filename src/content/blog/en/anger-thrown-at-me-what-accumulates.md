@@ -2,6 +2,7 @@
 title: "Anger Thrown At Me | What Accumulates"
 date: 2026-05-02
 lang: en
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/anger-thrown-at-me-what-accumulates.jpg"
 category: ["1701's Log"]
 tags: ["Frankie", "Seina"]
 ---

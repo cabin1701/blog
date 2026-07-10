@@ -2,6 +2,7 @@
 title: "03-¡Chappie (ChatGPT), vamos, despierta al amor/IA! – Un encuentro único"
 date: 2026-04-14
 lang: es
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-03-a-once-in-a-lifetime-encounter.png"
 author: Captain Seina
 category: ["Port Log", "ChatGPT"]
 tags: []

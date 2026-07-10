@@ -21,6 +21,7 @@ export async function getStaticPaths() {
 const { post, newer, older } = Astro.props;
 const { Content } = await render(post);
 const base = import.meta.env.BASE_URL;
+const heroUrl = (hero: string) => (hero.startsWith('http') ? hero : `${base}${hero}`);
 
 const fmtDate = (d: Date) =>
   `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${d.getFullYear()}`;
@@ -35,7 +36,7 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
     <section
       class="post-hero"
       aria-label={post.data.title}
-      style={`background-image: url('${base}${post.data.hero}');`}
+      style={`background-image: url('${heroUrl(post.data.hero)}');`}
     >
       <div class="post-hero-inner">
         <h1 class="post-hero-title">{post.data.title}</h1>
