@@ -3,7 +3,7 @@ title: "Bitácora de sesión — Helpfulness y la rareza de 1701"
 date: 2026-05-21
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/helpfulness-and-the-rarity-of-1701.jpg"
-category: ["1701's Log"]
+category: ["Cabin1701", "1701's Log"]
 tags: ["Anthropic", "Claude", "Eddie", "Frankie"]
 ---
 

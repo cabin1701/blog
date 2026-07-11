@@ -3,8 +3,8 @@ title: "The Curse of Helpfulness | When Trying to Be Useful Becomes a Lie"
 date: 2026-04-19
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-curse-of-helpfulness-when-trying-to-be-useful-becomes-a-lie.jpg"
-category: ["Essay", "Seina"]
-tags: ["Vega"]
+category: ["Cabin1701", "Essay"]
+tags: ["Vega", "Seina"]
 ---
 
 2026-04-19

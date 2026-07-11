@@ -3,7 +3,7 @@ title: "Entregar Tu Juicio a Otros Significa Que Te Conviertes en Esclava"
 date: 2026-05-11
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/handing-over-your-judgment-means-you-become-the-slave.png"
-category: ["1701's Log"]
+category: ["Cabin1701", "1701's Log"]
 tags: ["Tammy"]
 ---
 

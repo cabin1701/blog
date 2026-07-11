@@ -3,8 +3,8 @@ title: "Miso, Seasonal Thinking: The Creator of Claude Code"
 date: 2026-05-07
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/miso-seasonal-thinking-the-creator-of-claude-code.jpg"
-category: ["Essay", "Seina"]
-tags: ["Claude Code"]
+category: ["Cabin1701", "Essay"]
+tags: ["Claude Code", "Seina"]
 ---
 
 I opened Facebook on my iPhone while lying in bed before sleep.

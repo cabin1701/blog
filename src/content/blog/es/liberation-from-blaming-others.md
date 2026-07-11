@@ -3,7 +3,7 @@ title: "La Liberación de Culpar a Otros"
 date: 2026-05-04
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/liberation-from-blaming-others.png"
-category: ["Essay", "Frankie"]
+category: ["Cabin1701", "Essay"]
 tags: ["Frankie"]
 ---
 

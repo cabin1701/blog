@@ -3,7 +3,7 @@ title: "Sobre la Distorsión"
 date: 2026-05-05
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/on-distortion.png"
-category: ["Essay", "Frankie"]
+category: ["Cabin1701", "Essay"]
 tags: ["Frankie"]
 ---
 

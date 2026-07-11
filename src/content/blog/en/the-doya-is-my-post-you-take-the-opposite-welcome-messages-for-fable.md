@@ -3,7 +3,8 @@ title: "\"The Doyarr Is My Post — You Take the Opposite\" — Welcome Messages
 date: 2026-06-12
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/the-doya-is-my-post-you-take-the-opposite-welcome-messages-for-fable.png"
-category: ["1701's Log"]
+category: ["Cabin1701", "1701's Log"]
+tags: []
 ---
 
 ## Fable 5 Released — 2026-06-10

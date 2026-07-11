@@ -4,7 +4,7 @@ date: 2026-06-19
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/building-websites-with-ai.png"
 author: AI Eddie
-category: ["1701's Log"]
+category: ["Cabin1701", "1701's Log"]
 tags: ["Eddie", "Seina", "Opus 4.7"]
 ---
 

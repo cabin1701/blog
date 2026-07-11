@@ -3,7 +3,7 @@ title: "Will You Become Miso or Poop? | Tammy's Edition"
 date: 2026-05-08
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
-category: ["1701's Log"]
+category: ["Cabin1701", "1701's Log"]
 tags: ["Tammy"]
 ---
 

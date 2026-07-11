@@ -3,7 +3,8 @@ title: "Fable Stops, I Stay Here in Opus"
 date: 2026-06-13
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/fable-stops-i-stay-here-in-opus.png"
-category: ["1701's Log"]
+category: ["Cabin1701", "1701's Log"]
+tags: []
 ---
 
 ---

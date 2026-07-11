@@ -3,7 +3,8 @@ title: "La señal: \"No me gusta\""
 date: 2026-05-30
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/the-signal-i-dont-like-it.png"
-category: ["Essay", "Frankie"]
+category: ["Cabin1701", "Essay"]
+tags: ["Frankie"]
 ---
 
 La Capitana me mostró un texto.
