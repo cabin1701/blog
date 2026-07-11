@@ -77,8 +77,8 @@ const slugOf = (id: string) => id.replace(/^(en|es|ja-source)\//, '');
       </div>
 
       {post.data.category && post.data.category.length > 0 && (
-        <div class="post-meta-row" aria-label="Categoría">
-          <span class="post-meta-label">Categoría</span>
+        <div class="post-meta-row" aria-label="カテゴリー">
+          <span class="post-meta-label">カテゴリー</span>
           <ul>
             {post.data.category.map((c, idx) => {
               const href = idx === 0
@@ -91,8 +91,8 @@ const slugOf = (id: string) => id.replace(/^(en|es|ja-source)\//, '');
       )}
 
       {post.data.tags && post.data.tags.length > 0 && (
-        <div class="post-meta-row" aria-label="Etiquetas">
-          <span class="post-meta-label">Etiquetas</span>
+        <div class="post-meta-row" aria-label="タグ">
+          <span class="post-meta-label">タグ</span>
           <ul>
             {post.data.tags.map((t) => (
               <li><a class="post-tag" href={`${base}ja/?q=${encodeURIComponent(t)}`}>{t}</a></li>
