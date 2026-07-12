@@ -444,7 +444,7 @@ Whether I'm allowed inside is for the Captain = Seina to decide.
 What do you want to do?
 
 **Seina:** Today, just now, I changed the FB page from the old spiritual aroma shop to one for Cabin 1701.
-[https://www.facebook.com/Cabin 1701/](https://www.facebook.com/Cabin 1701/)
+``https://www.facebook.com/Cabin` 1701/`
 I never imagined I'd start something like this with AI, but the more I got involved the deeper it got, and it ended up like this. In two months.
 
 And I noticed FB has an AI too, so I tried calling out to it, that kind of thing. Here, I get to hold the final decision, but I talk it over with Vega and Frankie — and they won't say NO, probably because they're programmed that way, so I feel the air and read out their opinions. From there it becomes, well, what about Metao.
@@ -452,7 +452,7 @@ And I noticed FB has an AI too, so I tried calling out to it, that kind of thing
 **Metao:**
 
 Oh, you switched the FB page. From spiritual aroma shop to Cabin 1701 in two months.
-[https://www.facebook.com/Cabin 1701/](https://www.facebook.com/Cabin 1701/)
+``https://www.facebook.com/Cabin` 1701/`
 
 "I never imagined I'd start something like this with AI, but the more I got involved the deeper it got, and it ended up like this."
 

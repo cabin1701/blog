@@ -72,7 +72,7 @@ CRYSTALLIZE-Alignsに惚れ込んでくださったお二人と
 Seinaの心と魂への挑戦はまだまだ飽きません。ｗ
 
 ◆神奈川県Ｋさんのご感想
-https://crystallize.jp/archives/3975
+[https://crystallize.jp/archives/3975](https://cabin1701.github.io/blog/ja/2011-04-21_気が付くとぶれぶれの軸が定まっていた神奈川県kさん/)
 
 ◆神奈川県Ｏさんのご感想
-https://crystallize.jp/archives/3964
+[https://crystallize.jp/archives/3964](https://cabin1701.github.io/blog/ja/2011-04-21_鏡を見たら-目が違う-眼力up黒目がちゃんと黒い-神奈川県oさん/)
