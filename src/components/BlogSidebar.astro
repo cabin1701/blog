@@ -191,7 +191,7 @@ const monthLabel = (key: string) => {
 
   <section class="side-section">
     <h3 class="side-title">{labels.search}</h3>
-    <form class="side-search" action={blogHref} method="get" role="search">
+    <form class="side-search" action={`${blogHref}search/`} method="get" role="search">
       <input
         type="search"
         name="q"

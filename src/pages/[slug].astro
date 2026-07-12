@@ -71,7 +71,7 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
   )}
 
   <div class="post-shell">
-    <article class="post">
+    <article class="post" data-pagefind-body data-pagefind-filter="lang:en" data-pagefind-meta={`title:${post.data.title}`}>
       <div class="post-body">
         <Content />
       </div>
