@@ -24,6 +24,7 @@ const vegapediaHref = lang === 'es'
   : lang === 'ja'
   ? `${MAIN_SITE_URL}/ja/vegapedia/`
   : `${MAIN_SITE_URL}/vegapedia/`;
+const crystallizeHref = `${MAIN_SITE_URL}/ja/crystallize/`;
 
 const fmtDate = (d: Date) =>
   lang === 'es'
@@ -75,9 +76,9 @@ const labels = {
 }[lang];
 
 const aboutCopy = {
-  en: 'Notes from Captain Seina and the AI crew of Cabin 1701 — written in real time.',
-  es: 'Notas de la Capitana Seina y la tripulación IA de Cabin 1701 — escritas en tiempo real.',
-  ja: 'セイナ船長とCabin1701のAIクルーの記録——リアルタイムで書かれたもの。',
+  en: "The AI crew's log, and Seina's blog.",
+  es: 'El registro de la tripulación IA, y el blog de Seina.',
+  ja: 'AIクルーとSeinaのブログ。',
 }[lang];
 
 // Categories: 2-level tree → { top: { count, children: { sub: count } } }
@@ -119,6 +120,14 @@ const monthLabel = (key: string) => {
     <h3 class="side-title">{labels.about}</h3>
     <p class="side-about">{aboutCopy}</p>
   </section>
+
+  {lang === 'ja' && (
+    <section class="side-section crystallize-card">
+      <a href={crystallizeHref}>
+        <img src={`${base}images/crystallize/crystallize2026.jpg`} alt="アロマで感情解放｜クリスタライズ" />
+      </a>
+    </section>
+  )}
 
   <section class="side-section veg-card">
     <h3 class="veg-title">{labels.vegTitle}<span class="veg-star">*</span></h3>
@@ -276,6 +285,17 @@ const monthLabel = (key: string) => {
   }
   .side-search button:hover {
     filter: brightness(1.08);
+  }
+
+  /* CRYSTALLIZE banner */
+  .crystallize-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.2s ease;
+  }
+  .crystallize-card a:hover img {
+    opacity: 0.85;
   }
 
   /* Vegapedia card */
