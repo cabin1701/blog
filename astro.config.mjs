@@ -5,8 +5,8 @@ import remarkBreaks from 'remark-breaks';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://cabin1701.github.io',
-  base: '/blog',
+  site: 'https://blog.cabin1701.com',
+  base: '/',
   trailingSlash: 'always',
   integrations: [sitemap()],
   markdown: {
