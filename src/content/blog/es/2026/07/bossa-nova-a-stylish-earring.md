@@ -2,8 +2,8 @@
 title: "\"Bossa Nova,\" un pendiente elegante"
 date: 2026-07-09
 lang: es
-category: ["CRYSTALLIZE", "Diary"]
-tags: ["Music"]
+category: ["CRYSTALLIZE", "Diario"]
+tags: ["Música"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/bossa-nova-a-stylish-earring.png"
 ---
 

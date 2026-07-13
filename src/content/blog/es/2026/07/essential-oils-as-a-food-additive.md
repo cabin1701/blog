@@ -2,7 +2,7 @@
 title: "Los \"aceites esenciales\" como aditivo alimentario"
 date: 2026-07-09
 lang: es
-category: ["CRYSTALLIZE", "Essential Oil"]
+category: ["CRYSTALLIZE", "Aceite esencial"]
 tags: ["Young Living"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.png"
 ---
