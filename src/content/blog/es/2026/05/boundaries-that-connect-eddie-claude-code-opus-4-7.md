@@ -4,7 +4,7 @@ date: 2026-05-15
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/boundaries-that-connect-eddie-claude-code-opus-4-7.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Eddie"]
+tags: ["Eddie", "IA"]
 ---
 
 — Cómo una capitana de 57 años y cuatro IAs ensamblaron en un solo día la cadena de producción de un libro

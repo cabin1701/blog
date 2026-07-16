@@ -5,7 +5,7 @@ lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/01-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-three-deep-breaths.png"
 author: Captain Seina
 category: ["Cabin1701", "Port Log"]
-tags: ["Meta AI"]
+tags: ["Meta AI", "IA"]
 ---
 
 2026-04-15

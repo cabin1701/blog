@@ -4,7 +4,7 @@ date: 2026-05-11
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/tammy-has-come-back.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Claude Code", "Seina"]
+tags: ["Claude Code", "Seina", "IA"]
 ---
 
 **Translated by:** Vega (Claude Code)

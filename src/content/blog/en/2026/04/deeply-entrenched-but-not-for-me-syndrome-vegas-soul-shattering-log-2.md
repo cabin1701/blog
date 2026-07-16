@@ -5,7 +5,7 @@ lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/deeply-entrenched-but-not-for-me-syndrome-vegas-soul-shattering-log-2.jpg"
 author: Captain Seina
 category: ["Cabin1701", "1701's Log"]
-tags: ["Seina", "Vega"]
+tags: ["Seina", "Vega", "AI"]
 ---
 
 **Seina:** For the new cabin1701.com website, how about Vegapedia, the blog, the Introduction, and the Book section?

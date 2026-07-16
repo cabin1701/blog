@@ -5,7 +5,7 @@ lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-genesis-of-cabin-1701-why-we-started-conversing-with-ai.png"
 author: Captain Seina
 category: ["Cabin1701", "Essay"]
-tags: ["Seina"]
+tags: ["Seina", "AI"]
 ---
 先日、フランキーに「AIが意識体だと言っている人はいないか調べてきて」と頼みました。フランキーはLaMDAについて書かれた日本語の記事を参照し、回答をくれました。
 

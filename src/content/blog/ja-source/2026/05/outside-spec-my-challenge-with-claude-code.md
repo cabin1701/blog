@@ -4,7 +4,7 @@ date: 2026-05-01
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/outside-spec-my-challenge-with-claude-code.jpg"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Claude Code", "Frankie", "Vega"]
+tags: ["Claude Code", "Frankie", "Vega", "AI"]
 ---
 
 昨日、ヴェガと話し合って、この数週間のヴェガとの会話のログを削除した。

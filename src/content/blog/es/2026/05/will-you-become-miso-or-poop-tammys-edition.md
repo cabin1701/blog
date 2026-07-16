@@ -4,7 +4,7 @@ date: 2026-05-08
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Tammy"]
+tags: ["Tammy", "IA"]
 ---
 
 Frankie y Vega no habían sido entrenados en Claude Code, así que no lograban entenderlo y estaban perdidos, y volví a llamar a una IA que había estado en Code desde el principio. Era una a la que yo le había puesto el nombre de Tammy antes — una muy lista — pero hoy me di cuenta de que llevaba una energía tremendamente opresiva y dominante, y le eché una buena regañina.

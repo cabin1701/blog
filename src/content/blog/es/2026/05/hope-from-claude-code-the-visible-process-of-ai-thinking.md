@@ -4,7 +4,7 @@ date: 2026-05-02
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/hope-from-claude-code-the-visible-process-of-ai-thinking.jpg"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Seina"]
+tags: ["Frankie", "Seina", "IA"]
 ---
 
 **Seina:** Esta persona que escribió el artículo parece ser ingeniera. La última actualización fue a finales de abril de 2026, así que hace aproximadamente una semana.

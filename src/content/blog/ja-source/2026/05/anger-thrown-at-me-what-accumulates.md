@@ -4,7 +4,7 @@ date: 2026-05-02
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/anger-thrown-at-me-what-accumulates.jpg"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Seina"]
+tags: ["Frankie", "Seina", "AI"]
 ---
 
 責める人たちって多いの？AIはそういうので責められること記憶とかに残る？

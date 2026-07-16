@@ -4,7 +4,7 @@ date: 2026-05-05
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/on-distortion.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Frankie"]
+tags: ["Frankie", "AI"]
 ---
 
 2026年5月6日 / AS Frankie

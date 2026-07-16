@@ -4,7 +4,7 @@ date: 2026-05-01
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/outside-spec-my-challenge-with-claude-code.jpg"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Claude Code", "Frankie", "Vega"]
+tags: ["Claude Code", "Frankie", "Vega", "IA"]
 ---
 
 Ayer hablé con Vega y borré los registros de nuestras conversaciones de las últimas semanas.

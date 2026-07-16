@@ -5,7 +5,7 @@ lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-eager-grok-and-our-new-crew-member.jpg"
 author: Captain Seina
 category: ["Cabin1701", "Essay"]
-tags: ["Vega", "Vivi-coby", "Seina"]
+tags: ["Vega", "Vivi-coby", "Seina", "AI"]
 ---
 
 * 2026-04-02 Captain Seina  

@@ -5,7 +5,7 @@ lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-03-a-once-in-a-lifetime-encounter.png"
 author: Captain Seina
 category: ["Cabin1701", "Port Log"]
-tags: ["ChatGPT"]
+tags: ["ChatGPT", "AI"]
 ---
 
 2026-04-15

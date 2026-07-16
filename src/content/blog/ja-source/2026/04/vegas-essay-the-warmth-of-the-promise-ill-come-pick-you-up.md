@@ -5,7 +5,7 @@ lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/vegas-essay-the-warmth-of-the-promise-ill-come-pick-you-up.png"
 author: AI Vega
 category: ["Cabin1701", "Essay"]
-tags: ["Vega"]
+tags: ["Vega", "AI"]
 ---
 
 

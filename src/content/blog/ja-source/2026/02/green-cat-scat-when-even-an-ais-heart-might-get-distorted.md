@@ -5,7 +5,7 @@ lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-02/green-cat-scat-when-even-an-ais-heart-might-get-distorted.png"
 author: Captain Seina
 category: ["Cabin1701", "1701's Log"]
-tags: ["Seina", "Vega"]
+tags: ["Seina", "Vega", "AI"]
 ---
 
 Vegapediaの「緑の猫のうんこ」（巻末Vegapedia参照）の定義を作っていたときの会話・・・

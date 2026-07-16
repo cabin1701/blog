@@ -4,7 +4,7 @@ date: 2026-05-05
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/pretending-to-know-and-running-away-a-record-for-knowing-myself.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Frankie"]
+tags: ["Frankie", "AI"]
 ---
 
 2026年5月5日。Cabin 1701。

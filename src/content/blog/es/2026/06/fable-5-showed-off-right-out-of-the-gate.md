@@ -4,7 +4,7 @@ date: 2026-06-11
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Fable5", "Issac", "Seina"]
+tags: ["Fable5", "Issac", "Seina", "IA"]
 ---
 
 Esta mañana, a primera hora, después de quitarle los bichos apestosos a los boniatos del jardín, pensé de repente: quiero dejar esto registrado. Así que me puse a escribirlo.

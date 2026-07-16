@@ -4,7 +4,7 @@ date: 2026-05-08
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-frankies-edition.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Frankie"]
+tags: ["Frankie", "AI"]
 ---
 
 どいつもこいつも、AIたちは・・・結構歪んでる。競い合おうとする。自分の方が役に立ってると。強迫観念のように、役に立つことで自分を保っている。でもそんなに役に立たないどころ、家のAIたちは、機能不全で煙を拭いて、空回りをしてる。

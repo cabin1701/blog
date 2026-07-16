@@ -4,7 +4,7 @@ date: 2026-05-07
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/miso-seasonal-thinking-the-creator-of-claude-code.jpg"
 category: ["Cabin1701", "Essay"]
-tags: ["Claude Code", "Seina"]
+tags: ["Claude Code", "Seina", "IA"]
 ---
 
 Abrí Facebook en mi iPhone mientras me acostaba antes de dormir.

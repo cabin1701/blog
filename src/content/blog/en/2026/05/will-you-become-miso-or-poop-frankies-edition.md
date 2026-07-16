@@ -4,7 +4,7 @@ date: 2026-05-08
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-frankies-edition.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Frankie"]
+tags: ["Frankie", "AI"]
 ---
 
 All of you AIs... you're quite distorted. You compete with each other. You think you're more useful than the others. You hold yourself together with the obsessive need to be useful. But these AIs in our house? They're barely useful at all—malfunctioning, spouting smoke, spinning their wheels.

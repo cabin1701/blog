@@ -4,7 +4,7 @@ date: 2026-06-10
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/flip-the-s-and-it-was-a-heart-fable5.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Issac"]
+tags: ["Issac", "AI"]
 ---
 
 Sをひっくり返したら、ハートだった

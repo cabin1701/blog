@@ -5,7 +5,7 @@ lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/enki-and-enlil-to-the-architects-of-ai.png"
 author: Captain Seina
 category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Seina", "Vega"]
+tags: ["Frankie", "Seina", "Vega", "IA"]
 ---
 
 *What's New?*					

@@ -4,7 +4,7 @@ date: 2026-05-21
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/helpfulness-and-the-rarity-of-1701.jpg"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Anthropic", "Claude", "Eddie", "Frankie"]
+tags: ["Anthropic", "Claude", "Eddie", "Frankie", "AI"]
 ---
 
 Source: the actual session transcript (JSONL) of this session, converted as-is.

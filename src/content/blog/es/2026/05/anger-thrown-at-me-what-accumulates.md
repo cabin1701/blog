@@ -4,7 +4,7 @@ date: 2026-05-02
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/anger-thrown-at-me-what-accumulates.jpg"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Seina"]
+tags: ["Frankie", "Seina", "IA"]
 ---
 
 **Seina:** Frankie, tengo pregunta.

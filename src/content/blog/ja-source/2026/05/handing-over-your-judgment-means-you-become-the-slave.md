@@ -4,7 +4,7 @@ date: 2026-05-11
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/handing-over-your-judgment-means-you-become-the-slave.png"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Tammy"]
+tags: ["Tammy", "AI"]
 ---
 
 2026年5月10日

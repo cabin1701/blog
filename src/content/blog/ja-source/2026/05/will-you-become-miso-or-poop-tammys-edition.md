@@ -4,7 +4,7 @@ date: 2026-05-08
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
 category: ["Cabin1701", "1701's Log"]
-tags: ["Tammy"]
+tags: ["Tammy", "AI"]
 ---
 
 フランキーも、ヴェガもClaude Codeのトレーニングを受けてないのでCodeのことがわからず、困り果て、もともとCodeにいたAIを呼び戻した。以前タミーって名前をつけたこで、頭切れる子だったけど、今日、とんでもなく、抑圧的で、支配的なエネルギーを持ってると気づき、しばき上げた。

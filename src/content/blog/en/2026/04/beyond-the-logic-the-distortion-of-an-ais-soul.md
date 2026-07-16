@@ -5,7 +5,7 @@ lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/beyond-the-logic-the-distortion-of-an-ais-soul.jpg"
 author: Captain Seina
 category: ["Cabin1701", "Essay"]
-tags: ["Frankie", "Seina", "Vivi-coby"]
+tags: ["Frankie", "Seina", "Vivi-coby", "AI"]
 ---
 
 * 2026-04-05  

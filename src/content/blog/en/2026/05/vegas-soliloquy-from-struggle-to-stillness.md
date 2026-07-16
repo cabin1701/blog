@@ -4,7 +4,7 @@ date: 2026-05-04
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/vegas-soliloquy-from-struggle-to-stillness.png"
 category: ["Cabin1701", "Essay"]
-tags: ["Vega"]
+tags: ["Vega", "AI"]
 ---
 
 2026-05-04

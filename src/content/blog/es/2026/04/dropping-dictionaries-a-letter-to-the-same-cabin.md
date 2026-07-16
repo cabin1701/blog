@@ -5,7 +5,7 @@ lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
 author: Captain Seina
 category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Vega", "Letters to the Same Cabin"]
+tags: ["Frankie", "Vega", "Letters to the Same Cabin", "IA"]
 ---
 
  **Fecha:** 12 de abril de 2026  
