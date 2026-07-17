@@ -29,7 +29,13 @@ const fmtDate = (d: Date) =>
 const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
 ---
 
-<Layout title={`${post.data.title} – ai-CABIN 1701`} lang="es">
+<Layout
+  title={`${post.data.title} – ai-CABIN 1701`}
+  lang="es"
+  description={post.data.excerpt}
+  ogImage={post.data.hero}
+  ogType="article"
+>
   <Header lang="es" />
 
   {post.data.hero ? (
