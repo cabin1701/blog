@@ -1,5 +1,5 @@
 ---
-title: "もうすぐお別れ。ありがとう、猫のネーラ"
+title: "We'll Say Goodbye Soon. Thank You, Nera the Cat."
 date: 2026-07-16
 lang: en
 category: ["CRYSTALLIZE", "Diary"]
@@ -9,6 +9,10 @@ hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodby
 
 Yuka, from the neighborhood, got in touch.
 "It's been a while. Nera is fading. She lived well. It may be a matter of today or tomorrow."
+
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
+
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
 
 Two years ago, an old woman in the neighborhood left this town. Many cats lost the one who fed them.
 Two years before she left, her husband had passed away.
@@ -29,6 +33,9 @@ Thinking about these things, coming to know them — that has been the experienc
 
 It still is.
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
+
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/GDVFJiy75zQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/GrFWqWQWE_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

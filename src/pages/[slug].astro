@@ -95,7 +95,7 @@ const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
           <span class="post-meta-label">Tags</span>
           <ul>
             {post.data.tags.map((t) => (
-              <li><a class="post-tag" href={`${base}?q=${encodeURIComponent(t)}`}>{t}</a></li>
+              <li><a class="post-tag" href={`${base}?tag=${encodeURIComponent(t)}`}>{t}</a></li>
             ))}
           </ul>
         </div>

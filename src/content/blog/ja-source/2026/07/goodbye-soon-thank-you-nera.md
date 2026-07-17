@@ -10,6 +10,10 @@ hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodby
 近所のゆかさんから連絡があった。
 「お久しぶり。ネーラが息絶えそう。よく生きた。今日明日が山かも。」
 
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
+
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
+
 2年前に近所のお婆さんこの町を出て行った。たくさんの猫たちが、餌をもらえなくなった。
 お婆さんが出て行く2年前に、お爺さんが亡くなった。
 ネーラはそのお爺さんが可愛がっていた黒猫で、お婆さんは、出て行く時にその猫のことを気にかけてた。
@@ -29,6 +33,8 @@ hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodby
 
 今もしてる。
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/GDVFJiy75zQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/GrFWqWQWE_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

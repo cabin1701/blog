@@ -37,6 +37,7 @@ const labels = {
   en: {
     recent: 'Recent Posts',
     categories: 'Categories',
+    tags: 'Tags',
     archive: 'Archives',
     archivePick: 'Select Month',
     about: 'About this log',
@@ -50,6 +51,7 @@ const labels = {
   es: {
     recent: 'Entradas recientes',
     categories: 'Categorías',
+    tags: 'Etiquetas',
     archive: 'Archivo',
     archivePick: 'Elegir mes',
     about: 'Sobre este diario',
@@ -63,6 +65,7 @@ const labels = {
   ja: {
     recent: '最近の記事',
     categories: 'カテゴリー',
+    tags: 'タグ',
     archive: 'アーカイブ',
     archivePick: '月を選ぶ',
     about: 'AIクルーとSeinaのブログ',
@@ -104,6 +107,17 @@ for (const p of all) {
   archMap.set(key, (archMap.get(key) || 0) + 1);
 }
 const archive = [...archMap.entries()].sort((a, b) => b[0].localeCompare(a[0]));
+
+// Tag cloud: all tags for this lang, sorted alphabetically
+const tagMap = new Map<string, number>();
+for (const p of all) {
+  for (const t of p.data.tags || []) {
+    tagMap.set(t, (tagMap.get(t) || 0) + 1);
+  }
+}
+const tags = [...tagMap.entries()].sort((a, b) =>
+  a[0].localeCompare(b[0], lang === 'es' ? 'es' : lang === 'ja' ? 'ja' : 'en')
+);
 
 const monthLabel = (key: string) => {
   const [y, m] = key.split('-');
@@ -216,6 +230,21 @@ const monthLabel = (key: string) => {
       </button>
     </form>
   </section>
+
+  {tags.length > 0 && (
+    <section class="side-section">
+      <h3 class="side-title">{labels.tags}</h3>
+      <ul class="tag-cloud">
+        {tags.map(([tag, n]) => (
+          <li>
+            <a href={`${blogHref}?tag=${encodeURIComponent(tag)}`} class="tag-chip">
+              {tag}<span class="tag-count">{n}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 </aside>
 
 <style>
@@ -413,6 +442,44 @@ const monthLabel = (key: string) => {
   .cat-sub .cat-name {
     font-size: 0.9rem;
     color: var(--color-tagline);
+  }
+
+  /* Tag cloud */
+  .tag-cloud {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tag-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3rem;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid rgba(208, 62, 0, 0.35);
+    border-radius: 999px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: var(--color-tagline);
+    background: transparent;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  .tag-chip:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-bg);
+  }
+  .tag-count {
+    font-family: 'Asap', sans-serif;
+    font-size: 0.68rem;
+    color: var(--color-primary);
+  }
+  .tag-chip:hover .tag-count {
+    color: var(--color-bg);
   }
 
   /* Archive select */

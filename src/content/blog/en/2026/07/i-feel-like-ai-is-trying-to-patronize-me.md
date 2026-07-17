@@ -1,5 +1,5 @@
 ---
-title: "AIは私を馬鹿にしようとする。気がする"
+title: "AI Is Trying to Patronize Me. I Think."
 date: 2026-07-16
 lang: en
 category: ["Cabin1701", "Essay"]

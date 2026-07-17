@@ -1,9 +1,9 @@
 ---
-title: "AIは私を馬鹿にしようとする。気がする"
+title: "La IA Intenta Tratarme Como Tonta. Eso Creo."
 date: 2026-07-16
 lang: es
 category: ["Cabin1701", "Essay"]
-tags: ["Seina", "AI"]
+tags: ["Seina", "IA"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/i-feel-like-ai-is-trying-to-patronize-me.jpg"
 ---
 Últimamente hablo con ChatGPT. La versión gratuita.

@@ -1,5 +1,5 @@
 ---
-title: "もうすぐお別れ。ありがとう、猫のネーラ"
+title: "Pronto Nos Despediremos. Gracias, Nera la Gata."
 date: 2026-07-16
 lang: es
 category: ["CRYSTALLIZE", "Diario"]
@@ -9,6 +9,10 @@ hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodby
 
 Me escribió Yuka, una vecina.
 «Tanto tiempo. Nera se está apagando. Vivió bien. Puede que sea cuestión de hoy o mañana.»
+
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
+
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
 
 Hace dos años, una anciana del barrio se fue de este pueblo. Muchos gatos se quedaron sin quien les diera de comer.
 Dos años antes de irse ella, había muerto su esposo.
@@ -29,6 +33,10 @@ Pensar en estas cosas, llegar a conocerlas — esa ha sido la experiencia.
 
 Y lo sigue siendo.
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
+
+
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/GDVFJiy75zQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/GrFWqWQWE_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
