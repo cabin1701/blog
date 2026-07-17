@@ -6,7 +6,7 @@ category: ["CRYSTALLIZE", "エッセンシャルオイル"]
 tags: ["感情解放", "ヤングリヴィング"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/i-realized-i-have-to-protect-the-words-and-the-method-of-emotional-release-with-aroma.jpg"
 ---
-
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/i-realized-i-have-to-protect-the-words-and-the-method-of-emotional-release-with-aroma.jpg "")
 
 アロマ屋のCRYSTALLIZEを閉じて、半年。
 
