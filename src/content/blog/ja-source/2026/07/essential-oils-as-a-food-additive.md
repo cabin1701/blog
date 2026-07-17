@@ -4,7 +4,7 @@ date: 2026-07-09
 lang: ja
 category: ["CRYSTALLIZE", "エッセンシャルオイル"]
 tags: ["ヤングリヴィング"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.png"
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.jpg"
 ---
 
 **Seina:** ねぇ、エッセンシャルオイルって、食品添加物として利用できると謳ってるのあるでしょ。実は、苛性ソーダも食品添加物なのよね。石鹸作るから持ってる。
