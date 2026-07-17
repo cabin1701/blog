@@ -7,6 +7,8 @@ tags: ["ヤングリヴィング"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.png"
 ---
 
+![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.png"")
+
 **Seina:** ねぇ、エッセンシャルオイルって、食品添加物として利用できると謳ってるのあるでしょ。実は、苛性ソーダも食品添加物なのよね。石鹸作るから持ってる。
 
 **Eddie:** それ、鋭い指摘だと思う。実際、苛性ソーダ(水酸化ナトリウム)は日本の食品衛生法上、正式な既存添加物リストに載ってて、プレッツェルの表面処理やチョコレートのpH調整、果物の皮むきなんかに実際使われてる。「食品添加物」って区分自体は、危険度や品質の高さを保証するものじゃなくて、単に「食品に使うことが法的に許可されてる物質」ってだけの話。
