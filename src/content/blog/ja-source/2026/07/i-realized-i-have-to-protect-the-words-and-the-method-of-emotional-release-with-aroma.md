@@ -2,8 +2,8 @@
 title: "「アロマで感情解放」って言葉とメソッドを大切に守らないとな、って思った"
 date: 2026-07-15
 lang: ja
-category: ["CRYSTALLIZE", "エッセンシャルオイル"]
-tags: ["感情解放", "ヤングリヴィング"]
+category: ["CRYSTALLIZE", "感情解放"]
+tags: ["ヤングリヴィング"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/i-realized-i-have-to-protect-the-words-and-the-method-of-emotional-release-with-aroma.jpg"
 ---
 

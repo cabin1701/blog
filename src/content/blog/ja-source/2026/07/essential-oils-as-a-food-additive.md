@@ -2,8 +2,8 @@
 title: "「エッセンシャルオイル」という食品添加物"
 date: 2026-07-09
 lang: ja
-category: ["CRYSTALLIZE", "エッセンシャルオイル"]
-tags: ["ヤングリヴィング"]
+category: ["CRYSTALLIZE", "ヤングリヴィング"]
+tags: []
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.jpg"
 ---
 
