@@ -15,7 +15,7 @@ const all = await getCollection('blog', ({ data }) => data.lang === lang && !dat
 const recent = all
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .filter((p) => p.id !== currentId)
-  .slice(0, 5);
+  .slice(0, 8);
 
 const slugOf = (id: string) => id.replace(/^(en|es|ja-source)\//, '');
 const blogHref = lang === 'es' ? `${base}es/` : lang === 'ja' ? `${base}ja/` : base;
