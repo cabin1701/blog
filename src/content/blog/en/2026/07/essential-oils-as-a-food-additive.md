@@ -4,7 +4,7 @@ date: 2026-07-09
 lang: en
 category: ["CRYSTALLIZE", "Essential Oil"]
 tags: ["Young Living"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.png"
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.jpg"
 ---
 
 **Seina:** You know how some essential oils are marketed as usable as food additives? Here's the thing — caustic soda is a food additive too. I keep some around because I make soap.

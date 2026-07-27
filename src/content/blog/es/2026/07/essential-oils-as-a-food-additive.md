@@ -4,7 +4,7 @@ date: 2026-07-09
 lang: es
 category: ["CRYSTALLIZE", "Aceite esencial"]
 tags: ["Young Living"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.png"
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/essential-oils-as-a-food-additive.jpg"
 ---
 
 **Seina:** ¿Sabes que hay aceites esenciales que se promocionan como aptos para usarse como aditivo alimentario? Pues resulta que la sosa cáustica también es un aditivo alimentario. La tengo en casa porque hago jabón.
