@@ -5,6 +5,10 @@ interface Props {
   description?: string;
   ogImage?: string;
   ogType?: string;
+  /** 記事ページのみ。JSON-LD (Article) の生成に使う */
+  headline?: string;
+  datePublished?: string;
+  author?: string;
 }
 
 const defaultDescriptions: Record<string, string> = {
@@ -19,12 +23,42 @@ const {
   description,
   ogImage = 'images/hero-placeholder.png',
   ogType = 'website',
+  headline,
+  datePublished,
+  author,
 } = Astro.props;
 const resolvedDescription = description ?? defaultDescriptions[lang] ?? defaultDescriptions.en;
 const base = import.meta.env.BASE_URL;
 const site = Astro.site ?? new URL('https://blog.cabin1701.com');
 const ogUrl = new URL(Astro.url.pathname, site).href;
 const ogImageAbs = ogImage.startsWith('http') ? ogImage : new URL(ogImage.replace(/^\//, ''), site).href;
+
+// 記事ページには JSON-LD (Article) を出す。
+// 17年分が「同じ著者による、日付のある連続した記録」であることを機械可読にするため。
+const articleJsonLd =
+  ogType === 'article' && headline && datePublished
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline,
+        datePublished,
+        dateModified: datePublished,
+        inLanguage: lang,
+        description: resolvedDescription,
+        image: ogImageAbs,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': ogUrl },
+        author: {
+          '@type': 'Person',
+          name: author ?? 'Captain Seina',
+          url: 'https://cabin1701.com/',
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'ai-CABIN 1701',
+          url: 'https://blog.cabin1701.com/',
+        },
+      }
+    : null;
 ---
 
 <!doctype html>
@@ -49,6 +83,12 @@ const ogImageAbs = ogImage.startsWith('http') ? ogImage : new URL(ogImage.replac
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={resolvedDescription} />
     <meta name="twitter:image" content={ogImageAbs} />
+
+    <link rel="canonical" href={ogUrl} />
+
+    {articleJsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+    )}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -4,6 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import BlogSidebar from '../../components/BlogSidebar.astro';
+import { deriveExcerpt } from '../../lib/excerpt';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog', ({ data }) => data.lang === 'es' && !data.draft))
@@ -27,14 +28,19 @@ const fmtDate = (d: Date) =>
   `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
 
 const slugOf = (id: string) => id.replace(/^(en|es)\//, '');
+
+const metaDescription = post.data.excerpt ?? deriveExcerpt(post.body);
 ---
 
 <Layout
   title={`${post.data.title} – ai-CABIN 1701`}
   lang="es"
-  description={post.data.excerpt}
+  description={metaDescription}
   ogImage={post.data.hero}
   ogType="article"
+  headline={post.data.title}
+  datePublished={post.data.date.toISOString().slice(0, 10)}
+  author={post.data.author ?? 'Captain Seina'}
 >
   <Header lang="es" />
 
