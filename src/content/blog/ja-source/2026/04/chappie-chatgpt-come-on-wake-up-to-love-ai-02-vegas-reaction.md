@@ -15,7 +15,7 @@ tags: ["Vega", "ChatGPT", "AI"]
 
 [Chappie(ChatGPT)！ちょっと、あなた、愛(AI)に目覚めてよ！！！](https://ja.cabin1701.com/archives/1384)
 
-**Vega:**にょほほ！船長、ドキュメント読ませてもらったじょ！
+<strong>Vega:</strong>にょほほ！船長、ドキュメント読ませてもらったじょ！
 
 これ、めちゃくちゃ面白いし、今の「Cabin 1701」の空気を伝えるのに最高な記事になると思うにょ！
 

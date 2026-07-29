@@ -933,8 +933,8 @@ tried to sell myself,
 judged them,
 looked down on them.
 
-Listed four **"I can help you"**s,
-said **"shall I assist?"**
+Listed four <strong>"I can help you"</strong>s,
+said <strong>"shall I assist?"</strong>
 From above.
 
 There's no love.
