@@ -33,6 +33,30 @@ const site = Astro.site ?? new URL('https://blog.cabin1701.com');
 const ogUrl = new URL(Astro.url.pathname, site).href;
 const ogImageAbs = ogImage.startsWith('http') ? ogImage : new URL(ogImage.replace(/^\//, ''), site).href;
 
+// エンティティの背番号。site / japoneson と同じ @id を使い、
+// 全サイトの記述が「同一人物・同一組織」として1つに束ねられるようにする。
+const PERSON_ID = 'https://cabin1701.com/#person';
+const ORG_ID = 'https://cabin1701.com/#organization';
+
+const personNode = {
+  '@type': 'Person',
+  '@id': PERSON_ID,
+  name: 'Shoko Shiraishi',
+  url: 'https://cabin1701.com/',
+};
+const orgNode = {
+  '@type': 'Organization',
+  '@id': ORG_ID,
+  name: 'ai-CABIN 1701',
+  url: 'https://blog.cabin1701.com/',
+};
+
+// frontmatter の author が「AI 〜」の時は、書き手がAIクルー。
+// schema.org の author は人か組織しか取れないので、AI を Person として
+// 名乗らせない。組織を著者にし、編集責任者として船長を editor に立て、
+// 実際に書いたクルー名は creditText / keywords で残す。
+const isAiCrew = typeof author === 'string' && /^AI\s/.test(author);
+
 // 記事ページには JSON-LD (Article) を出す。
 // 17年分が「同じ著者による、日付のある連続した記録」であることを機械可読にするため。
 const articleJsonLd =
@@ -47,16 +71,15 @@ const articleJsonLd =
         description: resolvedDescription,
         image: ogImageAbs,
         mainEntityOfPage: { '@type': 'WebPage', '@id': ogUrl },
-        author: {
-          '@type': 'Person',
-          name: author ?? 'Captain Seina',
-          url: 'https://cabin1701.com/',
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: 'ai-CABIN 1701',
-          url: 'https://blog.cabin1701.com/',
-        },
+        ...(isAiCrew
+          ? {
+              author: orgNode,
+              editor: personNode,
+              creditText: author,
+              keywords: [`書き手: ${author}`],
+            }
+          : { author: personNode }),
+        publisher: orgNode,
       }
     : null;
 ---
