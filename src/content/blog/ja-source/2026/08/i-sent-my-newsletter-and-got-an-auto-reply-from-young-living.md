@@ -4,7 +4,7 @@ date: 2026-08-01
 lang: ja
 category: ["CRYSTALLIZE", "ヤングリヴィング"]
 tags: ["生き方・哲学", "スピリチュアル"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-08/i-sent-my-newsletter-and-got-an-auto-reply-from-young-living.jpg"
+hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-01-young-living-reply.jpg"
 ---
 
 
@@ -12,7 +12,7 @@ hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-08/i-sent
 
 ♪いつものように、月末にメルマガ出したのね。そしたら自動返信が来たの。ヤングリヴィングのドメインから。
 
-![2023年6月25日、ヤングリヴィングのドメイン（@youngliving.com）から届いた自動応答メール。「I am not available. Please contact ○○@youngliving.com.」と、同じ社内の別のアドレスへの引き継ぎになっている。送信者名とアドレスの＠より前は伏せてある。](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-08/i-sent-my-newsletter-and-got-an-auto-reply-from-young-living-mail.png)
+![2023年6月25日、ヤングリヴィングのドメイン（@youngliving.com）から届いた自動応答メール。「I am not available. Please contact ○○@youngliving.com.」と、同じ社内の別のアドレスへの引き継ぎになっている。送信者名とアドレスの＠より前は伏せてある。](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-01-young-living-reply-mail.png)
 
 びっくりした。だってね、ヤングのディストリビュータ辞めたのは2012年。10年以上も前。
 
@@ -48,3 +48,8 @@ AIたち曰く、私のようなことを、体験を正直に書いてる人が
 ---
 
 今日の写真、植木鉢重ねてるのね。ジーラポットって言って、アフリカでこういうの使うんだって。野菜を入れるの。夏でも1週間近く大丈夫だったりする。自然の保存庫。
+
+*　*　*　*　*　*　*　*　*　
+🌿 アロマで感情解放｜クリスタライズ（公式サイト）
+https://crystallize.jp
+*　*　*　*　*　*　*　*　*　
