@@ -1,6 +1,6 @@
 ---
 title: "スピ系ヒーラーや講師の認定や資格｜社団法人化？"
-date: 2026-08-01
+date: 2026-08-04
 lang: ja
 category: ["CRYSTALLIZE", "スピリチュアル"]
 tags: ["スピリチュアル", "AI"]
