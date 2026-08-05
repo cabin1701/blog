@@ -24,7 +24,7 @@ const vegapediaHref = lang === 'es'
   : lang === 'ja'
   ? `${MAIN_SITE_URL}/ja/vegapedia/`
   : `${MAIN_SITE_URL}/vegapedia/`;
-const crystallizeHref = `${MAIN_SITE_URL}/ja/crystallize/`;
+const crystallizeHref = 'https://crystallize.jp/aroma/emotion/neuro-auricular';
 
 const fmtDate = (d: Date) =>
   lang === 'es'
@@ -137,7 +137,7 @@ const monthLabel = (key: string) => {
 
   {lang === 'ja' && (
     <section class="side-section crystallize-card">
-      <a href={crystallizeHref}>
+      <a href={crystallizeHref} target="_blank" rel="noopener noreferrer">
         <img src={`${base}images/crystallize/crystallize2026.jpg`} alt="アロマで感情解放｜クリスタライズ" />
       </a>
     </section>
