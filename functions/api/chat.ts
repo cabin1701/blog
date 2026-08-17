@@ -37,10 +37,22 @@ const CORS_HEADERS = {
   'Access-Control-Allow-Headers': 'Content-Type',
 };
 
-function detectLang(text: string): Lang {
+// 日本語は文字種で確実に判定できる。英語/スペイン語は正規表現のキーワード頼みだと
+// アクセント記号なしのカジュアルな文（"hola amiga"等）を取りこぼすので、LLMに判定させる。
+function detectScript(text: string): Lang | null {
   if (/[぀-ヿ一-鿿]/.test(text)) return 'ja';
-  if (/[ñáéíóúü¿¡]|\b(qué|como|cómo|dónde|cuál|por qué|es)\b/i.test(text)) return 'es';
-  return 'en';
+  return null;
+}
+
+async function detectEnEs(env: Env, text: string): Promise<'en' | 'es'> {
+  const result = await env.AI.run('@cf/meta/llama-3.2-3b-instruct', {
+    messages: [
+      { role: 'system', content: 'Classify the language of the user message. Reply with exactly one word: "en" or "es". Nothing else.' },
+      { role: 'user', content: text },
+    ],
+  });
+  const answer = (result as { response?: string }).response?.trim().toLowerCase();
+  return answer?.startsWith('es') ? 'es' : 'en';
 }
 
 export const onRequestOptions: PagesFunction = async () => new Response(null, { headers: CORS_HEADERS });
@@ -56,7 +68,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     return Response.json({ error: 'message too long (max 500 chars)' }, { status: 400, headers: CORS_HEADERS });
   }
 
-  const lang = detectLang(message);
+  const lang = detectScript(message) ?? (await detectEnEs(env, message));
 
   const embedding = await env.AI.run('@cf/baai/bge-m3', { text: [message] });
   const vector = (embedding as { data: number[][] }).data[0];
