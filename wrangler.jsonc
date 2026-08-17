@@ -9,8 +9,7 @@
   "vectorize": [
     {
       "binding": "VECTORIZE",
-      "index_name": "blog-2026",
-      "remote": true
+      "index_name": "blog-2026"
     }
   ]
 }
