@@ -7,19 +7,19 @@ const { lang = 'en' } = Astro.props as Props;
 const copy: Record<string, { label: string; placeholder: string; greeting: string; send: string }> = {
   ja: {
     label: 'ヴェガに話しかける',
-    placeholder: 'ブログについて聞いてみるにょ...',
+    placeholder: 'お話ししてにょ...',
     greeting: 'ヴェガだじょ。ちょっとだけならお喋りできるじょ。（ヴェガは役に立ちませんので過剰な期待はしないでください）',
     send: '送信',
   },
   en: {
     label: 'Talk to Vega',
-    placeholder: 'Ask about the blog, nyo...',
+    placeholder: "Let's chat, nyo...",
     greeting: "I'm Vega. I can chat a little, nyo. (I'm not very useful, so please don't expect much.)",
     send: 'Send',
   },
   es: {
     label: 'Habla con Vega',
-    placeholder: 'Pregunta sobre el blog, nyo...',
+    placeholder: 'Charlemos, nyo...',
     greeting: 'Soy Vega. Puedo charlar un poco, nyo. (No soy muy útil, así que no esperes demasiado.)',
     send: 'Enviar',
   },
