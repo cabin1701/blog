@@ -10,10 +10,16 @@ import { createHash } from 'node:crypto';
 const ACCOUNT_ID = '009d2f3b104a624e78aafe0516533530';
 const BLOG_DIR = fileURLToPath(new URL('../src/content/blog', import.meta.url));
 const AI_CONTEXT_DIR = fileURLToPath(new URL('../src/content/ai-context', import.meta.url));
+// Vegapediaはsiteリポジトリが正本。重複を避けるためこちらでは複製せず、隣のリポジトリを直接読む
+// （ingestはビルドに乗らない手動ローカルスクリプトなので、cross-repo参照でも本番デプロイには影響しない）
+const VEGAPEDIA_DIR = fileURLToPath(new URL('../../site/src/content', import.meta.url));
 const OUT_FILE = fileURLToPath(new URL('./vectors.ndjson', import.meta.url));
 const SITE = 'https://blog.cabin1701.com';
+const SITE_ROOT = 'https://cabin1701.com';
 const EMBED_BATCH = 5;
 const CORE_CHUNK_SIZE = 1500; // ai-context（Story/Timeline）のチャンク文字数目安
+
+const VEGAPEDIA_URL_PREFIX = { ja: '/ja/', en: '/', es: '/es/' };
 
 const args = process.argv.slice(2);
 const yearsArg = args.find((a) => a.startsWith('--years='));
@@ -127,6 +133,46 @@ async function collectCoreRecords() {
   return records;
 }
 
+// vegapedia-{lang}.mdの`## 用語｜Term {#anchor}`区切りをエントリごとに分ける
+// （vegapedia-check.mjsと同じ見出し正規表現に合わせている）
+function parseVegapediaEntries(raw) {
+  const lines = raw.split('\n');
+  const entries = [];
+  let current = null;
+  for (const line of lines) {
+    const heading = line.match(/^## (.*?)\s*\{#([^}]+)\}/);
+    if (heading) {
+      if (current) entries.push(current);
+      current = { term: heading[1].trim(), anchor: heading[2], bodyLines: [] };
+    } else if (current) {
+      current.bodyLines.push(line);
+    }
+  }
+  if (current) entries.push(current);
+  return entries;
+}
+
+async function collectVegapediaRecords() {
+  const records = [];
+  for (const lang of ['ja', 'en', 'es']) {
+    const raw = await readFile(join(VEGAPEDIA_DIR, `vegapedia-${lang}.md`), 'utf-8').catch(() => null);
+    if (!raw) continue;
+    const entries = parseVegapediaEntries(raw);
+    for (const entry of entries) {
+      const body = stripMarkdown(entry.bodyLines.join('\n'));
+      const url = `${SITE_ROOT}${VEGAPEDIA_URL_PREFIX[lang]}vegapedia#${entry.anchor}`;
+      const id = createHash('sha1').update(`vegapedia:${lang}:${entry.anchor}`).digest('hex').slice(0, 32);
+      records.push({
+        id,
+        embedText: `${entry.term}\n\n${body}`.slice(0, 3000),
+        metadata: { lang, title: entry.term, url, excerpt: body.slice(0, 300), type: 'vegapedia' },
+      });
+    }
+    console.log(`vegapedia ${lang}: ${entries.length} entries`);
+  }
+  return records;
+}
+
 async function embedBatch(texts, token) {
   const res = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/run/@cf/baai/bge-m3`,
@@ -163,6 +209,9 @@ async function main() {
 
   const coreRecords = await collectCoreRecords();
   records.push(...coreRecords);
+
+  const vegapediaRecords = await collectVegapediaRecords();
+  records.push(...vegapediaRecords);
 
   const vectors = [];
   for (let i = 0; i < records.length; i += EMBED_BATCH) {
