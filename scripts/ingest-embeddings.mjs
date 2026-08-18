@@ -9,9 +9,11 @@ import { createHash } from 'node:crypto';
 
 const ACCOUNT_ID = '009d2f3b104a624e78aafe0516533530';
 const BLOG_DIR = fileURLToPath(new URL('../src/content/blog', import.meta.url));
+const AI_CONTEXT_DIR = fileURLToPath(new URL('../src/content/ai-context', import.meta.url));
 const OUT_FILE = fileURLToPath(new URL('./vectors.ndjson', import.meta.url));
 const SITE = 'https://blog.cabin1701.com';
 const EMBED_BATCH = 5;
+const CORE_CHUNK_SIZE = 1500; // ai-context（Story/Timeline）のチャンク文字数目安
 
 const args = process.argv.slice(2);
 const yearsArg = args.find((a) => a.startsWith('--years='));
@@ -72,6 +74,59 @@ function stripMarkdown(text) {
     .trim();
 }
 
+// frontmatterが無いファイル（timeline.md等）にも対応する軽量パーサー
+function stripFrontmatter(raw) {
+  const m = raw.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/);
+  return (m ? m[1] : raw).trim();
+}
+
+// 段落境界を尊重してsize文字前後で分割する（Story/Timelineのような長文用）
+// stripMarkdown()が\n{2,}を単一\nに潰した後のテキストを受け取る前提なので、単一\nを段落境界として扱う
+function chunkText(text, size) {
+  const paragraphs = text.split(/\n/);
+  const chunks = [];
+  let current = '';
+  for (const p of paragraphs) {
+    if (current && (current.length + p.length) > size) {
+      chunks.push(current.trim());
+      current = '';
+    }
+    current += (current ? '\n\n' : '') + p;
+  }
+  if (current.trim()) chunks.push(current.trim());
+  return chunks;
+}
+
+const CORE_DOC_TITLES = {
+  'story.md': { ja: 'Seinaのストーリー', en: "Seina's Story", es: 'La historia de Seina' },
+  'timeline.md': { ja: 'Seina年表', en: 'Seina Timeline', es: 'Cronología de Seina' },
+};
+
+async function collectCoreRecords() {
+  const records = [];
+  for (const lang of ['ja', 'en', 'es']) {
+    const dir = join(AI_CONTEXT_DIR, lang);
+    const files = await readdir(dir).catch(() => []);
+    for (const file of files) {
+      if (!file.endsWith('.md')) continue;
+      const raw = await readFile(join(dir, file), 'utf-8');
+      const body = stripMarkdown(stripFrontmatter(raw));
+      const title = CORE_DOC_TITLES[file]?.[lang] ?? file;
+      const chunks = chunkText(body, CORE_CHUNK_SIZE);
+      chunks.forEach((chunk, i) => {
+        const id = createHash('sha1').update(`core:${lang}:${file}:${i}`).digest('hex').slice(0, 32);
+        records.push({
+          id,
+          embedText: `${title}\n\n${chunk}`,
+          metadata: { lang, title: `${title} (${i + 1}/${chunks.length})`, url: '', excerpt: chunk.slice(0, 500), type: 'core' },
+        });
+      });
+      console.log(`core ${lang}/${file}: ${chunks.length} chunks`);
+    }
+  }
+  return records;
+}
+
 async function embedBatch(texts, token) {
   const res = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/run/@cf/baai/bge-m3`,
@@ -102,9 +157,12 @@ async function main() {
       const excerpt = stripMarkdown(body).slice(0, 200);
       const embedText = `${data.title}\n\n${stripMarkdown(body)}`.slice(0, 6000);
       const id = createHash('sha1').update(`${col.lang}:${slug}`).digest('hex').slice(0, 32);
-      records.push({ id, embedText, metadata: { lang: col.lang, title: data.title, url, date: data.date, excerpt } });
+      records.push({ id, embedText, metadata: { lang: col.lang, title: data.title, url, date: data.date, excerpt, type: 'article' } });
     }
   }
+
+  const coreRecords = await collectCoreRecords();
+  records.push(...coreRecords);
 
   const vectors = [];
   for (let i = 0; i < records.length; i += EMBED_BATCH) {
