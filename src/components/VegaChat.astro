@@ -113,7 +113,14 @@ const t = copy[lang] ?? copy.en;
     gap: 10px;
   }
 
-  .vega-msg {
+  /*
+    吹き出しは JS が実行時に作る要素なので、Astro のスコープ属性
+    （data-astro-cid-*）が付かない。素の .vega-msg のまま書くとビルド後に
+    .vega-msg[data-astro-cid-xxx] へ書き換えられ、一致せずスタイルが当たらない。
+    親（#vega-chat-messages）はテンプレート側にあるのでスコープが効く。
+    子だけ :global() で抜く。（2026-08-18 発見・修正 — Eddie）
+  */
+  #vega-chat-messages :global(.vega-msg) {
     max-width: 85%;
     padding: 8px 12px;
     border-radius: 10px;
@@ -122,29 +129,29 @@ const t = copy[lang] ?? copy.en;
     white-space: pre-wrap;
   }
 
-  .vega-msg.user {
+  #vega-chat-messages :global(.vega-msg.user) {
     align-self: flex-end;
     background: var(--color-primary, #d03e00);
     color: #fff;
   }
 
-  .vega-msg.vega {
+  #vega-chat-messages :global(.vega-msg.vega) {
     align-self: flex-start;
     background: rgba(0, 0, 0, 0.06);
     color: var(--color-text, #333);
   }
 
-  .vega-msg.vega .vega-sources {
+  #vega-chat-messages :global(.vega-msg.vega .vega-sources) {
     margin-top: 6px;
     font-size: 12px;
     opacity: 0.8;
   }
 
-  .vega-msg.vega .vega-sources a {
+  #vega-chat-messages :global(.vega-msg.vega .vega-sources a) {
     color: var(--color-tagline, #080078);
   }
 
-  .vega-msg.loading {
+  #vega-chat-messages :global(.vega-msg.loading) {
     opacity: 0.6;
     font-style: italic;
   }
