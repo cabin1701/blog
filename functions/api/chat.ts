@@ -107,29 +107,36 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const vector = (embedding as { data: number[][] }).data[0];
 
   const results = await env.VECTORIZE.query(vector, {
-    topK: 3,
+    topK: 4,
     returnMetadata: 'all',
     filter: { lang },
   });
 
-  // core（Story/Timelineのチャンク）はリンク先が無い背景知識なので、読者向けsourcesには出さない
-  const sources = results.matches
-    .filter((m) => m.metadata?.type !== 'core')
-    .map((m) => ({
-      title: m.metadata?.title as string,
-      url: m.metadata?.url as string,
-    }));
+  // core（Story/Timelineのチャンク）はリンク先が無い背景知識なので、読者向けsourcesには出さない。
+  // 表示件数は常に2件に揃える（coreの混入率でブレないよう、フィルタ後にslice）
+  const linkable = results.matches.filter((m) => m.metadata?.type !== 'core').slice(0, 2);
+  const coreMatches = results.matches.filter((m) => m.metadata?.type === 'core');
 
-  const referenceText = results.matches
+  const sources = linkable.map((m) => ({
+    title: m.metadata?.title as string,
+    url: m.metadata?.url as string,
+  }));
+
+  // 「reference articles」は表示するsourcesと同じ件数・同じ中身にする（検索件数と表示件数がズレると
+  // 回答文中で「記事は4つあって」のような数え違いが起きるため、2026-08-18の教訓）。
+  // core（背景知識）は番号付けせず別枠の地の文として渡し、件数として数えさせない。
+  const referenceText = linkable
     .map((m, i) => `[${i + 1}] ${m.metadata?.title}\n${m.metadata?.excerpt}\nURL: ${m.metadata?.url}`)
     .join('\n\n');
+
+  const backgroundText = coreMatches.map((m) => m.metadata?.excerpt).join('\n\n');
 
   const generation = await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast', {
     messages: [
       { role: 'system', content: `${SYSTEM_PROMPT[lang]}\n\n${BACKGROUND_CONTEXT[lang]}` },
       {
         role: 'user',
-        content: `reference articles:\n${referenceText}\n\nquestion: ${message}`,
+        content: `background knowledge (not countable articles, just context):\n${backgroundText}\n\nreference articles:\n${referenceText}\n\nquestion: ${message}`,
       },
     ],
   });

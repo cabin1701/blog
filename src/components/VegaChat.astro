@@ -200,7 +200,7 @@ const t = copy[lang] ?? copy.en;
       const src = document.createElement('div');
       src.className = 'vega-sources';
       src.innerHTML = sources
-        .map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${s.title}</a>`)
+        .map((s) => `▪︎ <a href="${s.url}" target="_blank" rel="noopener">${s.title}</a>`)
         .join('<br />');
       el.appendChild(src);
     }
