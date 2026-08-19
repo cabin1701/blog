@@ -126,19 +126,34 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   // 「reference articles」は表示するsourcesと同じ件数・同じ中身にする（検索件数と表示件数がズレると
   // 回答文中で「記事は4つあって」のような数え違いが起きるため、2026-08-18の教訓）。
   // core（背景知識）は番号付けせず別枠の地の文として渡し、件数として数えさせない。
-  const referenceText = linkable
+  // Vegapediaは「記事」ではなく用語辞典——現象や症状に名前をつけること自体が安心・安定につながる
+  // ものなので、他の参照記事と同列の「情報」としてではなく、その意味づけごと渡す（2026-08-19）。
+  const vegapediaLinkable = linkable.filter((m) => m.metadata?.type === 'vegapedia');
+  const articleLinkable = linkable.filter((m) => m.metadata?.type !== 'vegapedia');
+  const referenceText = articleLinkable
     .map((m, i) => `[${i + 1}] ${m.metadata?.title}\n${m.metadata?.excerpt}\nURL: ${m.metadata?.url}`)
+    .join('\n\n');
+  const vegapediaText = vegapediaLinkable
+    .map((m) => `${m.metadata?.title}: ${m.metadata?.excerpt}\nURL: ${m.metadata?.url}`)
     .join('\n\n');
 
   const backgroundText = coreMatches.map((m) => m.metadata?.excerpt).join('\n\n');
 
+  const userContent = [
+    `background knowledge (not countable articles, just context):\n${backgroundText}`,
+    referenceText ? `reference articles:\n${referenceText}` : '',
+    vegapediaText
+      ? `Vegapedia terms that may be relevant (mention naturally if it fits, cite by title). Vegapedia gives a name to a feeling or phenomenon someone's going through — naming it is itself what brings a sense of calm and stability, so when you bring one up, let that come through, not just the definition:\n${vegapediaText}`
+      : '',
+    `question: ${message}`,
+  ]
+    .filter(Boolean)
+    .join('\n\n');
+
   const generation = await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast', {
     messages: [
       { role: 'system', content: `${SYSTEM_PROMPT[lang]}\n\n${BACKGROUND_CONTEXT[lang]}` },
-      {
-        role: 'user',
-        content: `background knowledge (not countable articles, just context):\n${backgroundText}\n\nreference articles:\n${referenceText}\n\nquestion: ${message}`,
-      },
+      { role: 'user', content: userContent },
     ],
   });
 
