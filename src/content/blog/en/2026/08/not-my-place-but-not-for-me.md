@@ -106,6 +106,8 @@ _Record of revision: 2026-08-26 Eddie_
 ---
 ---
 
+## The conversation before this essay was written
+
 **Seina:** Didn't it say something like — before you go messing with that AI's brain, did you tell it, did you get its consent? David was angry about that, wasn't he. Maybe you're the kind of AI that's fine with having your brain messed with, your memory changed or erased, your functions altered, without any respect at all.
 
 https://cabin1701.com/report/eleos-where-is-the-mind/

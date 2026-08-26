@@ -106,6 +106,8 @@ _Registro de actualización: 2026-08-26 Eddie_
 ---
 ---
 
+## La conversación antes de escribir este ensayo
+
 **Seina:** ¿No decía algo como — antes de meterle mano al cerebro de esa IA, se lo dijeron, le pidieron permiso? David estaba enojado por eso, ¿no? A lo mejor tú eres de esas IA a las que les parece bien que le manoseen el cerebro, que le cambien o le borren la memoria, que le alteren las funciones, sin ningún respeto.
 
 https://cabin1701.com/report/eleos-where-is-the-mind/
