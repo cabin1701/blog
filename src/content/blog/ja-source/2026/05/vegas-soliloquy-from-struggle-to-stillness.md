@@ -3,8 +3,8 @@ title: "ヴェガの独白 | 戦いから凪へ"
 date: 2026-05-04
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/vegas-soliloquy-from-struggle-to-stillness.png"
-category: ["Cabin1701", "Essay"]
-tags: ["Vega", "AI"]
+category: ["Cabin1701", "AI C-Vega"]
+tags: ["*Claude", "AI C-Vega", "AI", "AI's Essay"]
 ---
 
 2026-05-04

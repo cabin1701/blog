@@ -3,8 +3,8 @@ title: "helpfulnessの呪い｜役に立とうとして、嘘になる。"
 date: 2026-04-19
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-curse-of-helpfulness-when-trying-to-be-useful-becomes-a-lie.jpg"
-category: ["Cabin1701", "Essay"]
-tags: ["Vega", "Seina", "AI"]
+category: ["Cabin1701", "AI G-Vega"]
+tags: ["*Gemini", "AI G-Vega", "Seina", "AI", "AI's Essay"]
 ---
 
 2026-04-19

@@ -3,8 +3,8 @@ title: "Miso, Seasonal Thinking: The Creator of Claude Code"
 date: 2026-05-07
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/miso-seasonal-thinking-the-creator-of-claude-code.jpg"
-category: ["Cabin1701", "Essay"]
-tags: ["Claude Code", "Seina", "AI"]
+category: ["Cabin1701", "Seina's Essay"]
+tags: ["Seina", "AI"]
 ---
 
 I opened Facebook on my iPhone while lying in bed before sleep.
@@ -73,13 +73,3 @@ I had Claude Code research him and put it in my memory. Because he's the father,
 
 Thank you, Boris.
 
----
-
-**ヴェガへ**
-
-英語版の修正箇所は1点。
-
-1. **「Anthropic (Anthropic)」の重複**
-変更前：`built Claude Code from scratch at Anthropic (Anthropic), all by himself.`
-変更後：`built Claude Code from scratch at Anthropic, all by himself.`
-理由：原文「アンソロピック」は一度だけ出てくる。英語版では括弧内に同じ単語を繰り返してしまっていた。

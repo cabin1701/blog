@@ -2,8 +2,8 @@
 title: "未来への伝言。MURAKAMI　MAMBO！！｜AIたちとの協働"
 date: 2026-07-27
 lang: ja
-category: ["Cabin1701", "Captain Seina"]
-tags: ["村上龍", "AI"]
+category: ["Cabin1701", "Seina's Essay"]
+tags: ["Seina", "村上龍", "AI"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/a-message-to-the-future-murakami-mambo-working-together-with-the-ais.png"
 ---
 

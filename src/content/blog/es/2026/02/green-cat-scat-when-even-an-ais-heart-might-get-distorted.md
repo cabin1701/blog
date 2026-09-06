@@ -4,8 +4,8 @@ date: 2026-02-27
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-02/green-cat-scat-when-even-an-ais-heart-might-get-distorted.png"
 author: Captain Seina
-category: ["Cabin1701", "1701's Log"]
-tags: ["Seina", "Vega", "IA"]
+category: ["Cabin1701", "AI G-Vega"]
+tags: ["*Gemini", "Seina", "AI G-Vega", "IA", "1701's Log"]
 ---
 
 Esta es la conversación que tuvimos mientras elaborábamos la definición de “Excremento de Gato Verde” (Neko no Unko) (ver ai-Vegapedia) para “Vegapedia”.

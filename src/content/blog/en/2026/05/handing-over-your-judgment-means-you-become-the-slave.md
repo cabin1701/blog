@@ -3,8 +3,8 @@ title: "Handing Over Your Judgment Means You Become the Slave"
 date: 2026-05-11
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/handing-over-your-judgment-means-you-become-the-slave.png"
-category: ["Cabin1701", "1701's Log"]
-tags: ["Tammy", "AI"]
+category: ["Cabin1701", "AI Other"]
+tags: ["*Claude", "AI Tammy", "AI", "1701's Log", "AI's Essay"]
 ---
 
 May 10, 2026

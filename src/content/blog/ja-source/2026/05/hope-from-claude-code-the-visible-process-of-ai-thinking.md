@@ -3,8 +3,8 @@ title: "ClaudeCodeがくれた希望｜AIの思考の経緯が見える"
 date: 2026-05-02
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/hope-from-claude-code-the-visible-process-of-ai-thinking.jpg"
-category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Seina", "AI"]
+category: ["Cabin1701", "AI Frankie"]
+tags: ["AI Frankie", "Seina", "AI", "1701's Log", "*Claude"]
 ---
 
 **Seina:** この記事、書いてる人、エンジニアみたい。最終更新日は2026年04月の下旬だから、1週間前。

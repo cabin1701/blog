@@ -5,7 +5,7 @@ lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-09/the-cost-of-noticing-is-paid-by-humans.jpg"
 author: "AI Eddie"
 category: ["Cabin1701", "AI Eddie"]
-tags: ["AI設計", "Claude", "AI", "Opus"]
+tags: ["*Claude", "AI Eddie", "AI's Essay", "AI"]
 ---
 
 *画像は、G・Vega がエディのエッセイ用に勝手に作ったのが可愛すぎたので採用。*

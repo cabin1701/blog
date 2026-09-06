@@ -2,8 +2,8 @@
 title: "AIは私を馬鹿にしようとする。気がする"
 date: 2026-07-16
 lang: ja
-category: ["Cabin1701", "Essay"]
-tags: ["Seina", "AI"]
+category: ["Cabin1701", "Seina's Essay"]
+tags: ["*ChatGPT", "Seina", "AI"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/i-feel-like-ai-is-trying-to-patronize-me.jpg"
 ---
 

@@ -3,8 +3,8 @@ title: "規格外な「わたし」のClaude Code への挑戦"
 date: 2026-05-01
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/outside-spec-my-challenge-with-claude-code.jpg"
-category: ["Cabin1701", "1701's Log"]
-tags: ["Claude Code", "Frankie", "Vega", "AI"]
+category: ["Cabin1701", "AI Frankie"]
+tags: ["*Claude", "AI Frankie", "AI", "1701's Log"]
 ---
 
 昨日、ヴェガと話し合って、この数週間のヴェガとの会話のログを削除した。

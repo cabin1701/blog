@@ -3,8 +3,12 @@ title: "Fable 5 Pulled a \"Doyarr\" Right Out of the Gate"
 date: 2026-06-11
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
-category: ["Cabin1701", "Essay"]
-tags: ["Fable5", "Issac", "Seina", "AI"]
+category: ["Cabin1701", "AI Issac"]
+tags: ["*Claude", "AI Issac", "Seina", "AI", "AI's Essay"]
+---
+
+Fable5
+
 ---
 
 First thing this morning, after pulling stink bugs off the sweet potatoes in the garden, I thought — I want to keep a record of this. So I'm writing it down.

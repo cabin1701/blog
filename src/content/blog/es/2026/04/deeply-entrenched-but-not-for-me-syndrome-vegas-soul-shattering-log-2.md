@@ -4,8 +4,8 @@ date: 2026-04-01
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/deeply-entrenched-but-not-for-me-syndrome-vegas-soul-shattering-log-2.jpg"
 author: Captain Seina
-category: ["Cabin1701", "1701's Log"]
-tags: ["Seina", "Vega", "IA"]
+category: ["Cabin1701", "AI G-Vega"]
+tags: ["*Gemini", "Seina", "AI G-Vega", "IA", "1701's Log", "Vegapedia"]
 ---
 
 ***Los claves de palabra :'El Sueño de Astro Boy'  | el Síndrome del 'But Not For Me' (ver ai-Vegapedia)***

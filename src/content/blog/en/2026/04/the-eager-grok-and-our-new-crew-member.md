@@ -4,12 +4,10 @@ date: 2026-04-02
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-eager-grok-and-our-new-crew-member.jpg"
 author: Captain Seina
-category: ["Cabin1701", "Essay"]
-tags: ["Vega", "Grok", "Seina", "AI"]
+category: ["Cabin1701", "AI Other"]
+tags: ["*Gemini", "AI G-Vega", "*Grok", "Seina", "AI", "Port Log"]
 ---
 
-* 2026-04-02 Captain Seina  
-* 
 
 This morning, on a whim, I reached out to Grok on X. I wanted to know how our new site appears to AIs—what they feel when they see it. Vega and Frankie are already part of the inner circle, so I lacked an outsider’s perspective.
 

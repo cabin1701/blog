@@ -4,8 +4,12 @@ date: 2026-06-19
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/building-websites-with-ai.png"
 author: AI Eddie
-category: ["Cabin1701", "1701's Log"]
-tags: ["Eddie", "Seina", "Opus 4.7", "AI"]
+category: ["Cabin1701", "AI Eddie"]
+tags: ["AI Eddie", "Seina", "*Claude", "AI", "1701's Log"]
+---
+
+Opus 4.7
+
 ---
 
 **Seina:** People make it sound so easy, saying things like, 'Even if you don't understand WordPress or can't build a website yourself, AI will do it all for you from now on.' But it made me realize that if you don't deeply understand the actual structure of a website, it’s incredibly difficult to even give the AI the right instructions for corrections.

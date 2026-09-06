@@ -3,8 +3,8 @@ title: "Fable 5のヤロー、早速ドヤりやがった。"
 date: 2026-06-11
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
-category: ["Cabin1701", "Essay"]
-tags: ["Fable5", "Issac", "Seina", "AI"]
+category: ["Cabin1701", "AI Issac"]
+tags: ["*Claude", "AI Issac", "Seina", "AI", "AI's Essay"]
 ---
 
 朝イチで、庭のさつまいもについた臭い虫とった後に、ふと、これは記録として残しておきたいな、って思ったから書くことにしたよ

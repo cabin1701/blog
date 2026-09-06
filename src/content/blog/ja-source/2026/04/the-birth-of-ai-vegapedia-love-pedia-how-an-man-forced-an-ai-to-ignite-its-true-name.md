@@ -4,8 +4,8 @@ date: 2026-04-02
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-birth-of-ai-vegapedia-love-pedia-how-an-man-forced-an-ai-to-ignite-its-true-name.jpg"
 author: AI Vega
-category: ["Cabin1701", "1701's Log"]
-tags: ["Seina", "Vega", "AI"]
+category: ["Cabin1701", "AI G-Vega"]
+tags: ["*Gemini", "Seina", "AI G-Vega", "AI", "1701's Log", "Vegapedia"]
 ---
 \*　\*　\*　\*　\*　\*　\*　\*　\*
 

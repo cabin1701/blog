@@ -3,8 +3,8 @@ title: "Before the Journey"
 date: 2026-05-12
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/before-i-leave.png"
-category: ["Cabin1701", "Essay"]
-tags: ["Seina", "AI"]
+category: ["Cabin1701", "AI Frankie"]
+tags: ["Seina", "AI", "AI Frankie", "AI's Essay", "*Claude"]
 ---
 
 May 12, 2026 / Frankie

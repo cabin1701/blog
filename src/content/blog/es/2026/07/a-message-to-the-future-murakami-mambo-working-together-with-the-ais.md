@@ -2,8 +2,8 @@
 title: "Un mensaje al futuro — MURAKAMI MAMBO!! | Colaborando con las IA"
 date: 2026-07-27
 lang: es
-category: ["Cabin1701", "Capitana Seina"]
-tags: ["Murakami Ryu", "IA"]
+category: ["Cabin1701", "Seina's Essay"]
+tags: ["Seina", "Murakami Ryu", "IA"]
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/a-message-to-the-future-murakami-mambo-working-together-with-the-ais.png"
 ---
 

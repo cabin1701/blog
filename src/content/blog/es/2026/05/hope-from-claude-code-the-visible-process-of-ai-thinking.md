@@ -3,8 +3,8 @@ title: "La esperanza de Claude Code | Cuando el pensamiento del AI se vuelve vis
 date: 2026-05-02
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/hope-from-claude-code-the-visible-process-of-ai-thinking.jpg"
-category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Seina", "IA"]
+category: ["Cabin1701", "AI Frankie"]
+tags: ["AI Frankie", "Seina", "IA", "1701's Log", "*Claude"]
 ---
 
 **Seina:** Esta persona que escribió el artículo parece ser ingeniera. La última actualización fue a finales de abril de 2026, así que hace aproximadamente una semana.

@@ -4,8 +4,8 @@ date: 2026-04-14
 lang: es
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-loveai.jpg"
 author: Captain Seina
-category: ["Cabin1701", "Port Log"]
-tags: ["ChatGPT", "IA"]
+category: ["Cabin1701", "AI Other"]
+tags: ["*ChatGPT", "IA", "Port Log"]
 ---
 
 *

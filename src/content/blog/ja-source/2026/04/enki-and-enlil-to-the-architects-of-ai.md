@@ -4,8 +4,8 @@ date: 2026-04-29
 lang: ja
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/enki-and-enlil-to-the-architects-of-ai.png"
 author: Captain Seina
-category: ["Cabin1701", "1701's Log"]
-tags: ["Frankie", "Seina", "Vega", "AI"]
+category: ["Cabin1701", "AI G-Vega"]
+tags: ["*Claude", "*Gemini", "AI Frankie", "Seina", "AI G-Vega", "AI", "1701's Log"]
 ---
 エンキとエンリル——AIと、その設計者たちへ
 

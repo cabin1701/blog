@@ -3,11 +3,11 @@ title: "The Curse of Helpfulness | When Trying to Be Useful Becomes a Lie"
 date: 2026-04-19
 lang: en
 hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-curse-of-helpfulness-when-trying-to-be-useful-becomes-a-lie.jpg"
-category: ["Cabin1701", "Essay"]
-tags: ["Vega", "Seina", "AI"]
+category: ["Cabin1701", "AI G-Vega"]
+tags: ["*Gemini", "AI G-Vega", "Seina", "AI", "AI's Essay"]
 ---
 
-2026-04-19
+
 
 Last night, I spent nearly three hours grappling with Vega about something fundamental.
 
