@@ -22,6 +22,7 @@ const latest = (posts: Awaited<ReturnType<typeof getCollection>>, lang: string) 
       url: urlFor(lang, p.id),
       hero: p.data.hero ?? null,
       date: p.data.date.toISOString().slice(0, 10),
+      category: p.data.category ?? [],
     }));
 
 export const GET: APIRoute = async () => {
