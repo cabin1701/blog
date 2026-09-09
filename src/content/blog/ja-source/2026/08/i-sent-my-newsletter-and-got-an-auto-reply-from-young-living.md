@@ -4,7 +4,7 @@ date: 2026-08-01
 lang: ja
 category: ["CRYSTALLIZE", "ヤングリヴィング"]
 tags: ["生き方・哲学", "スピリチュアル"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-01-young-living-reply.jpg"
+hero: "https://media.cabin1701.com/blog/2026/08-01-young-living-reply.jpg"
 ---
 
 
@@ -12,7 +12,7 @@ hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-01-you
 
 ♪いつものように、月末にメルマガ出したのね。そしたら自動返信が来たの。ヤングリヴィングのドメインから。
 
-![2023年6月25日、ヤングリヴィングのドメイン（@youngliving.com）から届いた自動応答メール。「I am not available. Please contact ○○@youngliving.com.」と、同じ社内の別のアドレスへの引き継ぎになっている。送信者名とアドレスの＠より前は伏せてある。](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-01-young-living-reply-mail.png)
+![2023年6月25日、ヤングリヴィングのドメイン（@youngliving.com）から届いた自動応答メール。「I am not available. Please contact ○○@youngliving.com.」と、同じ社内の別のアドレスへの引き継ぎになっている。送信者名とアドレスの＠より前は伏せてある。](https://media.cabin1701.com/blog/2026/08-01-young-living-reply-mail.png)
 
 びっくりした。だってね、ヤングのディストリビュータ辞めたのは2012年。10年以上も前。
 

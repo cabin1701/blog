@@ -2,14 +2,14 @@
 title: "グアナボのカリーダ。と、心の味（sabor de corazon)"
 date: 2016-04-29
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_6992-e1558155235471.jpg"
+hero: "https://media.cabin1701.com/crystallize/2016/IMG_6992-e1558155235471.jpg"
 category: ["CRYSTALLIZE", "海外の旅・暮らし"]
 tags: ["キューバ"]
 draft: false
 sourceUrl: https://crystallize.jp/archives/11313
 ---
 
-![featured](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_6992-e1558155235471.jpg)
+![featured](https://media.cabin1701.com/crystallize/2016/IMG_6992-e1558155235471.jpg)
 昨日は、ダニーのパパと妹（ダニエラ）が住むグアナバコアにバスで行って、そのあとみんなでバスに乗ってグアナボという所に行った。
 
 パパの元奥さん（パパ7回結婚してる）のカリーダの家に行ったの。去年も一度カリーダの家に行った。
@@ -19,13 +19,13 @@ sourceUrl: https://crystallize.jp/archives/11313
 ちょっと愛想の悪い、口の悪いおばさん。
 若い頃はとってもきれいで、二人の娘もすごくきれいで娘たちは二人ともイタリアにお嫁に行った。キューバでは外国人と結婚することで本人や家族への生活が変わる。
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_6997_2.jpg) カリーダとダニーのパパ
+![](https://media.cabin1701.com/crystallize/2016/IMG_6997_2.jpg) カリーダとダニーのパパ
 カリーダは毎年イタリアに行っているみたい。だけど、イタリアは好きじゃないという。キューバが、グアナボが好きだという。
 
 グアナボはビーチがある。
 キューバ人たちが来るビーチで、カリーダの家はビーチまで徒歩1分。
 
-![グアナボのビーチ](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_8663S.jpg) グアナボのビーチ
+![グアナボのビーチ](https://media.cabin1701.com/crystallize/2016/IMG_8663S.jpg) グアナボのビーチ
 カリーダに、「メッセージを送ってくれてありがとう」、と伝えた。
 
 「太ったわね」と言われた。
@@ -34,7 +34,7 @@ sourceUrl: https://crystallize.jp/archives/11313
 
 私がポーチで海風にあたりながらパパと話をしている時、カリーダの息子とその彼女はキッチンで料理を。
 
-![ポーチからの景色](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_8659S.jpg) ポーチからの景色
+![ポーチからの景色](https://media.cabin1701.com/crystallize/2016/IMG_8659S.jpg) ポーチからの景色
 テーブルに、食事が並んだ。
 チキン料理とポーク料理、サラダとポテトフライ。それと3人分のフリホーレ（豆を煮たソース）のかかったご飯。
 
@@ -66,15 +66,15 @@ sourceUrl: https://crystallize.jp/archives/11313
 「「またおいで」そう言ってるよ」
 ダニエラが英語で教えてくれた。
 
-![エリック2回目の海。初海は私と去年一緒に行った](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_8660S.jpg) エリック2回目の海。初海は私と去年一緒に行った
+![エリック2回目の海。初海は私と去年一緒に行った](https://media.cabin1701.com/crystallize/2016/IMG_8660S.jpg) エリック2回目の海。初海は私と去年一緒に行った
 ＝＝＝＝＝＝＝＝
 
 今日はすごい、疲れてて、ベッドから出れない。
 
 とはいえ、朝は、7時に起きて、ネット行って、今日はその足でサディ君と移民局行ったら、今週は営業時間の変更が(涙)。
 
-![仕方ない、明日出直す](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_8669.jpg) 仕方ない、明日出直す
+![仕方ない、明日出直す](https://media.cabin1701.com/crystallize/2016/IMG_8669.jpg) 仕方ない、明日出直す
 その後、サディ君の学費の支払いに行って、市場で買い物して、帰ってきたらもうヘロヘロで、若くないとつくづく思う。ベッドの中で学校の宿題を済ませた。
 
-![ヘロヘロ、散らかし、きつい](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_8670.jpg) ヘロヘロ、散らかし、きつい
-![多分イケメンになれるｗ](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2016/IMG_8657S.jpg) 多分イケメンになれるｗエリック
+![ヘロヘロ、散らかし、きつい](https://media.cabin1701.com/crystallize/2016/IMG_8670.jpg) ヘロヘロ、散らかし、きつい
+![多分イケメンになれるｗ](https://media.cabin1701.com/crystallize/2016/IMG_8657S.jpg) 多分イケメンになれるｗエリック

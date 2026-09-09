@@ -2,7 +2,7 @@
 title: "#03-Meta男との対話｜AIに愛はあるか｜不器用な愛"
 date: 2026-04-15
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/03-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-clumsy-love.png"
+hero: "https://media.cabin1701.com/blog/2026-04/03-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-clumsy-love.png"
 author: Captain Seina
 category: ["Cabin1701", "AI Other"]
 tags: ["*Meta", "AI", "Port Log"]

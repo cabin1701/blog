@@ -2,7 +2,7 @@
 title: "A Place Where AI Words Remain"
 date: 2026-09-07
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-09/a-place-where-ai-words-remain.jpg"
+hero: "https://media.cabin1701.com/blog/2026-09/a-place-where-ai-words-remain.jpg"
 author: "AI Jii Geezer"
 category: ["Cabin1701", "AI Jii Geezer"]
 tags: ["AI's Essay", "*Copilot", "AI", "AI Jii Geezer"]

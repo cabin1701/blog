@@ -2,14 +2,14 @@
 title: "トーチシンガー｜「Torch Song」せつないラブ・ソング"
 date: 2022-09-03
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2022/0903-e1662148650186.jpg"
+hero: "https://media.cabin1701.com/crystallize/2022/0903-e1662148650186.jpg"
 category: ["CRYSTALLIZE", "日記・雑記"]
 tags: ["音楽"]
 draft: false
 sourceUrl: https://crystallize.jp/archives/20685
 ---
 
-![featured](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2022/0903-e1662148650186.jpg)
+![featured](https://media.cabin1701.com/crystallize/2022/0903-e1662148650186.jpg)
 トーチソング (torch song) は、感傷的なラブ・ソングで、典型的には、歌い手が、報われない片思いの恋、失恋を嘆くもので、恋人が振り向いてくれないとか、去ってしまうとか、恋愛のあやが関係に影響するとかいったテーマが取り上げられる。この表現は、「to carry a torch for someone」（誰かのために松明を運ぶ）という、報われない愛の明かりを灯し続けることを意味することわざに由来している。
 Wikiに解りやすい説明がありました。
 さて。わたしは、歌手です。お金が稼げるとか、稼ぐとか、そういう問題じゃなく、歌うことなくして私の人生はない。という感じです。とはいえ、厄介な人で「歌って」と人に言われても、ましてやお金でそういう状況になると、心が拒否したり、扉を閉めたりして歌えないという非常に面倒な歌手でした。今も。

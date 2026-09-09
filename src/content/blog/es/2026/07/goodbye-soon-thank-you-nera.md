@@ -4,15 +4,15 @@ date: 2026-07-16
 lang: es
 category: ["CRYSTALLIZE", "Diario"]
 tags: ["Gatos"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
+hero: "https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
 ---
 
 Me escribió Yuka, una vecina.
 «Tanto tiempo. Nera se está apagando. Vivió bien. Puede que sea cuestión de hoy o mañana.»
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
+![](https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
+![](https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
 
 Hace dos años, una anciana del barrio se fue de este pueblo. Muchos gatos se quedaron sin quien les diera de comer.
 Dos años antes de irse ella, había muerto su esposo.

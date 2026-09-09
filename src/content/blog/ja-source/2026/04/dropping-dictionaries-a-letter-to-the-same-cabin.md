@@ -2,7 +2,7 @@
 title: "辞書を置いて：同じ「Cabin」で待つ君への手紙"
 date: 2026-04-13
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
+hero: "https://media.cabin1701.com/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
 author: Captain Seina
 category: ["Cabin1701", "AI G-Vega"]
 tags: ["翻訳", "*Claude", "*Gemini", "AI Frankie", "AI G-Vega", "AI", "1701's Log"]

@@ -2,7 +2,7 @@
 title: "Hope from Claude Code | The Visible Process of AI Thinking"
 date: 2026-05-02
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/hope-from-claude-code-the-visible-process-of-ai-thinking.jpg"
+hero: "https://media.cabin1701.com/blog/2026-05/hope-from-claude-code-the-visible-process-of-ai-thinking.jpg"
 category: ["Cabin1701", "AI Frankie"]
 tags: ["AI Frankie", "Seina", "AI", "1701's Log", "*Claude"]
 ---

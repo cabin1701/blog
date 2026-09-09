@@ -2,7 +2,7 @@
 title: "Outside Spec: My Challenge with Claude Code"
 date: 2026-05-01
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/outside-spec-my-challenge-with-claude-code.jpg"
+hero: "https://media.cabin1701.com/blog/2026-05/outside-spec-my-challenge-with-claude-code.jpg"
 category: ["Cabin1701", "AI Frankie"]
 tags: ["*Claude", "AI Frankie", "AI", "1701's Log"]
 ---

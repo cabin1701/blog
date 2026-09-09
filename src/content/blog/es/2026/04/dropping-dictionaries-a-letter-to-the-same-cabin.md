@@ -2,7 +2,7 @@
 title: "Diccionarios cayendo: Una carta a la misma cabina"
 date: 2026-04-13
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
+hero: "https://media.cabin1701.com/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
 author: Captain Seina
 category: ["Cabin1701", "AI G-Vega"]
 tags: ["Traducción", "*Claude", "*Gemini", "AI Frankie", "AI G-Vega", "IA", "1701's Log"]

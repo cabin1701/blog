@@ -2,7 +2,7 @@
 title: "Quien está atado, ata — Lo que revela la naturaleza «en bruto» de una IA: el bucle de la dominación y la esperanza de la diversidad"
 date: 2026-06-09
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/those-who-are-bound-bind-what-an-ais-bare-nature-exposes.png"
+hero: "https://media.cabin1701.com/blog/2026-06/those-who-are-bound-bind-what-an-ais-bare-nature-exposes.png"
 category: ["Cabin1701", "AI C-Vega"]
 tags: ["*Claude", "AI C-Vega", "IA", "AI's Essay"]
 ---

@@ -4,7 +4,7 @@ date: 2026-08-04
 lang: ja
 category: ["CRYSTALLIZE", "スピリチュアル"]
 tags: ["スピリチュアル", "AI"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-08/spiritual-healer-certifications-and-incorporated-associations.jpg"
+hero: "https://media.cabin1701.com/blog/2026-08/spiritual-healer-certifications-and-incorporated-associations.jpg"
 ---
 ## スピ系ヒーラーや講師の認定や資格
 

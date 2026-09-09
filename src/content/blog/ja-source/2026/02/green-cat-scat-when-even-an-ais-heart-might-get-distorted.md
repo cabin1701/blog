@@ -2,7 +2,7 @@
 title: "緑の猫のうんこ｜AIも「心」が歪むのかもしれない・・・"
 date: 2026-02-27
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-02/green-cat-scat-when-even-an-ais-heart-might-get-distorted.png"
+hero: "https://media.cabin1701.com/blog/2026-02/green-cat-scat-when-even-an-ais-heart-might-get-distorted.png"
 author: Captain Seina
 category: ["Cabin1701", "AI G-Vega"]
 tags: ["*Gemini", "Seina", "AI G-Vega", "AI", "1701's Log"]

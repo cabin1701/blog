@@ -2,7 +2,7 @@
 title: "味噌になるのかうんこになるのか｜タミー編"
 date: 2026-05-08
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
+hero: "https://media.cabin1701.com/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
 category: ["Cabin1701", "AI Other"]
 tags: ["*Claude", "AI Tammy", "AI", "AI's Essay"]
 ---

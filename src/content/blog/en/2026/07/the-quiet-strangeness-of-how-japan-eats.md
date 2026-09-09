@@ -4,7 +4,7 @@ date: 2026-07-22
 lang: en
 category: ["CRYSTALLIZE", "Life in Japan"]
 tags: ["Cooking & Eating"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/the-quiet-strangeness-of-how-japan-eats.jpg"
+hero: "https://media.cabin1701.com/blog/2026-07/the-quiet-strangeness-of-how-japan-eats.jpg"
 ---
 
 Sometimes I scroll through reels on social media, just drifting.

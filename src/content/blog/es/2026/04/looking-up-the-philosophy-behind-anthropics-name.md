@@ -2,7 +2,7 @@
 title: "Mirando hacia arriba — La filosofía detrás del nombre de Anthropic"
 date: 2026-04-18
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/looking-up-the-philosophy-behind-anthropics-name.jpg"
+hero: "https://media.cabin1701.com/blog/2026-04/looking-up-the-philosophy-behind-anthropics-name.jpg"
 author: Captain Seina
 category: ["Cabin1701", "AI Frankie"]
 tags: ["*Claude", "AI Frankie", "Seina", "AI G-Vega", "IA", "1701's Log"]

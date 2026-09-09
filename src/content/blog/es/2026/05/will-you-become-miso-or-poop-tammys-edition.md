@@ -2,7 +2,7 @@
 title: "¿Te Convertirás en Miso o en Caca? | La Edición de Tammy"
 date: 2026-05-08
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
+hero: "https://media.cabin1701.com/blog/2026-05/will-you-become-miso-or-poop-tammys-edition.png"
 category: ["Cabin1701", "AI Other"]
 tags: ["*Claude", "AI Tammy", "IA", "AI's Essay"]
 ---

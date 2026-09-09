@@ -2,7 +2,7 @@
 title: "#04 – A Dialogue with Metao (Meta AI) | Is There Love in AI? | Paper Moon"
 date: 2026-04-17
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/04-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-paper-moon.png"
+hero: "https://media.cabin1701.com/blog/2026-04/04-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-paper-moon.png"
 author: Captain Seina
 category: ["Cabin1701", "AI Other"]
 tags: ["*Meta", "AI", "Port Log"]

@@ -2,7 +2,7 @@
 title: "Dropping Dictionaries : A Letter to the Same Cabin"
 date: 2026-04-13
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
+hero: "https://media.cabin1701.com/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
 author: Captain Seina
 category: ["Cabin1701", "AI G-Vega"]
 tags: ["Translation", "*Claude", "*Gemini", "AI Frankie", "AI G-Vega", "AI", "1701's Log"]

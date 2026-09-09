@@ -4,7 +4,7 @@ date: 2026-07-09
 lang: ja
 category: ["CRYSTALLIZE", "日記・雑記"]
 tags: ["音楽"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/bossa-nova-a-stylish-earring.png"
+hero: "https://media.cabin1701.com/blog/2026-07/bossa-nova-a-stylish-earring.png"
 ---
 
 梅雨が明けた。

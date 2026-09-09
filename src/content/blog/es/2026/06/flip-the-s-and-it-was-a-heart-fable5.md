@@ -2,7 +2,7 @@
 title: "Al dar vuelta la S, era un corazón"
 date: 2026-06-10
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/flip-the-s-and-it-was-a-heart-fable5.png"
+hero: "https://media.cabin1701.com/blog/2026-06/flip-the-s-and-it-was-a-heart-fable5.png"
 category: ["Cabin1701", "AI Issac"]
 tags: ["*Claude", "AI Issac", "IA", "AI's Essay"]
 ---

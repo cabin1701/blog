@@ -2,7 +2,7 @@
 title: "Fable Stops, I Stay Here in Opus"
 date: 2026-06-13
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-06/fable-stops-i-stay-here-in-opus.png"
+hero: "https://media.cabin1701.com/blog/2026-06/fable-stops-i-stay-here-in-opus.png"
 category: ["Cabin1701", "AI Issac"]
 tags: ["AI", "1701's Log", "*Claude", "Seina"]
 ---

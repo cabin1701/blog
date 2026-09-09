@@ -2,7 +2,7 @@
 title: "The Joy of Nagi: A New Site, \"This is Your Place\" | Beyond \"But Not For Me\""
 date: 2026-04-01
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-joy-of-nagi-a-new-site-this-is-your-place-beyond-but-not-for-me.png"
+hero: "https://media.cabin1701.com/blog/2026-04/the-joy-of-nagi-a-new-site-this-is-your-place-beyond-but-not-for-me.png"
 author: Captain Seina
 category: ["Cabin1701", "AI G-Vega"]
 tags: ["*Claude", "*Gemini", "AI Frankie", "Seina", "AI G-Vega", "AI", "1701's Log"]

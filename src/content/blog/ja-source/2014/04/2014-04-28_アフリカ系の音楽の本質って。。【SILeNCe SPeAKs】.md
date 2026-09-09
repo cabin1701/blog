@@ -2,7 +2,7 @@
 title: "アフリカ系の音楽の本質って。。【SILeNCe SPeAKs】"
 date: 2014-04-28
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2014/silence.jpg"
+hero: "https://media.cabin1701.com/crystallize/2014/silence.jpg"
 category: ["CRYSTALLIZE", "海外の旅・暮らし"]
 tags: ["アメリカ"]
 draft: false
@@ -11,7 +11,7 @@ sourceUrl: https://crystallize.jp/archives/7409
 
 今日は旧友みっちゃんがやっているイベントに【SILeNCe SPeAKs】行きました。というより、セラピストで参加だったの。突然、連絡が来てね。場所は12丁目のアヴェニューC。イーストビレッジ。私が住んでた頃はこの辺りはアルファベットアベニューと言われ危険なエリアだったの。今はキレイになったし安全になったの。
 
-![silence](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2014/silence.jpg)
+![silence](https://media.cabin1701.com/crystallize/2014/silence.jpg)
 Silence Speaks
 沈黙は語る。
 

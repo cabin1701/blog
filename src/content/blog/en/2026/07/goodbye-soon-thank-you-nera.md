@@ -4,15 +4,15 @@ date: 2026-07-16
 lang: en
 category: ["CRYSTALLIZE", "Diary"]
 tags: ["Cats"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
+hero: "https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
 ---
 
 Yuka, from the neighborhood, got in touch.
 "It's been a while. Nera is fading. She lived well. It may be a matter of today or tomorrow."
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
+![](https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
+![](https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
 
 Two years ago, an old woman in the neighborhood left this town. Many cats lost the one who fed them.
 Two years before she left, her husband had passed away.

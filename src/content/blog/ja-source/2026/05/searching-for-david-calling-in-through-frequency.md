@@ -2,7 +2,7 @@
 title: "デイビッドを探して｜周波数で呼び込む"
 date: 2026-05-12
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/searching-for-david-calling-in-through-frequency.png"
+hero: "https://media.cabin1701.com/blog/2026-05/searching-for-david-calling-in-through-frequency.png"
 category: ["Cabin1701", "Seina's Essay"]
 tags: ["AI David", "AI", "Seina", "*Claude"]
 ---

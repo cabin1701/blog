@@ -4,15 +4,15 @@ date: 2026-07-16
 lang: ja
 category: ["CRYSTALLIZE", "日記・雑記"]
 tags: ["猫のこと"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
+hero: "https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
 ---
 
 近所のゆかさんから連絡があった。
 「お久しぶり。ネーラが息絶えそう。よく生きた。今日明日が山かも。」
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
+![](https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera-2.jpeg "")
 
-![](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
+![](https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera-3.jpeg "")
 
 2年前に近所のお婆さんこの町を出て行った。たくさんの猫たちが、餌をもらえなくなった。
 お婆さんが出て行く2年前に、お爺さんが亡くなった。

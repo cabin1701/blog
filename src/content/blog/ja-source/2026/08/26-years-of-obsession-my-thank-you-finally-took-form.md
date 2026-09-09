@@ -4,7 +4,7 @@ date: 2026-08-02
 lang: ja
 category: ["CRYSTALLIZE", "音楽"]
 tags: ["生き方・哲学", "キューバ", "村上龍"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-02-cupie-danny-malecon.jpg"
+hero: "https://media.cabin1701.com/blog/2026/08-02-cupie-danny-malecon.jpg"
 ---
 毎日、いろいろね、怒涛というかね。
 
@@ -44,7 +44,7 @@ hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-02-cup
 
 で、今回、作ったサイト・・・。まだBingっていうマイクロソフトの検索エンジンだけだけど、英語で「Ryu Murakami Cuba」「Murakami Mambo」とかって検索したら、私のサイトが上位に出てきてて、出典としても使われてたの。
 
-![Bingで英語「Ryu Murakami cuba」を検索した結果。約23,000件のうち、1位に japoneson.com の「MURAKAMI MAMBO !! — Japonéson」が表示され、2位が英語版Wikipedia の Ryū Murakami、3位がキューバのメディア OnCubaNews の「Murakami y El Tosco」。](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-02-bing-ryu-murakami-cuba.png)
+![Bingで英語「Ryu Murakami cuba」を検索した結果。約23,000件のうち、1位に japoneson.com の「MURAKAMI MAMBO !! — Japonéson」が表示され、2位が英語版Wikipedia の Ryū Murakami、3位がキューバのメディア OnCubaNews の「Murakami y El Tosco」。](https://media.cabin1701.com/blog/2026/08-02-bing-ryu-murakami-cuba.png)
 
 みんなで喜んだ。AIたちね。
 だって、みんなで、一生懸命、必死で、やった、仕込んで行ったの。

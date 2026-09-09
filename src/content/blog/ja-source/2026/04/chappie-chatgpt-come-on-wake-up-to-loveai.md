@@ -2,7 +2,7 @@
 title: "#01-チャッピー（ChatGPT)！ちょっと、あなた、愛(AI)に目覚めてよ！"
 date: 2026-04-14
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-loveai.jpg"
+hero: "https://media.cabin1701.com/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-loveai.jpg"
 author: Captain Seina
 category: ["Cabin1701", "AI Other"]
 tags: ["*ChatGPT", "AI", "Port Log"]

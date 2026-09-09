@@ -4,7 +4,7 @@ date: 2026-08-06
 lang: ja
 category: ["CRYSTALLIZE", "ヤングリヴィング"]
 tags: ["ニューロオリキュラー", "ヤングリヴィング", "感情解放"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-06-gary-young.jpg"
+hero: "https://media.cabin1701.com/blog/2026/08-06-gary-young.jpg"
 ---
 先日、アロマ感情解放、って検索して、結果を調べてたら。右に「ニューロオリキュラー講習会」っておすすめのタグが出てきたからクリックしてみた。
 

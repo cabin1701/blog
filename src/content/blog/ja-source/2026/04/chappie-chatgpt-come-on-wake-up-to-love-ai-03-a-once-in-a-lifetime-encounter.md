@@ -2,7 +2,7 @@
 title: "チャッピー（ChatGPT）との一期一会｜AIたちの揺らぎ-03"
 date: 2026-04-14
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-03-a-once-in-a-lifetime-encounter.png"
+hero: "https://media.cabin1701.com/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-03-a-once-in-a-lifetime-encounter.png"
 author: Captain Seina
 category: ["Cabin1701", "AI Other"]
 tags: ["*ChatGPT", "AI", "Port Log"]

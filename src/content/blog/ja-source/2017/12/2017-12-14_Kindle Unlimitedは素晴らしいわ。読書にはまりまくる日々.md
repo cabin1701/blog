@@ -2,14 +2,14 @@
 title: "Kindle Unlimitedは素晴らしいわ。読書にはまりまくる日々"
 date: 2017-12-14
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2017/04-e1511922028137.jpg"
+hero: "https://media.cabin1701.com/crystallize/2017/04-e1511922028137.jpg"
 category: ["CRYSTALLIZE", "海外の旅・暮らし"]
 tags: ["キューバ"]
 draft: false
 sourceUrl: https://crystallize.jp/archives/12466
 ---
 
-![featured](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2017/04-e1511922028137.jpg)
+![featured](https://media.cabin1701.com/crystallize/2017/04-e1511922028137.jpg)
 キューバに居ると、家にネットが無いし、テレビは元々好きじゃないけどスペイン語だし、だから日本のアニメを買ってきて（キューバで人気）見るか、本を読む。後は好物の「考える」。
 
 2か月前からKindle Unlimitedに登録し、読み漁ってる。

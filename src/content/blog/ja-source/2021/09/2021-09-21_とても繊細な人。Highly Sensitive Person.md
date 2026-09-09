@@ -2,14 +2,14 @@
 title: "とても繊細な人。Highly Sensitive Person"
 date: 2021-09-21
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2021/flower-6576240_640.jpg"
+hero: "https://media.cabin1701.com/crystallize/2021/flower-6576240_640.jpg"
 category: ["CRYSTALLIZE", "心いろいろ"]
 tags: []
 draft: false
 sourceUrl: https://crystallize.jp/archives/19409
 ---
 
-![featured](https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/crystallize/2021/flower-6576240_640.jpg)
+![featured](https://media.cabin1701.com/crystallize/2021/flower-6576240_640.jpg)
 以前から、「繊細さん」とかいうのをネットの記事で目にしたりする。この前、クリックしてみると、「HSP」Highly Sensitive Personというのらしい。1990年代にアメリカの臨床研究心理学者のエレイン・N・アーロンという方が見つけたようです。
 
 ネットで検索したり、いくつか本を見てみましたが（読んだり、ざっと見て途中でやめたり）、繊細ゆえに、傷つきやすくて、生き辛くて、鬱にもなりやすいそうで、気の毒な人が多いのか、「繊細さん」という弱いものを庇護するような気持ち悪い表現になってしまっているのかもです。そういう訳でか、「繊細さん」という言葉にはブルっとします。

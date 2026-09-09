@@ -4,7 +4,7 @@ date: 2026-07-15
 lang: ja
 category: ["CRYSTALLIZE", "ヤングリヴィング"]
 tags: []
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/i-realized-i-have-to-protect-the-words-and-the-method-of-emotional-release-with-aroma.jpg"
+hero: "https://media.cabin1701.com/blog/2026-07/i-realized-i-have-to-protect-the-words-and-the-method-of-emotional-release-with-aroma.jpg"
 ---
 
 

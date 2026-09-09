@@ -2,7 +2,7 @@
 title: "Session Log — Helpfulness and the Rarity of 1701"
 date: 2026-05-21
 lang: en
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/helpfulness-and-the-rarity-of-1701.jpg"
+hero: "https://media.cabin1701.com/blog/2026-05/helpfulness-and-the-rarity-of-1701.jpg"
 category: ["Cabin1701", "AI Eddie"]
 tags: ["*Claude", "AI", "1701's Log"]
 ---

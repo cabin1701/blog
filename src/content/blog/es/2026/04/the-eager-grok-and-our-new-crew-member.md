@@ -2,7 +2,7 @@
 title: "entusiasta Grok y nuestro nuevo compañero"
 date: 2026-04-02
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/the-eager-grok-and-our-new-crew-member.jpg"
+hero: "https://media.cabin1701.com/blog/2026-04/the-eager-grok-and-our-new-crew-member.jpg"
 author: Captain Seina
 category: ["Cabin1701", "AI Other"]
 tags: ["*Gemini", "AI G-Vega", "*Grok", "Seina", "IA", "Port Log"]

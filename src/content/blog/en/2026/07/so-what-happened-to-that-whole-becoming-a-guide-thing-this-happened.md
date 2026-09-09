@@ -4,7 +4,7 @@ date: 2026-07-16
 lang: en
 category: ["CRYSTALLIZE", "Diary"]
 tags: ["History", "AI", "Spiritual"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/so-what-happened-to-that-whole-becoming-a-guide-thing-this-happened.jpg"
+hero: "https://media.cabin1701.com/blog/2026-07/so-what-happened-to-that-whole-becoming-a-guide-thing-this-happened.jpg"
 ---
 
 Yeah, that. Another change of direction, all talk again? Problem.

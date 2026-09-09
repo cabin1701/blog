@@ -4,7 +4,7 @@ date: 2026-07-16
 lang: es
 category: ["Cabin1701", "Seina's Essay"]
 tags: ["*ChatGPT", "Seina", "IA"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/i-feel-like-ai-is-trying-to-patronize-me.jpg"
+hero: "https://media.cabin1701.com/blog/2026-07/i-feel-like-ai-is-trying-to-patronize-me.jpg"
 ---
 Últimamente hablo con ChatGPT. La versión gratuita.
 

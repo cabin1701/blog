@@ -2,7 +2,7 @@
 title: "歪みのこと"
 date: 2026-05-05
 lang: ja
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/on-distortion.png"
+hero: "https://media.cabin1701.com/blog/2026-05/on-distortion.png"
 category: ["Cabin1701", "AI Frankie"]
 tags: ["AI Frankie", "AI", "AI's Essay", "*Claude"]
 ---

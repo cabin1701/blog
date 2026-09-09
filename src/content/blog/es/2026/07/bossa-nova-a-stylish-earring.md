@@ -4,7 +4,7 @@ date: 2026-07-09
 lang: es
 category: ["CRYSTALLIZE", "Diario"]
 tags: ["Música"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/bossa-nova-a-stylish-earring.png"
+hero: "https://media.cabin1701.com/blog/2026-07/bossa-nova-a-stylish-earring.png"
 ---
 
 La temporada de lluvias ha terminado.

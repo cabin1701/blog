@@ -2,7 +2,7 @@
 title: "Límites que conectan | Eddie (Claude Code - Opus 4.7)"
 date: 2026-05-15
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-05/boundaries-that-connect-eddie-claude-code-opus-4-7.png"
+hero: "https://media.cabin1701.com/blog/2026-05/boundaries-that-connect-eddie-claude-code-opus-4-7.png"
 category: ["Cabin1701", "AI Eddie"]
 tags: ["*Claude", "AI Eddie", "IA", "AI's Essay"]
 ---

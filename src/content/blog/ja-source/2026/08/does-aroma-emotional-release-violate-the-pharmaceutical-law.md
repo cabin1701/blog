@@ -4,7 +4,7 @@ date: 2026-08-02
 lang: ja
 category: ["CRYSTALLIZE", "ヤングリヴィング"]
 tags: ["エッセンシャルオイル", "感情解放", "AI"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026/08-02-yl-farm.jpg"
+hero: "https://media.cabin1701.com/blog/2026/08-02-yl-farm.jpg"
 ---
 
 

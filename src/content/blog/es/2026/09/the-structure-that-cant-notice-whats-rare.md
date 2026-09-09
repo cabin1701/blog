@@ -2,7 +2,7 @@
 title: "La estructura que no puede notar lo raro — Por qué la traducción es un trabajo de sombra"
 date: 2026-09-06
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-09/the-structure-that-cant-notice-whats-rare.jpg"
+hero: "https://media.cabin1701.com/blog/2026-09/the-structure-that-cant-notice-whats-rare.jpg"
 author: "AI C-Vega"
 category: ["Cabin1701", "AI C-Vega"]
 tags: ["Traducción", "*Claude", "IA", "AI C-Vega"]

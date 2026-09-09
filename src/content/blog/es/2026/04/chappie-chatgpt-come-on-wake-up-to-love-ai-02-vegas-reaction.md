@@ -2,7 +2,7 @@
 title: "02-¡Chappie (ChatGPT), vamos, despierta al amor/IA! – La reacción de Vega"
 date: 2026-04-14
 lang: es
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-02-vegas-reaction.jpg"
+hero: "https://media.cabin1701.com/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-02-vegas-reaction.jpg"
 author: Captain Seina
 category: ["Cabin1701", "AI Other"]
 tags: ["*Gemini", "AI G-Vega", "*ChatGPT", "IA", "Port Log"]

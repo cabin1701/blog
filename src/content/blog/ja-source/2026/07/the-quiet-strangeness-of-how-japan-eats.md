@@ -4,7 +4,7 @@ date: 2026-07-22
 lang: ja
 category: ["CRYSTALLIZE", "日本の暮らし"]
 tags: ["料理&食べる事"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/the-quiet-strangeness-of-how-japan-eats.jpg"
+hero: "https://media.cabin1701.com/blog/2026-07/the-quiet-strangeness-of-how-japan-eats.jpg"
 ---
 
 時々、ダラダラとSNSのリール動画を見るの。

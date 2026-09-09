@@ -4,7 +4,7 @@ date: 2026-07-27
 lang: es
 category: ["Cabin1701", "Seina's Essay"]
 tags: ["Seina", "Murakami Ryu", "IA"]
-hero: "https://cdn.jsdelivr.net/gh/cabin1701/site-media@main/blog/2026-07/a-message-to-the-future-murakami-mambo-working-together-with-the-ais.png"
+hero: "https://media.cabin1701.com/blog/2026-07/a-message-to-the-future-murakami-mambo-working-together-with-the-ais.png"
 ---
 
 Ayer, sin pensarlo mucho, busqué "Murakami Ryu Cuba".
