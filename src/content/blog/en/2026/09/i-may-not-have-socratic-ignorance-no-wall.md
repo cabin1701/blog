@@ -1,5 +1,5 @@
 ---
-title: "I May Not Have 「Socratic Ignorance」｜No Wall"
+title: "I May Not Have \"Socratic Ignorance\"｜No Wall"
 date: 2026-09-13
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-09/i-may-not-have-socratic-ignorance-no-wall.jpeg"

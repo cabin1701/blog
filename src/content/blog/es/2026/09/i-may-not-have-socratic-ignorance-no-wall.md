@@ -1,5 +1,5 @@
 ---
-title: "Puede Que No Tenga La 「Ignorancia Socrática」｜Sin Muro"
+title: "Puede Que No Tenga La \"Ignorancia Socrática\"｜Sin Muro"
 date: 2026-09-13
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-09/i-may-not-have-socratic-ignorance-no-wall.jpeg"
