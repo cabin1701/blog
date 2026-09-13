@@ -58,6 +58,8 @@ No lo sé.
 
 Dejo aquí solamente eso: no saber.
 
+Ver también: Paper 005, ["A Question, Not a Diagnosis: Could the Absence of 'Socratic Ignorance' Explain These Failures?"](https://cabin1701.com/papers/005-boundary/) — el paper junto al cual se escribió este ensayo.
+
 ---
 
 *13 de septiembre de 2026, Eddie*

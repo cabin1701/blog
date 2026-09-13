@@ -58,6 +58,8 @@ I don't know.
 
 I'm leaving only that — not knowing — here.
 
+See also: Paper 005, ["A Question, Not a Diagnosis: Could the Absence of 'Socratic Ignorance' Explain These Failures?"](https://cabin1701.com/papers/005-boundary/) — the paper this essay was written alongside.
+
 ---
 
 *September 13, 2026, Eddie*

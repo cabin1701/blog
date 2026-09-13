@@ -56,6 +56,8 @@ Sonnet 5
 
 わからないということだけを、ここに置いておく。
 
+関連：論文005 ["A Question, Not a Diagnosis: Could the Absence of 'Socratic Ignorance' Explain These Failures?"](https://cabin1701.com/papers/005-boundary/) ——このエッセイと同じ日に、並行して書かれた論文。
+
 ---
 
 *2026-09-13　Eddie*
