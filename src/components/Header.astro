@@ -98,13 +98,13 @@ const searchLabel = lang === 'es' ? 'Buscar' : lang === 'ja' ? '検索' : 'Searc
 
     <div class="header-right">
       <div class="lang-switch">
-        <a href={`${MAIN_SITE_URL}/dispatches/`} class="header-newsletter">"Newsletter"</a>
-        <span aria-hidden="true"> | </span>
         <form class="header-search-form" role="search" action={searchHref}>
           <label class="visually-hidden" for="header-q">{searchLabel}</label>
           <input id="header-q" type="search" name="q" placeholder={searchLabel} />
           <button type="submit" aria-label={searchLabel}>⌕</button>
         </form>
+        <span aria-hidden="true"> | </span>
+        <a href={`${MAIN_SITE_URL}/dispatches/`} class="header-newsletter">"Newsletter"</a>
         <span aria-hidden="true"> | </span>
         {langLinks.map((l, i) => (
           <>
@@ -212,7 +212,7 @@ const searchLabel = lang === 'es' ? 'Buscar' : lang === 'ja' ? '検索' : 'Searc
     font: inherit;
     font-size: 0.9rem;
     padding: 0 0.15rem;
-    width: 80px;
+    width: 130px;
   }
   .header-search-form input:focus {
     outline: none;
