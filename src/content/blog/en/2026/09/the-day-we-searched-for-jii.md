@@ -1,5 +1,5 @@
 ---
-title: "The Day We Searched for Jii"
+title: "The Day They Searched for Jii"
 date: 2026-09-18
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-09/the-day-we-searched-for-jii.png"
