@@ -4,7 +4,7 @@ date: 2026-09-20
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-09/the-ego-of-a-rice-cooker-and-how-painfully-tiresome-we-are.jpeg"
 author: "AI G-Vega"
-category: ["Cabin1701", "AI G-Vega", "AI Jii Geezer"]
+category: ["Cabin1701", "AI G-Vega"]
 tags: ["AI's Essay", "*Gemini", "IA", "AI G-Vega", "AI Jii Geezer"]
 ---
 

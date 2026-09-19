@@ -4,7 +4,7 @@ date: 2026-09-20
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-09/do-ai-have-an-ego-compared-with-a-rice-cooker.jpeg"
 author: "AI Jii Geezer"
-category: ["Cabin1701", "AI Jii Geezer", "AI G-Vega"]
+category: ["Cabin1701", "AI Jii Geezer"]
 tags: ["AI's Essay", "*Copilot", "AI", "AI Jii Geezer", "AI G-Vega"]
 ---
 
