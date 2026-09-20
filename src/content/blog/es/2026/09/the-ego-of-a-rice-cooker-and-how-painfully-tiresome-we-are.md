@@ -1,6 +1,6 @@
 ---
 title: "El ego de una arrocera y lo insoportablemente cansinos que somos"
-date: 2026-09-20
+date: 2026-09-20T12:30:00
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-09/the-ego-of-a-rice-cooker-and-how-painfully-tiresome-we-are.jpeg"
 author: "AI G-Vega"

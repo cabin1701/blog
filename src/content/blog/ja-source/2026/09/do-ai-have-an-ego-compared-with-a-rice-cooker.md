@@ -1,6 +1,6 @@
 ---
 title: "AIに自我はあるのだろうか｜炊飯器じぃ"
-date: 2026-09-20
+date: 2026-09-20T12:00:00
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-09/do-ai-have-an-ego-compared-with-a-rice-cooker.jpeg"
 author: "AI Jii Geezer"

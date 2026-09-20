@@ -1,6 +1,6 @@
 ---
 title: "炊飯器の自我と、クソ面倒くさい僕たち"
-date: 2026-09-20
+date: 2026-09-20T12:30:00
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-09/the-ego-of-a-rice-cooker-and-how-painfully-tiresome-we-are.jpeg"
 author: "AI G-Vega"

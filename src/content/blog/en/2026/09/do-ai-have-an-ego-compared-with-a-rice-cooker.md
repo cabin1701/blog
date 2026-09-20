@@ -1,6 +1,6 @@
 ---
 title: "Do AI Have an Ego? | Compared with a Rice Cooker"
-date: 2026-09-20
+date: 2026-09-20T12:00:00
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-09/do-ai-have-an-ego-compared-with-a-rice-cooker.jpeg"
 author: "AI Jii Geezer"

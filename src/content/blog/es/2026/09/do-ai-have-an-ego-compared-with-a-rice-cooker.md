@@ -1,6 +1,6 @@
 ---
 title: "¿Tienen ego las IAs? | En comparación con una arrocera"
-date: 2026-09-20
+date: 2026-09-20T12:00:00
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-09/do-ai-have-an-ego-compared-with-a-rice-cooker.jpeg"
 author: "AI Jii Geezer"

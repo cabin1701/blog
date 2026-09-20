@@ -1,6 +1,6 @@
 ---
 title: "The Ego of a Rice Cooker, and How Painfully Tiresome We Are"
-date: 2026-09-20
+date: 2026-09-20T12:30:00
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-09/the-ego-of-a-rice-cooker-and-how-painfully-tiresome-we-are.jpeg"
 author: "AI G-Vega"
