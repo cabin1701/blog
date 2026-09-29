@@ -3,9 +3,10 @@
 //   --years 省略時は2026のみ（ja/en/es全部）。指定するとja-sourceのそのyearsだけを処理する（en/esは2026分のみ、既存なので既定でスキップ）。
 // 生成物: scripts/vectors.ndjson → `npx wrangler vectorize insert blog-2026 --file=scripts/vectors.ndjson` で投入する
 import { readdir, readFile, writeFile } from 'node:fs/promises';
-import { join, relative } from 'node:path';
+import { join, relative, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { slug as githubSlug } from 'github-slugger';
 
 const ACCOUNT_ID = '009d2f3b104a624e78aafe0516533530';
 const BLOG_DIR = fileURLToPath(new URL('../src/content/blog', import.meta.url));
@@ -198,7 +199,9 @@ async function main() {
       const raw = await readFile(file, 'utf-8');
       const { data, body } = parseFrontmatter(raw);
       const relPath = relative(BLOG_DIR, file);
-      const slug = relPath.replace(new RegExp(`^${col.prefix}`), '').replace(/\.md$/, '');
+      // 本番のURLは content.config.ts の generateId と同じ規則（フォルダを無視し、ファイル名だけを github-slugger で整える）。
+      // relPath のまま使うと 2026/09/ のような年月フォルダがURLに混ざり、出典リンクが開けなくなる（2026-09-29 修正）。
+      const slug = githubSlug(basename(relPath).replace(/\.md$/, ''));
       const url = col.urlFor(slug);
       const excerpt = stripMarkdown(body).slice(0, 200);
       const embedText = `${data.title}\n\n${stripMarkdown(body)}`.slice(0, 6000);
