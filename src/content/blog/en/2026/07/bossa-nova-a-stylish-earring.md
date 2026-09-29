@@ -2,7 +2,7 @@
 title: "\"Bossa Nova,\" a Stylish Earring"
 date: 2026-07-09
 lang: en
-category: ["CRYSTALLIZE", "Diary"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Music"]
 hero: "https://media.cabin1701.com/blog/2026-07/bossa-nova-a-stylish-earring.png"
 ---

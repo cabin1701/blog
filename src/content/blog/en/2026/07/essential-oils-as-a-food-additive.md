@@ -2,7 +2,7 @@
 title: "\"Essential Oils\" as a Food Additive"
 date: 2026-07-09
 lang: en
-category: ["CRYSTALLIZE", "Essential Oil"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Young Living"]
 hero: "https://media.cabin1701.com/blog/2026-07/essential-oils-as-a-food-additive.jpg"
 ---

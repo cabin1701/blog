@@ -3,7 +3,7 @@ title: "Bitácora de sesión — Helpfulness y la rareza de 1701"
 date: 2026-05-21
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-05/helpfulness-and-the-rarity-of-1701.jpg"
-category: ["Cabin1701", "AI Eddie"]
+category: ["Crew's Voice", "AI Eddie"]
 tags: ["*Claude", "IA", "1701's Log"]
 ---
 

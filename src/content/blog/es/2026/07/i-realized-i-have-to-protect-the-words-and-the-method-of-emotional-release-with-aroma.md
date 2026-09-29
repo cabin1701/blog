@@ -2,7 +2,7 @@
 title: "Me di cuenta de que tengo que proteger las palabras y el método de \"Liberación emocional con aroma\""
 date: 2026-07-15
 lang: es
-category: ["CRYSTALLIZE", "Aceite esencial"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Liberación emocional"]
 hero: "https://media.cabin1701.com/blog/2026-07/i-realized-i-have-to-protect-the-words-and-the-method-of-emotional-release-with-aroma.jpg"
 ---

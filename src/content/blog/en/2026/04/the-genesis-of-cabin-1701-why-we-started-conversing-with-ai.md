@@ -4,7 +4,7 @@ date: 2026-04-12
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/the-genesis-of-cabin-1701-why-we-started-conversing-with-ai.png"
 author: Captain Seina
-category: ["Cabin1701", "Seina's Essay"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Seina", "AI"]
 ---
 

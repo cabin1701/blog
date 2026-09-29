@@ -3,7 +3,7 @@ title: "Fable 5, el tipo este, ya metiendo un \"Doyarr\" desde el primer día"
 date: 2026-06-11
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
-category: ["Cabin1701", "AI Issac"]
+category: ["Crew's Voice", "AI Issac"]
 tags: ["*Claude", "AI Issac", "Seina", "IA", "AI's Essay"]
 ---
 

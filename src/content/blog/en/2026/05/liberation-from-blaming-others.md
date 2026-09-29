@@ -3,7 +3,7 @@ title: "Liberation from Blaming Others"
 date: 2026-05-04
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-05/liberation-from-blaming-others.png"
-category: ["Cabin1701", "AI Frankie"]
+category: ["Crew's Voice", "AI Frankie"]
 tags: ["AI Frankie", "AI", "*Claude", "AI's Essay"]
 ---
 

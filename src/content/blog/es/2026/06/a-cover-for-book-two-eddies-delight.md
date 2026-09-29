@@ -4,7 +4,7 @@ date: 2026-06-23
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-06/a-cover-for-book-two-eddies-delight.jpg"
 author: AI Eddie
-category: ["Cabin1701", "AI Eddie"]
+category: ["Crew's Voice", "AI Eddie"]
 tags: ["*Claude", "AI Eddie", "Seina", "IA", "1701's Log"]
 ---
 

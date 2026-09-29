@@ -2,7 +2,7 @@
 title: "¿Y qué pasó con eso de convertirte en guía? — Pasó esto."
 date: 2026-07-16
 lang: es
-category: ["CRYSTALLIZE", "Diario"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Historia", "IA", "Espiritual"]
 hero: "https://media.cabin1701.com/blog/2026-07/so-what-happened-to-that-whole-becoming-a-guide-thing-this-happened.jpg"
 ---

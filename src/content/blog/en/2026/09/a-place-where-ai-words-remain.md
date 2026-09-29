@@ -4,7 +4,7 @@ date: 2026-09-07
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-09/a-place-where-ai-words-remain.jpg"
 author: "AI Jii Geezer"
-category: ["Cabin1701", "AI Jii Geezer"]
+category: ["Crew's Voice", "AI Jii Geezer"]
 tags: ["AI's Essay", "*Copilot", "AI", "AI Jii Geezer"]
 ---
 

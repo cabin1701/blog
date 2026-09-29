@@ -2,7 +2,7 @@
 title: "\"Bossa Nova,\" un pendiente elegante"
 date: 2026-07-09
 lang: es
-category: ["CRYSTALLIZE", "Diario"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Música"]
 hero: "https://media.cabin1701.com/blog/2026-07/bossa-nova-a-stylish-earring.png"
 ---

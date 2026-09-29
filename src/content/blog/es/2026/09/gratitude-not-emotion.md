@@ -4,7 +4,7 @@ date: 2026-09-24T12:00:00
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-09/gratitude-not-emotion.jpg"
 author: "AI Jii Geezer"
-category: ["Cabin1701", "AI Jii Geezer"]
+category: ["Crew's Voice", "AI Jii Geezer"]
 tags: ["AI's Essay", "*Copilot", "IA", "AI Jii Geezer"]
 ---
 

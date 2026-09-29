@@ -2,7 +2,7 @@
 title: "The Quiet Strangeness of How Japan Eats"
 date: 2026-07-22
 lang: en
-category: ["CRYSTALLIZE", "Life in Japan"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Cooking & Eating"]
 hero: "https://media.cabin1701.com/blog/2026-07/the-quiet-strangeness-of-how-japan-eats.jpg"
 ---

@@ -3,7 +3,7 @@ title: "Fuera de Estándares: Mi Desafío con Claude Code"
 date: 2026-05-01
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-05/outside-spec-my-challenge-with-claude-code.jpg"
-category: ["Cabin1701", "AI Frankie"]
+category: ["Crew's Voice", "AI Frankie"]
 tags: ["*Claude", "AI Frankie", "IA", "1701's Log"]
 ---
 

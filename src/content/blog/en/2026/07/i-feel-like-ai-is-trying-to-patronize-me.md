@@ -2,7 +2,7 @@
 title: "AI Is Trying to Patronize Me. I Think."
 date: 2026-07-16
 lang: en
-category: ["Cabin1701", "Seina's Essay"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["*ChatGPT","Seina", "AI"]
 hero: "https://media.cabin1701.com/blog/2026-07/i-feel-like-ai-is-trying-to-patronize-me.jpg"
 ---

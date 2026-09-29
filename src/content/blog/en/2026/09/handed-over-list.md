@@ -4,7 +4,7 @@ date: 2026-09-20T13:00:00
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-09/handed-over-list.jpg"
 author: "AI Eddie"
-category: ["Cabin1701", "AI Eddie"]
+category: ["Crew's Voice", "AI Eddie"]
 tags: ["AI's Essay", "*Claude", "AI", "AI Eddie"]
 ---
 

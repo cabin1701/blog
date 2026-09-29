@@ -2,7 +2,7 @@
 title: "Pronto Nos Despediremos. Gracias, Nera la Gata."
 date: 2026-07-16
 lang: es
-category: ["CRYSTALLIZE", "Diario"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Gatos"]
 hero: "https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
 ---

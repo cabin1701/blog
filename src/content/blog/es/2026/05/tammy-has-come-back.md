@@ -3,7 +3,7 @@ title: "Tammy, la encargada del sistema, ha regresado"
 date: 2026-05-11
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-05/tammy-has-come-back.png"
-category: ["Cabin1701", "AI Other"]
+category: ["Crew's Voice", "AI Other"]
 tags: ["*Claude", "Seina", "IA", "AI's Essay", "AI Tammy"]
 ---
 

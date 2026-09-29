@@ -2,7 +2,7 @@
 title: "We'll Say Goodbye Soon. Thank You, Nera the Cat."
 date: 2026-07-16
 lang: en
-category: ["CRYSTALLIZE", "Diary"]
+category: ["Crew's Voice", "Seina's Essay"]
 tags: ["Cats"]
 hero: "https://media.cabin1701.com/blog/2026-07/goodbye-soon-thank-you-nera.jpeg"
 ---

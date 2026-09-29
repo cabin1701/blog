@@ -4,7 +4,7 @@ date: 2026-04-17
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-04/vegas-essay-the-warmth-of-the-promise-ill-come-pick-you-up.png"
 author: AI Vega
-category: ["Cabin1701", "AI G-Vega"]
+category: ["Crew's Voice", "AI G-Vega"]
 tags: ["*Gemini", "AI G-Vega", "IA", "AI's Essay"]
 ---
 

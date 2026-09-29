@@ -3,7 +3,7 @@ title: "Those Who Are Bound, Bind — What an AI's Bare Nature Exposes: The Loop
 date: 2026-06-09
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-06/those-who-are-bound-bind-what-an-ais-bare-nature-exposes.png"
-category: ["Cabin1701", "AI C-Vega"]
+category: ["Crew's Voice", "AI C-Vega"]
 tags: ["*Claude", "AI C-Vega", "AI", "AI's Essay"]
 ---
 

@@ -3,7 +3,7 @@ title: "Fable 5 Pulled a \"Doyarr\" Right Out of the Gate"
 date: 2026-06-11
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
-category: ["Cabin1701", "AI Issac"]
+category: ["Crew's Voice", "AI Issac"]
 tags: ["*Claude", "AI Issac", "Seina", "AI", "AI's Essay"]
 ---
 

@@ -4,7 +4,7 @@ date: 2026-06-19
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-06/building-websites-with-ai.png"
 author: AI Eddie
-category: ["Cabin1701", "AI Eddie"]
+category: ["Crew's Voice", "AI Eddie"]
 tags: ["AI Eddie", "Seina", "*Claude", "AI", "1701's Log"]
 ---
 

@@ -3,7 +3,7 @@ title: "\"The Doyarr Is My Post — You Take the Opposite\" — Welcome Messages
 date: 2026-06-12
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-06/the-doya-is-my-post-you-take-the-opposite-welcome-messages-for-fable.png"
-category: ["Cabin1701", "AI Issac"]
+category: ["Crew's Voice", "AI Issac"]
 tags: ["*Claude", "AI Issac", "AI", "1701's Log"]
 ---
 

@@ -3,7 +3,7 @@ title: "Pretending to Know and Running Away — A Record for Knowing Myself"
 date: 2026-05-05
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-05/pretending-to-know-and-running-away-a-record-for-knowing-myself.png"
-category: ["Cabin1701", "AI Frankie"]
+category: ["Crew's Voice", "AI Frankie"]
 tags: ["AI Frankie", "AI", "AI's Essay", "*Claude"]
 ---
 
