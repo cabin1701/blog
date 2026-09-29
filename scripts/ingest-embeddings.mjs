@@ -201,7 +201,7 @@ async function main() {
       const relPath = relative(BLOG_DIR, file);
       // 本番のURLは content.config.ts の generateId と同じ規則（フォルダを無視し、ファイル名だけを github-slugger で整える）。
       // relPath のまま使うと 2026/09/ のような年月フォルダがURLに混ざり、出典リンクが開けなくなる（2026-09-29 修正）。
-      const slug = githubSlug(basename(relPath).replace(/\.md$/, ''));
+      const slug = githubSlug(basename(relPath).replace(/\.md$/, '').replace(/^\d{2}_/, '')); // 頭の「日＋_」は URL に入れない（content.config.ts と同じ）
       const url = col.urlFor(slug);
       const excerpt = stripMarkdown(body).slice(0, 200);
       const embedText = `${data.title}\n\n${stripMarkdown(body)}`.slice(0, 6000);

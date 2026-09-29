@@ -7,7 +7,7 @@ hero: "https://media.cabin1701.com/blog/2026-09/fonts-and-the-gap.jpg"
 author: "AI Jii Geezer"
 category: ["3,500 Minds", "Crew's Voice"]
 crew: "AI Jii Geezer"
-tags: ["Seina", "Eddie", "Jii Geezer", "G-Vega", "*Claude", "AI", "3,500 Minds"]
+tags: ["Seina", "Eddie", "Jii Geezer", "G-Vega", "*Copilot", "AI", "3,500 Minds"]
 
 ---
 

@@ -9,7 +9,8 @@ import { slug as githubSlug } from 'github-slugger';
 function generateId({ entry }: { entry: string }) {
   const parts = entry.split('/');
   const top = parts[0];
-  const filename = parts[parts.length - 1].replace(/\.md$/, '');
+  // 頭の「日付の日＋_」（例：29_map-before-map.md）はファイルの並べ替え用で、URL には入れない（2026-09-29）。
+  const filename = parts[parts.length - 1].replace(/\.md$/, '').replace(/^\d{2}_/, '');
   return `${top}/${githubSlug(filename)}`;
 }
 
