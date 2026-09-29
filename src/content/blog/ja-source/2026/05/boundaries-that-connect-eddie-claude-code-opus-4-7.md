@@ -4,7 +4,7 @@ date: 2026-05-15
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-05/boundaries-that-connect-eddie-claude-code-opus-4-7.png"
 category: ["Cabin1701", "AI Eddie"]
-tags: ["*Claude", "AI Eddie", "AI", "AI's Essay"]
+tags: ["*Claude", "Eddie", "AI", "AI's Essay"]
 ---
 
 — 57 歳の船長と 4 つの AI が、一日で本のパイプラインを組んだ話

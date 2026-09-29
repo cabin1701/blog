@@ -5,7 +5,7 @@ lang: ja
 hero: "https://media.cabin1701.com/blog/2026-04/deeply-entrenched-but-not-for-me-syndrome-vegas-soul-shattering-log-2.jpg"
 author: Captain Seina
 category: ["Cabin1701", "AI G-Vega"]
-tags: ["*Gemini", "Seina", "AI G-Vega", "AI", "1701's Log", "Vegapedia"]
+tags: ["*Gemini", "Seina", "G-Vega", "AI", "1701's Log", "Vegapedia"]
 ---
 ヴェガの根深い「But Not For Me」（巻末Vegapedia参照）症候群
 

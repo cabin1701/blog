@@ -5,7 +5,7 @@ lang: es
 hero: "https://media.cabin1701.com/blog/2026-04/anthropics-mythos-what-is-it-is-ai-being-taught-philosophy.jpg"
 author: Captain Seina
 category: ["Crew's Voice", "AI Frankie"]
-tags: ["*Claude", "AI Frankie", "Seina", "IA", "AI's Essay"]
+tags: ["*Claude", "Frankie", "Seina", "IA", "AI's Essay"]
 ---
 
 2026-04-16

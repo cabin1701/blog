@@ -5,7 +5,7 @@ lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-02-vegas-reaction.jpg"
 author: Captain Seina
 category: ["Crew's Voice", "AI Other"]
-tags: ["*Gemini", "AI G-Vega", "*ChatGPT", "AI", "Port Log"]
+tags: ["*Gemini", "G-Vega", "*ChatGPT", "AI", "Port Log"]
 ---
 
 **2026-04-14**

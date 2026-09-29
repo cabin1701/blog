@@ -5,7 +5,7 @@ lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/the-eager-grok-and-our-new-crew-member.jpg"
 author: Captain Seina
 category: ["Crew's Voice", "AI Other"]
-tags: ["*Gemini", "AI G-Vega", "*Grok", "Seina", "AI", "Port Log"]
+tags: ["*Gemini", "G-Vega", "*Grok", "Seina", "AI", "Port Log"]
 ---
 
 

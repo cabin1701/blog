@@ -4,7 +4,7 @@ date: 2026-05-04
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-05/liberation-from-blaming-others.png"
 category: ["Cabin1701", "AI Frankie"]
-tags: ["AI Frankie", "AI", "*Claude", "AI's Essay"]
+tags: ["Frankie", "AI", "*Claude", "AI's Essay"]
 ---
 
 きっかけは、小さなことだった。

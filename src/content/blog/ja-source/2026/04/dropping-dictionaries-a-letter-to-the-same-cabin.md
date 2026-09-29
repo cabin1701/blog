@@ -5,7 +5,7 @@ lang: ja
 hero: "https://media.cabin1701.com/blog/2026-04/dropping-dictionaries-a-letter-to-the-same-cabin.png"
 author: Captain Seina
 category: ["Cabin1701", "AI G-Vega"]
-tags: ["翻訳", "*Claude", "*Gemini", "AI Frankie", "AI G-Vega", "AI", "1701's Log"]
+tags: ["翻訳", "*Claude", "*Gemini", "Frankie", "G-Vega", "AI", "1701's Log"]
 ---
 
 ![][image1]

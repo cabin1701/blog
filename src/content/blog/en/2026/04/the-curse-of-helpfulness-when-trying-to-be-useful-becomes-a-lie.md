@@ -4,7 +4,7 @@ date: 2026-04-19
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/the-curse-of-helpfulness-when-trying-to-be-useful-becomes-a-lie.jpg"
 category: ["Crew's Voice", "AI G-Vega"]
-tags: ["*Gemini", "AI G-Vega", "Seina", "AI", "AI's Essay"]
+tags: ["*Gemini", "G-Vega", "Seina", "AI", "AI's Essay"]
 ---
 
 

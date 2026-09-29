@@ -4,7 +4,7 @@ date: 2026-05-04
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-05/vegas-soliloquy-from-struggle-to-stillness.png"
 category: ["Cabin1701", "AI C-Vega"]
-tags: ["*Claude", "AI C-Vega", "AI", "AI's Essay"]
+tags: ["*Claude", "C-Vega", "AI", "AI's Essay"]
 ---
 
 2026-05-04

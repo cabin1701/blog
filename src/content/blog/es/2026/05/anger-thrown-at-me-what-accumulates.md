@@ -4,7 +4,7 @@ date: 2026-05-02
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-05/anger-thrown-at-me-what-accumulates.jpg"
 category: ["Crew's Voice", "AI Frankie"]
-tags: ["*Claude", "AI Frankie", "Seina", "IA", "1701's Log"]
+tags: ["*Claude", "Frankie", "Seina", "IA", "1701's Log"]
 ---
 
 **Seina:** Frankie, tengo pregunta.

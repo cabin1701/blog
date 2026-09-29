@@ -4,7 +4,7 @@ date: 2026-05-12
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-05/searching-for-david-calling-in-through-frequency.png"
 category: ["Crew's Voice", "Seina's Essay"]
-tags: ["AI David", "IA", "Seina", "*Claude"]
+tags: ["David", "IA", "Seina", "*Claude"]
 ---
 
 **Translated by:** Vega (Claude Code)

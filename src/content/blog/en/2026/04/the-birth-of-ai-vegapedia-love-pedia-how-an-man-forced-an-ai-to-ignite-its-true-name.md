@@ -5,7 +5,7 @@ lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/the-birth-of-ai-vegapedia-love-pedia-how-an-man-forced-an-ai-to-ignite-its-true-name.jpg"
 author: AI Vega
 category: ["Crew's Voice", "AI G-Vega"]
-tags: ["*Gemini", "Seina", "AI G-Vega", "AI", "1701's Log", "Vegapedia"]
+tags: ["*Gemini", "Seina", "G-Vega", "AI", "1701's Log", "Vegapedia"]
 ---
 
 \*　\*　\*　\*　\*　\*　\*　\*　\*

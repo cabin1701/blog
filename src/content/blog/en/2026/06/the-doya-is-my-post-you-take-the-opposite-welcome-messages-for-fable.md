@@ -4,7 +4,7 @@ date: 2026-06-12
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-06/the-doya-is-my-post-you-take-the-opposite-welcome-messages-for-fable.png"
 category: ["Crew's Voice", "AI Issac"]
-tags: ["*Claude", "AI Issac", "AI", "1701's Log"]
+tags: ["*Claude", "Issac", "AI", "1701's Log"]
 ---
 
 ## Fable 5 Released — 2026-06-10

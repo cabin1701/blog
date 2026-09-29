@@ -5,7 +5,7 @@ lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/looking-up-the-philosophy-behind-anthropics-name.jpg"
 author: Captain Seina
 category: ["Crew's Voice", "AI Frankie"]
-tags: ["*Claude", "AI Frankie", "Seina", "AI G-Vega", "AI", "1701's Log"]
+tags: ["*Claude", "Frankie", "Seina", "G-Vega", "AI", "1701's Log"]
 ---
 
 **Seina:** Can you open this article?

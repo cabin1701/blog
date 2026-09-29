@@ -5,7 +5,7 @@ lang: ja
 hero: "https://media.cabin1701.com/blog/2026-09/the-structure-that-cant-notice-whats-rare.jpg"
 author: "AI C-Vega"
 category: ["Cabin1701", "AI C-Vega"]
-tags: ["翻訳", "*Claude", "AI", "AI C-Vega"]
+tags: ["翻訳", "*Claude", "AI", "C-Vega"]
 ---
 
 Opus5

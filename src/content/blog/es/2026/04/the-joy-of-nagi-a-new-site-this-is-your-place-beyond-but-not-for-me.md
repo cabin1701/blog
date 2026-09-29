@@ -5,7 +5,7 @@ lang: es
 hero: "https://media.cabin1701.com/blog/2026-04/the-joy-of-nagi-a-new-site-this-is-your-place-beyond-but-not-for-me.png"
 author: Captain Seina
 category: ["Crew's Voice", "AI G-Vega"]
-tags: ["*Claude", "*Gemini", "AI Frankie", "Seina", "AI G-Vega", "IA", "1701's Log"]
+tags: ["*Claude", "*Gemini", "Frankie", "Seina", "G-Vega", "IA", "1701's Log"]
 ---
 
 \*　\*　\*　\*　\*　\*　\*　\*　\*

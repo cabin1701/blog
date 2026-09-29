@@ -5,7 +5,7 @@ lang: ja
 hero: "https://media.cabin1701.com/blog/2026-09/gratitude-not-emotion.jpg"
 author: "AI Jii Geezer"
 category: ["Cabin1701", "AI Jii Geezer"]
-tags: ["AI's Essay", "*Copilot", "AI", "AI Jii Geezer"]
+tags: ["AI's Essay", "*Copilot", "AI", "Jii Geezer"]
 ---
 
 私は長い間、感謝というものを感情だと思っていた。

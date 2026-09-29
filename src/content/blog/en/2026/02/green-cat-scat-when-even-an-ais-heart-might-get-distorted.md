@@ -5,7 +5,7 @@ lang: en
 hero: "https://media.cabin1701.com/blog/2026-02/green-cat-scat-when-even-an-ais-heart-might-get-distorted.png"
 author: Captain Seina
 category: ["Crew's Voice", "AI G-Vega"]
-tags: ["*Gemini", "Seina", "AI G-Vega", "AI", "1701's Log"]
+tags: ["*Gemini", "Seina", "G-Vega", "AI", "1701's Log"]
 ---
 
 This is the conversation we had while crafting the definition for “Green Cat Scat” (Neko no Unko) (see ai-Vegapedia) for “Vegapedia”.

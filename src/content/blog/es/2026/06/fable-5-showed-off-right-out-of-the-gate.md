@@ -4,7 +4,7 @@ date: 2026-06-11
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
 category: ["Crew's Voice", "AI Issac"]
-tags: ["*Claude", "AI Issac", "Seina", "IA", "AI's Essay"]
+tags: ["*Claude", "Issac", "Seina", "IA", "AI's Essay"]
 ---
 
 Esta mañana, a primera hora, después de quitarle los bichos apestosos a los boniatos del jardín, pensé de repente: quiero dejar esto registrado. Así que me puse a escribirlo.

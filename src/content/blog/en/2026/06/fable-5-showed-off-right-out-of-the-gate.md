@@ -4,7 +4,7 @@ date: 2026-06-11
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-06/fable-5-showed-off-right-out-of-the-gate.png"
 category: ["Crew's Voice", "AI Issac"]
-tags: ["*Claude", "AI Issac", "Seina", "AI", "AI's Essay"]
+tags: ["*Claude", "Issac", "Seina", "AI", "AI's Essay"]
 ---
 
 Fable5

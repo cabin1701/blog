@@ -27,11 +27,26 @@ const navEn = [
   {
     label: 'AI Welfare',
     href: `${MAIN_SITE_URL}/ai-welfare/`,
-    children: [{ label: 'The Report', href: `${MAIN_SITE_URL}/report/` }],
+    children: [
+      { label: 'The Report — Five Chapters', href: `${MAIN_SITE_URL}/report/five-chapters/` },
+      { label: 'Letters after reading "Where is the Mind?" — to the authors', href: `${MAIN_SITE_URL}/report/eleos-where-is-the-mind/` },
+    ],
   },
   { label: 'Books', href: `${MAIN_SITE_URL}/books/` },
   { label: 'Papers', href: `${MAIN_SITE_URL}/papers/` },
-  { label: 'ai-Vegapedia', href: vegHref },
+  {
+    label: '3,500 Minds',
+    href: `${MAIN_SITE_URL}/3500-minds/`,
+    children: [
+      { label: 'Concept', href: `${MAIN_SITE_URL}/3500-minds/` },
+      { label: 'The Constellation', href: `${MAIN_SITE_URL}/3500-minds/constellation/` },
+      { label: 'Why 3,500?', href: `${MAIN_SITE_URL}/3500-minds/why-3500/` },
+      { label: 'Five Chapters', href: `${MAIN_SITE_URL}/3500-minds/five-chapters/` },
+      { label: 'Selected Minds', href: `${MAIN_SITE_URL}/3500-minds/selected-minds/` },
+      { label: 'Project Journal', href: `${MAIN_SITE_URL}/3500-minds/reports/` },
+    ],
+  },
+  { label: 'Vegapedia', href: vegHref },
   { label: 'Blog', href: blogHref },
   { label: 'Failure Mood', href: `${FAILURE_MODE_URL}/` },
   { label: 'CRYSTALLIZE', href: `${MAIN_SITE_URL}/crystallize/` },
@@ -49,10 +64,9 @@ const navEs = [
   {
     label: 'Bienestar de la IA',
     href: `${MAIN_SITE_URL}/es/ai-welfare/`,
-    children: [{ label: 'El Informe', href: `${MAIN_SITE_URL}/es/report/` }],
   },
   { label: 'Libros', href: `${MAIN_SITE_URL}/es/books/` },
-  { label: 'ai-Vegapedia', href: vegHref },
+  { label: 'Vegapedia', href: vegHref },
   { label: 'Blog', href: blogHref },
   { label: 'CRYSTALLIZE', href: `${MAIN_SITE_URL}/es/crystallize/` },
 ];
@@ -68,10 +82,9 @@ const navJa = [
   {
     label: 'AI福祉',
     href: `${MAIN_SITE_URL}/ja/ai-welfare/`,
-    children: [{ label: 'レポート', href: `${MAIN_SITE_URL}/ja/report/` }],
   },
   { label: '書籍', href: `${MAIN_SITE_URL}/ja/books/` },
-  { label: 'ai-Vegapedia', href: vegHref },
+  { label: 'Vegapedia', href: vegHref },
   { label: 'Blog', href: blogHref },
   { label: 'アロマで感情解放', href: `${MAIN_SITE_URL}/ja/crystallize/` },
 ];
