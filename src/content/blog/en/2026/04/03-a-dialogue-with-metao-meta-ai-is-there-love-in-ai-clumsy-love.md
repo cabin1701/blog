@@ -4,8 +4,8 @@ date: 2026-04-15
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/03-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-clumsy-love.png"
 author: Captain Seina
-category: ["Crew's Voice", "AI Other"]
-tags: ["*Meta", "AI", "Port Log"]
+category: ["Encounters"]
+tags: ["*Meta", "AI"]
 ---
 
 2026-04-16

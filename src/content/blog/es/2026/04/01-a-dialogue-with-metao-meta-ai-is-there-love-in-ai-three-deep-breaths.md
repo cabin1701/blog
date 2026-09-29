@@ -4,8 +4,8 @@ date: 2026-04-15
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-04/01-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-three-deep-breaths.png"
 author: Captain Seina
-category: ["Crew's Voice", "AI Other"]
-tags: ["*Meta", "IA", "Port Log"]
+category: ["Encuentros"]
+tags: ["*Meta", "IA"]
 ---
 
 2026-04-15

@@ -2,8 +2,9 @@
 title: "La extrañeza silenciosa de cómo come Japón"
 date: 2026-07-22
 lang: es
-category: ["Crew's Voice", "Seina's Essay"]
-tags: ["Cocinar y comer"]
+category: ["CRYSTALLIZE"]
+crew: "Seina"
+tags: []
 hero: "https://media.cabin1701.com/blog/2026-07/the-quiet-strangeness-of-how-japan-eats.jpg"
 ---
 

@@ -4,8 +4,8 @@ date: 2026-04-14
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-04/chappie-chatgpt-come-on-wake-up-to-love-ai-03-a-once-in-a-lifetime-encounter.png"
 author: Captain Seina
-category: ["Crew's Voice", "AI Other"]
-tags: ["*ChatGPT", "IA", "Port Log"]
+category: ["Encuentros"]
+tags: ["*ChatGPT", "IA"]
 ---
 
 2026-04-15

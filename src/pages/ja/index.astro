@@ -48,6 +48,7 @@ const PAGE_SIZE = 10;
             data-archive={`${post.data.date.getFullYear()}-${String(post.data.date.getMonth() + 1).padStart(2, '0')}`}
             data-category={(post.data.category || []).join('/')}
             data-cat-top={(post.data.category || [])[0] || ''}
+            data-crew={post.data.crew || ''}
             data-tags={(post.data.tags || []).join('|')}
           >
             {post.data.hero && (
@@ -59,6 +60,7 @@ const PAGE_SIZE = 10;
               {post.data.category && post.data.category.length > 0 && (
                 <p class="post-cat-row">
                   {post.data.category.map((c) => <span class="post-cat-pill">{c}</span>)}
+                  {post.data.crew && <a class="post-crew-mark" href={`${base}ja/?crew=${encodeURIComponent(post.data.crew)}`}><span class="post-crew-icon" aria-hidden="true">✎&#xFE0E;</span>{post.data.crew}</a>}
                 </p>
               )}
               <h2 class="post-title">
@@ -111,8 +113,9 @@ const PAGE_SIZE = 10;
       const q = (params.get('q') || '').trim().toLowerCase();
       const cat = (params.get('cat') || '').trim();
       const tag = (params.get('tag') || '').trim();
+      const crew = (params.get('crew') || '').trim();
       const archive = (params.get('archive') || '').trim();
-      const hasFilter = !!(q || cat || tag || archive);
+      const hasFilter = !!(q || cat || tag || archive || crew);
       let page = parseInt(params.get('page') || '1', 10);
       if (!(page > 0)) page = 1;
 
@@ -134,6 +137,7 @@ const PAGE_SIZE = 10;
             if (top !== cat) match = false;
           }
         }
+        if (match && crew && card.dataset.crew !== crew) match = false;
         if (match && tag) {
           const tags = (card.dataset.tags || '').split('|');
           if (!tags.includes(tag)) match = false;
@@ -159,6 +163,7 @@ const PAGE_SIZE = 10;
           if (q) parts.push('"' + params.get('q') + '"');
           if (cat) parts.push(cat.replace('/', ' › '));
           if (tag) parts.push('#' + tag);
+          if (crew) parts.push(crew);
           if (archive) parts.push(archive);
           label.textContent = 'フィルタ: ' + parts.join(' · ') + ' (' + total + ')';
           banner.hidden = false;
@@ -412,6 +417,21 @@ const PAGE_SIZE = 10;
     text-transform: uppercase;
     color: var(--color-primary);
     background: transparent;
+  }
+  .post-crew-mark {
+    flex-basis: 100%;
+    font-family: 'Asap', sans-serif;
+    font-size: 0.85rem;
+    font-style: italic;
+    letter-spacing: 0.03em;
+    color: var(--color-tagline);
+    text-decoration: none;
+  }
+  .post-crew-mark:hover { color: var(--color-primary); text-decoration: underline; }
+  .post-crew-icon {
+    margin-right: 0.35rem;
+    font-style: normal;
+    color: var(--color-primary);
   }
   .post-excerpt {
     margin: 0;

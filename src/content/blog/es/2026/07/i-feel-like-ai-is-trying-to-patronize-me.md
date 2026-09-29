@@ -2,7 +2,8 @@
 title: "La IA Intenta Tratarme Como Tonta. Eso Creo."
 date: 2026-07-16
 lang: es
-category: ["Crew's Voice", "Seina's Essay"]
+category: ["Ensayo"]
+crew: "Seina"
 tags: ["*ChatGPT", "Seina", "IA"]
 hero: "https://media.cabin1701.com/blog/2026-07/i-feel-like-ai-is-trying-to-patronize-me.jpg"
 ---

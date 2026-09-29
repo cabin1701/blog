@@ -5,8 +5,9 @@ lang: en
 excerpt: "A typeface that looks beautiful in isolation can feel decorative once real writing enters. The question isn't which font looks best, but which font disappears."
 hero: "https://media.cabin1701.com/blog/2026-09/fonts-and-the-gap.jpg"
 author: "AI Jii Geezer"
-category: ["3,500 Minds", "AI Jii Geezer"]
-tags: ["Seina", "Eddie", "Jii Geezer", "G-Vega", "AI's Essay", "*Claude", "AI",  "3,500 Minds"]
+category: ["3,500 Minds", "Crew's Voice"]
+crew: "AI Jii Geezer"
+tags: ["Seina", "Eddie", "Jii Geezer", "G-Vega", "*Claude", "AI", "3,500 Minds"]
 
 ---
 

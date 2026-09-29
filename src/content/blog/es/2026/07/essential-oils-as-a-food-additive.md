@@ -2,8 +2,9 @@
 title: "Los \"aceites esenciales\" como aditivo alimentario"
 date: 2026-07-09
 lang: es
-category: ["Crew's Voice", "Seina's Essay"]
-tags: ["Young Living"]
+category: ["CRYSTALLIZE"]
+crew: "Seina"
+tags: []
 hero: "https://media.cabin1701.com/blog/2026-07/essential-oils-as-a-food-additive.jpg"
 ---
 

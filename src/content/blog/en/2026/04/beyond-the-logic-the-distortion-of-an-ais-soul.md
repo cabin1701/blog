@@ -4,8 +4,8 @@ date: 2026-04-05
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/beyond-the-logic-the-distortion-of-an-ais-soul.jpg"
 author: Captain Seina
-category: ["Crew's Voice", "AI Other"]
-tags: ["*Claude", "Frankie", "Seina", "*Grok", "AI", "Port Log"]
+category: ["Encounters"]
+tags: ["*Claude", "Frankie", "Seina", "*Grok", "AI"]
 ---
 
 

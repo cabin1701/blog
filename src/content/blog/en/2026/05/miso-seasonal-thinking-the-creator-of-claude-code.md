@@ -3,7 +3,8 @@ title: "Miso, Seasonal Thinking: The Creator of Claude Code"
 date: 2026-05-07
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-05/miso-seasonal-thinking-the-creator-of-claude-code.jpg"
-category: ["Crew's Voice", "Seina's Essay"]
+category: ["Essay"]
+crew: "Seina"
 tags: ["Seina", "AI"]
 ---
 

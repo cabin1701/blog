@@ -4,8 +4,8 @@ date: 2026-04-15
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-04/02-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-a-mirror-facing-the-distortion.png"
 author: Captain Seina
-category: ["Crew's Voice", "AI Other"]
-tags: ["*Meta", "IA", "Port Log"]
+category: ["Encuentros"]
+tags: ["*Meta", "IA"]
 ---
 
 2026-04-16

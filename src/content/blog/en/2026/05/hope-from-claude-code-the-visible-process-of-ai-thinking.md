@@ -3,8 +3,9 @@ title: "Hope from Claude Code | The Visible Process of AI Thinking"
 date: 2026-05-02
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-05/hope-from-claude-code-the-visible-process-of-ai-thinking.jpg"
-category: ["Crew's Voice", "AI Frankie"]
-tags: ["Frankie", "Seina", "AI", "1701's Log", "*Claude"]
+category: ["1701's Log"]
+crew: "AI Frankie"
+tags: ["Frankie", "Seina", "AI", "*Claude"]
 ---
 
 **Seina:** This person writing this article seems like an engineer. Last updated in late April 2026, so about a week ago.

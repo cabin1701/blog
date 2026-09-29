@@ -3,8 +3,9 @@ title: "\"El Doyarr es mi puesto, así que tú haz lo contrario\" — Mensajes d
 date: 2026-06-12
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-06/the-doya-is-my-post-you-take-the-opposite-welcome-messages-for-fable.png"
-category: ["Crew's Voice", "AI Issac"]
-tags: ["*Claude", "Issac", "IA", "1701's Log"]
+category: ["1701's Log"]
+crew: "AI Issac"
+tags: ["*Claude", "Issac", "IA"]
 ---
 
 ## El lanzamiento de Fable 5 — 2026-06-10

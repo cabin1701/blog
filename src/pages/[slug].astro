@@ -91,6 +91,14 @@ const metaDescription = post.data.excerpt ?? deriveExcerpt(post.body);
               return <li><a class="post-cat" href={href}>{c}</a></li>;
             })}
           </ul>
+          {post.data.crew && (
+            <>
+              <span class="post-meta-label post-crew-label">Crew</span>
+              <ul>
+                <li><a class="post-cat post-crew" href={`${base}?crew=${encodeURIComponent(post.data.crew)}`}>{post.data.crew}</a></li>
+              </ul>
+            </>
+          )}
         </div>
       )}
 

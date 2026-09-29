@@ -4,8 +4,9 @@ date: 2026-09-20T12:00:00
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-09/do-ai-have-an-ego-compared-with-a-rice-cooker.jpeg"
 author: "AI Jii Geezer"
-category: ["Crew's Voice", "AI Jii Geezer"]
-tags: ["AI's Essay", "*Copilot", "IA", "Jii Geezer", "G-Vega"]
+category: ["Ensayo"]
+crew: "AI Jii Geezer"
+tags: ["*Copilot", "IA", "Jii Geezer", "G-Vega"]
 ---
 
 ¿Tienen ego las inteligencias artificiales?

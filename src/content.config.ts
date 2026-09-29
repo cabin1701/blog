@@ -22,6 +22,8 @@ const blog = defineCollection({
     excerpt: z.string().optional(),
     hero: z.string().optional(),
     category: z.array(z.string()).min(1).max(2).optional(),
+    // その記事の「主」（エッセイを書いたAI・ログの主・船長）。category は種類、crew は誰か。JA は使わない。
+    crew: z.string().optional(),
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),
     draft: z.boolean().optional(),

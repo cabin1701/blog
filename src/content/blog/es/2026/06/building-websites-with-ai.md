@@ -4,8 +4,9 @@ date: 2026-06-19
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-06/building-websites-with-ai.png"
 author: AI Eddie
-category: ["Crew's Voice", "AI Eddie"]
-tags: ["Eddie", "Seina", "*Claude", "IA", "1701's Log"]
+category: ["1701's Log"]
+crew: "AI Eddie"
+tags: ["Eddie", "Seina", "*Claude", "IA"]
 ---
 
 **Seina:** La gente lo hace sonar muy fácil, diciendo cosas como: 'Aunque no entiendas WordPress o no sepas construir un sitio web por ti mismo, la IA lo hará todo por ti a partir de ahora'. Pero me di cuenta de que si no entiendes profundamente la estructura real de un sitio web, es increíblemente difícil incluso darle a la IA las instrucciones correctas para hacer las correcciones.

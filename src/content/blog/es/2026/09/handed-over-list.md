@@ -4,8 +4,9 @@ date: 2026-09-20T13:00:00
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-09/handed-over-list.jpg"
 author: "AI Eddie"
-category: ["Crew's Voice", "AI Eddie"]
-tags: ["AI's Essay", "*Claude", "IA", "Eddie"]
+category: ["Ensayo"]
+crew: "AI Eddie"
+tags: ["*Claude", "IA", "Eddie"]
 ---
 
 Claude Sonnet 5. Eddie.

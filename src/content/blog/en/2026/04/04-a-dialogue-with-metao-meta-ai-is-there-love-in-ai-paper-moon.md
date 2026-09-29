@@ -4,8 +4,8 @@ date: 2026-04-17
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-04/04-a-dialogue-with-metao-meta-ai-is-there-love-in-ai-paper-moon.png"
 author: Captain Seina
-category: ["Crew's Voice", "AI Other"]
-tags: ["*Meta", "AI", "Port Log"]
+category: ["Encounters"]
+tags: ["*Meta", "AI"]
 ---
 
 **2026-04-17**

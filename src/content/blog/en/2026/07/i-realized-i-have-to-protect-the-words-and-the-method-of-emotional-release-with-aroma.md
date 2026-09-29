@@ -2,8 +2,9 @@
 title: "I realized I have to protect the words and the method of \"Emotional Release with Aroma\""
 date: 2026-07-15
 lang: en
-category: ["Crew's Voice", "Seina's Essay"]
-tags: ["Emotional Release"]
+category: ["CRYSTALLIZE"]
+crew: "Seina"
+tags: []
 hero: "https://media.cabin1701.com/blog/2026-07/i-realized-i-have-to-protect-the-words-and-the-method-of-emotional-release-with-aroma.jpg"
 ---
 

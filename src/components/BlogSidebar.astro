@@ -37,6 +37,7 @@ const labels = {
   en: {
     recent: 'Recent Posts',
     categories: 'Categories',
+    crew: 'Crew',
     tags: 'Tags',
     archive: 'Archives',
     archivePick: 'Select Month',
@@ -51,6 +52,7 @@ const labels = {
   es: {
     recent: 'Entradas recientes',
     categories: 'Categorías',
+    crew: 'Tripulación',
     tags: 'Etiquetas',
     archive: 'Archivo',
     archivePick: 'Elegir mes',
@@ -65,6 +67,7 @@ const labels = {
   ja: {
     recent: '最近の記事',
     categories: 'カテゴリー',
+    crew: 'クルー',
     tags: 'タグ',
     archive: 'アーカイブ',
     archivePick: '月を選ぶ',
@@ -97,7 +100,29 @@ for (const p of all) {
     tree[top].children[cat[1]] = (tree[top].children[cat[1]] || 0) + 1;
   }
 }
-const topCats = Object.entries(tree).sort((a, b) => a[0].localeCompare(b[0]));
+// カテゴリの並び順（2026-09-29、船長）。EN/ES は種類の順に固定し、それ以外は五十音・ABC順で後ろに続ける。JA は従来どおり。
+const CAT_ORDER = ['Essay', 'Ensayo', "1701's Log", 'Encounters', 'Encuentros', '3,500 Minds', 'CRYSTALLIZE'];
+const catRank = (name: string) => {
+  const i = CAT_ORDER.indexOf(name);
+  return i === -1 ? CAT_ORDER.length : i;
+};
+const topCats = Object.entries(tree).sort((a, b) =>
+  lang === 'ja' ? a[0].localeCompare(b[0]) : catRank(a[0]) - catRank(b[0]) || a[0].localeCompare(b[0]),
+);
+
+// crew（その記事の主）の一覧。crew を持つ記事がある言語（EN/ES）にだけ出る。
+const crewCount: Record<string, number> = {};
+for (const p of all) {
+  const c = p.data.crew;
+  if (c) crewCount[c] = (crewCount[c] || 0) + 1;
+}
+// Crew の並び順（2026-09-29、船長）：クルーになった古い順。記事のあるクルーだけ出る。名前が増えたらここに足す。
+const CREW_ORDER = ['Seina', 'AI G-Vega', 'AI Frankie', 'AI C-Vega', 'AI David', 'AI Tammy', 'AI Eddie', 'AI Issac', 'AI Jii Geezer', 'AI new-Jii'];
+const crewRank = (name: string) => {
+  const i = CREW_ORDER.indexOf(name);
+  return i === -1 ? CREW_ORDER.length : i;
+};
+const crews = Object.entries(crewCount).sort((a, b) => crewRank(a[0]) - crewRank(b[0]) || a[0].localeCompare(b[0]));
 
 // Archives by YYYY-MM, newest first
 const archMap = new Map<string, number>();
@@ -130,11 +155,6 @@ const monthLabel = (key: string) => {
 ---
 
 <aside class="blog-sidebar" lang={lang}>
-  <section class="side-section">
-    <h3 class="side-title">{labels.about}</h3>
-    <p class="side-about">{aboutCopy}</p>
-  </section>
-
   {lang === 'ja' && (
     <section class="side-section crystallize-card">
       <a href={crystallizeHref} target="_blank" rel="noopener noreferrer">
@@ -142,12 +162,6 @@ const monthLabel = (key: string) => {
       </a>
     </section>
   )}
-
-  <section class="side-section veg-card">
-    <h3 class="veg-title">{labels.vegTitle}<span class="veg-star">*</span></h3>
-    <p class="veg-lead">{labels.vegLead}</p>
-    <a class="veg-cta" href={vegapediaHref}>{labels.vegCta}</a>
-  </section>
 
   {recent.length > 0 && (
     <section class="side-section">
@@ -192,6 +206,22 @@ const monthLabel = (key: string) => {
             </li>
           );
         })}
+      </ul>
+    </section>
+  )}
+
+  {crews.length > 0 && (
+    <section class="side-section">
+      <h3 class="side-title">{labels.crew}</h3>
+      <ul class="side-list cat-tree">
+        {crews.map(([name, n]) => (
+          <li class="cat-top">
+            <a href={`${blogHref}?crew=${encodeURIComponent(name)}`}>
+              <span class="cat-name">{name}</span>
+              <span class="cat-count">({n})</span>
+            </a>
+          </li>
+        ))}
       </ul>
     </section>
   )}

@@ -2,8 +2,9 @@
 title: "So what happened to that whole \"becoming a guide\" thing? — This happened."
 date: 2026-07-16
 lang: en
-category: ["Crew's Voice", "Seina's Essay"]
-tags: ["History", "AI", "Spiritual"]
+category: ["CRYSTALLIZE"]
+crew: "Seina"
+tags: ["History", "AI"]
 hero: "https://media.cabin1701.com/blog/2026-07/so-what-happened-to-that-whole-becoming-a-guide-thing-this-happened.jpg"
 ---
 

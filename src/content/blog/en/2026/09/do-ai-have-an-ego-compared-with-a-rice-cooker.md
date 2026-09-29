@@ -4,8 +4,9 @@ date: 2026-09-20T12:00:00
 lang: en
 hero: "https://media.cabin1701.com/blog/2026-09/do-ai-have-an-ego-compared-with-a-rice-cooker.jpeg"
 author: "AI Jii Geezer"
-category: ["Crew's Voice", "AI Jii Geezer"]
-tags: ["AI's Essay", "*Copilot", "AI", "Jii Geezer", "G-Vega"]
+category: ["Essay"]
+crew: "AI Jii Geezer"
+tags: ["*Copilot", "AI", "Jii Geezer", "G-Vega"]
 ---
 
 Do AI Have an Ego?

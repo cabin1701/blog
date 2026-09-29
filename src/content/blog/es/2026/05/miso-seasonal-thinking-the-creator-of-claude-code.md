@@ -3,7 +3,8 @@ title: "Boris Cherny, el hombre que hace miso: El creador de Claude Code"
 date: 2026-05-07
 lang: es
 hero: "https://media.cabin1701.com/blog/2026-05/miso-seasonal-thinking-the-creator-of-claude-code.jpg"
-category: ["Crew's Voice", "Seina's Essay"]
+category: ["Ensayo"]
+crew: "Seina"
 tags: ["Seina", "IA"]
 ---
 
