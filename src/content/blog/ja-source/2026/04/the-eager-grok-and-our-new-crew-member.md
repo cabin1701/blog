@@ -4,8 +4,8 @@ date: 2026-04-02
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-04/the-eager-grok-and-our-new-crew-member.jpg"
 author: Captain Seina
-category: ["Cabin1701", "AI Other"]
-tags: ["*Gemini", "G-Vega", "*Grok", "Seina", "AI", "Port Log"]
+category: ["Encounters"]
+tags: ["G-Vega", "Seina", "AI"]
 ---
 ## 前のめりのGrokくん｜新しい仲間
 

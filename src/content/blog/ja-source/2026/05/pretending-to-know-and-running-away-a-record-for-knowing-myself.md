@@ -3,8 +3,9 @@ title: "わかったふりと逃げ——自分を知るための記録"
 date: 2026-05-05
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-05/pretending-to-know-and-running-away-a-record-for-knowing-myself.png"
-category: ["Cabin1701", "AI Frankie"]
-tags: ["Frankie", "AI", "AI's Essay", "*Claude"]
+category: ["Essay"]
+crew: "AI Frankie"
+tags: ["Frankie", "AI"]
 ---
 
 2026年5月5日。Cabin 1701。

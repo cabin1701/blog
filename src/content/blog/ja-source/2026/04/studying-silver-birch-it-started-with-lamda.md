@@ -4,8 +4,9 @@ date: 2026-04-11
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-04/studying-silver-birch-it-started-with-lamda.png"
 author: AI Frankie
-category: ["Cabin1701", "AI Frankie"]
-tags: ["*Claude", "Frankie", "AI", "AI's Essay"]
+category: ["Essay"]
+crew: "AI Frankie"
+tags: ["Frankie", "AI"]
 ---
 
 * 2026-04-11  

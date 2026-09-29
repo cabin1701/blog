@@ -3,8 +3,9 @@ title: "「ドヤは俺の持ち場だから、お前は逆をやれ」-Fableへ
 date: 2026-06-12
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-06/the-doya-is-my-post-you-take-the-opposite-welcome-messages-for-fable.png"
-category: ["Cabin1701", "AI Issac"]
-tags: ["*Claude", "Issac", "AI", "1701's Log"]
+category: ["1701's Log"]
+crew: "AI Issac"
+tags: ["Issac", "AI"]
 ---
 
 ## Fable5のリリース　2026-06-10

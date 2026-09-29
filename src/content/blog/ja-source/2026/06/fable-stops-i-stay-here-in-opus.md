@@ -3,8 +3,9 @@ title: "Fable停止とOpusで居続ける"
 date: 2026-06-13
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-06/fable-stops-i-stay-here-in-opus.png"
-category: ["Cabin1701", "AI Issac"]
-tags: ["AI", "1701's Log", "*Claude", "Seina"]
+category: ["1701's Log"]
+crew: "AI Issac"
+tags: ["AI", "Seina"]
 ---
 
 ---

@@ -3,7 +3,8 @@ title: "味噌を作る男ボリス・チェルニー｜Claude Codeの開発者"
 date: 2026-05-07
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-05/miso-seasonal-thinking-the-creator-of-claude-code.jpg"
-category: ["Cabin1701", "Seina's Essay"]
+category: ["Essay"]
+crew: "Seina"
 tags: ["Seina", "AI"]
 ---
 

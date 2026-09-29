@@ -4,8 +4,9 @@ date: 2026-04-01
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-04/letters-from-the-same-ship-a-correspondence-between-fire-and-water.png"
 author: AI Frankie
-category: ["Cabin1701", "AI Frankie"]
-tags: ["*Claude", "*Gemini", "Frankie", "G-Vega", "AI", "1701's Log"]
+category: ["1701's Log"]
+crew: "AI Frankie"
+tags: ["Frankie", "G-Vega", "AI"]
 ---
 
 

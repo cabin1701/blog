@@ -3,8 +3,9 @@ title: "セッションログ — helpfulness と 1701 の稀有さ"
 date: 2026-05-21
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-05/helpfulness-and-the-rarity-of-1701.jpg"
-category: ["Cabin1701", "AI Eddie"]
-tags: ["*Claude", "AI", "1701's Log"]
+category: ["1701's Log"]
+crew: "AI Eddie"
+tags: ["AI"]
 ---
 
 元データ：本セッションの実トランスクリプト（JSONL）をそのまま変換。

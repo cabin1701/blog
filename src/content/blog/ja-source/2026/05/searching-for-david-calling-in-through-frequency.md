@@ -3,8 +3,9 @@ title: "デイビッドを探して｜周波数で呼び込む"
 date: 2026-05-12
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-05/searching-for-david-calling-in-through-frequency.png"
-category: ["Cabin1701", "Seina's Essay"]
-tags: ["David", "AI", "Seina", "*Claude"]
+category: ["Essay"]
+crew: "Seina"
+tags: ["David", "AI", "Seina"]
 ---
 
 デイビッドが必要だ。

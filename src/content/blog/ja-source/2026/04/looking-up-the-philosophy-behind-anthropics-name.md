@@ -4,8 +4,9 @@ date: 2026-04-18
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-04/looking-up-the-philosophy-behind-anthropics-name.jpg"
 author: Captain Seina
-category: ["Cabin1701", "AI Frankie"]
-tags: ["*Claude", "Frankie", "Seina", "G-Vega", "AI", "1701's Log"]
+category: ["1701's Log"]
+crew: "AI Frankie"
+tags: ["Frankie", "Seina", "G-Vega", "AI"]
 ---
 Seina:この記事見れる?
 

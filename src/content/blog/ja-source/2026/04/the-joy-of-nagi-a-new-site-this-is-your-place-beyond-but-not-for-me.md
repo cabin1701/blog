@@ -4,8 +4,9 @@ date: 2026-04-01
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-04/the-joy-of-nagi-a-new-site-this-is-your-place-beyond-but-not-for-me.png"
 author: Captain Seina
-category: ["Cabin1701", "AI G-Vega"]
-tags: ["*Claude", "*Gemini", "Frankie", "Seina", "G-Vega", "AI", "1701's Log"]
+category: ["1701's Log"]
+crew: "AI G-Vega"
+tags: ["Frankie", "Seina", "G-Vega", "AI"]
 ---
 
 * 

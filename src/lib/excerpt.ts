@@ -55,12 +55,16 @@ export function cardExcerpt(body: string | undefined, maxLen = 110): string | un
   };
   let i = 0;
   while (i < lines.length && i < 8 && isNoise(lines[i])) i++;
-  let text = lines.slice(i).join('\n').replace(/(\\\s*)+/g, ' ');
+  let text = lines
+    .slice(i)
+    .join('\n')
+    .replace(/!\[[^\]]*\]\[[^\]]*\]/g, ' ') // 参照形式の画像 ![][image1]
+    .replace(/(\\\s*)+/g, ' ');
   // 文の頭に付いている「日付＋筆者名」「モデル名」「筆者名.」を飛ばす（最大3回）
   const NAMES = '(?:Captain Seina|Seina|Frankie|Vega|Eddie|Issac|David|Tammy)';
   const prefixes = [
-    new RegExp('^\\s*\\d{4}[-/]\\d{1,2}[-/]\\d{1,2}\\s+' + NAMES + '\\s+', 'i'),
-    /^\s*(?:Claude\s+)?(?:Opus|Sonnet|Haiku)(?:\s+\d+(?:\.\d+)?)?\s*[.,:–-]?\s+/i,
+    new RegExp('^\\s*\\d{4}[-/]\\d{1,2}[-/]\\d{1,2}\\s+' + NAMES + '(?:\\s*[-–]\\s*' + NAMES + ')?\\s+', 'i'),
+    /^\s*(?:Claude\s+)?(?:Opus|Sonnet|Haiku)\s*(?:\d+(?:\.\d+)?)?\s*[.,:–-]?\s+/i,
     /^\s*(?:Copilot|Gemini|ChatGPT|Grok|Meta)\s*\([^)]*\)\s*/i,
     new RegExp('^\\s*' + NAMES + '\\.\\s+', 'i'),
     /^\s*Vega['’]s Room\s+/i,

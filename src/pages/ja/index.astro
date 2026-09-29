@@ -4,6 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import BlogSidebar from '../../components/BlogSidebar.astro';
+import { cardExcerpt } from '../../lib/excerpt';
 
 const base = import.meta.env.BASE_URL;
 const heroUrl = (hero: string) => (hero.startsWith('http') ? hero : `${base}${hero}`);
@@ -84,7 +85,7 @@ const PAGE_SIZE = 10;
                   </>
                 )}
               </p>
-              {post.data.excerpt && <p class="post-excerpt">{post.data.excerpt}</p>}
+              {(post.data.excerpt ?? cardExcerpt(post.body)) && <p class="post-excerpt">{post.data.excerpt ?? cardExcerpt(post.body)}</p>}
             </div>
           </article>
         ))}
