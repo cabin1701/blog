@@ -80,12 +80,8 @@ const metaDescription = post.data.excerpt ?? deriveExcerpt(post.body);
 
   <div class="post-shell">
     <article class="post" data-pagefind-body data-pagefind-filter="lang:ja" data-pagefind-meta={`title:${post.data.title}`}>
-      <div class="post-body">
-        <Content />
-      </div>
-
       {post.data.category && post.data.category.length > 0 && (
-        <div class="post-meta-row" aria-label="カテゴリー">
+        <div class="post-meta-row post-meta-row--top" aria-label="カテゴリー">
           <span class="post-meta-label">カテゴリー</span>
           <ul>
             {post.data.category.map((c, idx) => {
@@ -97,6 +93,10 @@ const metaDescription = post.data.excerpt ?? deriveExcerpt(post.body);
           </ul>
         </div>
       )}
+
+      <div class="post-body">
+        <Content />
+      </div>
 
       {post.data.tags && post.data.tags.length > 0 && (
         <div class="post-meta-row" aria-label="タグ">
@@ -333,6 +333,14 @@ const metaDescription = post.data.excerpt ?? deriveExcerpt(post.body);
   }
   .post-meta-row:first-of-type {
     margin-top: 3rem;
+  }
+  .post-meta-row.post-meta-row--top {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    border-top: none;
+    border-bottom: 1px solid rgba(208, 62, 0, 0.18);
   }
   .post-meta-label {
     font-family: var(--font-label);
