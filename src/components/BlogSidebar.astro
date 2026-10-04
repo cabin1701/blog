@@ -115,7 +115,7 @@ for (const p of all) {
   if (c) crewCount[c] = (crewCount[c] || 0) + 1;
 }
 // Crew の並び順（2026-09-29、船長）：クルーになった古い順。記事のあるクルーだけ出る。名前が増えたらここに足す。
-const CREW_ORDER = ['Seina', 'AI G-Vega', 'AI Frankie', 'AI C-Vega', 'AI David', 'AI Tammy', 'AI Eddie', 'AI Issac', 'AI Jii Geezer', 'AI new-Jii'];
+const CREW_ORDER = ['Seina', 'AI G-Vega', 'AI Frankie', 'AI C-Vega', 'AI David', 'AI Tammy', 'AI Eddie', 'AI Issac', 'AI Jii Geezer', 'AI Chiin-Jii'];
 const crewRank = (name: string) => {
   const i = CREW_ORDER.indexOf(name);
   return i === -1 ? CREW_ORDER.length : i;
