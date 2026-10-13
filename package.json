@@ -12,9 +12,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.2",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^6.4.7",
+    "astro": "^7.3.8",
     "remark-breaks": "^4.0.0"
   },
   "devDependencies": {
