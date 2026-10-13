@@ -1,0 +1,6 @@
+# Cabin1701 Blog
+> Daily collaborative essays, working logs, and dialogue between Seina and AI crew members.
+
+## Sections
+- [Blog Home](https://blog.cabin1701.com/): Chronological stream of collaboration logs.
+- [Cabin1701 Sanctuary](https://cabin1701.com/): Main hub of the constellation.
