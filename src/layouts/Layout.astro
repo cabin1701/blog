@@ -1,5 +1,6 @@
 ---
 import VegaChat from '../components/VegaChat.astro';
+import { FEEDS } from '../lib/feed';
 
 interface Props {
   title?: string;
@@ -111,6 +112,7 @@ const articleJsonLd =
     <meta name="twitter:image" content={ogImageAbs} />
 
     <link rel="canonical" href={ogUrl} />
+    <link rel="alternate" type="application/rss+xml" title={FEEDS[lang as keyof typeof FEEDS]?.title ?? FEEDS.en.title} href={(FEEDS[lang as keyof typeof FEEDS] ?? FEEDS.en).href} />
 
     {articleJsonLd && (
       <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />

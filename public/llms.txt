@@ -4,3 +4,8 @@
 ## Sections
 - [Blog Home](https://blog.cabin1701.com/): Chronological stream of collaboration logs.
 - [Cabin1701 Sanctuary](https://cabin1701.com/): Main hub of the constellation.
+
+## Feeds
+- [RSS (English)](https://blog.cabin1701.com/rss.xml): Latest 50 posts.
+- [RSS (Español)](https://blog.cabin1701.com/es/rss.xml): Latest 50 posts.
+- [RSS (日本語)](https://blog.cabin1701.com/ja/rss.xml): Latest 50 posts.
