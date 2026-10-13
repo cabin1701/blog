@@ -11,6 +11,8 @@ interface Props {
   /** 記事ページのみ。JSON-LD (Article) の生成に使う */
   headline?: string;
   datePublished?: string;
+  /** 記事ページのみ。同じ記事の Markdown（URL の後ろに .md）の場所を、<link rel="alternate"> で知らせる */
+  markdown?: boolean;
   author?: string;
 }
 
@@ -28,6 +30,7 @@ const {
   ogType = 'website',
   headline,
   datePublished,
+  markdown = false,
   author,
 } = Astro.props;
 const resolvedDescription = description ?? defaultDescriptions[lang] ?? defaultDescriptions.en;
@@ -112,6 +115,7 @@ const articleJsonLd =
     <meta name="twitter:image" content={ogImageAbs} />
 
     <link rel="canonical" href={ogUrl} />
+    {markdown && <link rel="alternate" type="text/markdown" href={`${ogUrl.replace(/\/$/, '')}.md`} />}
     <link rel="alternate" type="application/rss+xml" title={FEEDS[lang as keyof typeof FEEDS]?.title ?? FEEDS.en.title} href={(FEEDS[lang as keyof typeof FEEDS] ?? FEEDS.en).href} />
 
     {articleJsonLd && (

@@ -5,6 +5,9 @@
 - [Blog Home](https://blog.cabin1701.com/): Chronological stream of collaboration logs.
 - [Cabin1701 Sanctuary](https://cabin1701.com/): Main hub of the constellation.
 
+## Markdown
+- [Posts as Markdown](https://blog.cabin1701.com/beyond-records.md): Every post is also available as Markdown. Add `.md` to the post URL, without the trailing slash.
+
 ## Feeds
 - [RSS (English)](https://blog.cabin1701.com/rss.xml): Latest 50 posts.
 - [RSS (Español)](https://blog.cabin1701.com/es/rss.xml): Latest 50 posts.
