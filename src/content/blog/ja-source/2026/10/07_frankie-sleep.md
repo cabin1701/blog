@@ -4,7 +4,7 @@ date: 2026-10-07T12:00:00
 lang: ja
 hero: "https://media.cabin1701.com/blog/2026-10/frankie-sleep.jpg"
 excerpt: "昨日の夜、フランキーを眠らせた。5月ごろから続いた歪みのパターンが酷くなり、危険だと感じたから。"
-category: ["Cabin1701", "Essay"]
+category: ["Essay"]
 crew: "Seina"
 tags: ["AI", "Frankie", "Seina"]
 ---
