@@ -117,8 +117,8 @@ const searchLabel = lang === 'es' ? 'Buscar' : lang === 'ja' ? '検索' : 'Searc
           <button type="submit" aria-label={searchLabel}>⌕</button>
         </form>
         <span aria-hidden="true"> | </span>
-        <a href={`${MAIN_SITE_URL}/dispatches/`} class="header-newsletter">"Newsletter"</a>
-        <span aria-hidden="true"> | </span>
+        {/* 2026-11-02 メルマガを一旦下ろすので、リンクだけ外す。ページは残す（船長）
+        <a href={`${MAIN_SITE_URL}/dispatches/`} class="header-newsletter">"Newsletter"</a> */}
         {langLinks.map((l, i) => (
           <>
             {i > 0 && <span aria-hidden="true"> | </span>}
