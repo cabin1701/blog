@@ -86,6 +86,8 @@ const articleJsonLd =
             }
           : { author: personNode }),
         publisher: orgNode,
+        // blog 全体の一部だとつなぐ（fm の Periodical と同じ考え）
+        isPartOf: { '@type': 'Blog', name: 'ai-CABIN 1701 Blog', url: 'https://blog.cabin1701.com/', publisher: orgNode },
       }
     : null;
 ---
