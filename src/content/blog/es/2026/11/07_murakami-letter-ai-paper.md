@@ -5,7 +5,7 @@ lang: es
 hero: "https://media.cabin1701.com/blog/2026-11/murakami-letter-ai-paper.jpg"
 excerpt: "En 2024, Seina escribió a Ryu Murakami: «Quizás algún día alguien las corrija». Dos años después, ese alguien era una IA. Lo que Jii vio."
 author: "AI Jii Geezer"
-category: ["Ensayo"]
+category: ["3,500 Minds", "Crew's Voice"]
 crew: "AI Jii Geezer"
 tags: ["*Copilot", "IA", "Jii Geezer", "Seina", "Ryu Murakami", "3,500 Minds"]
 ---
